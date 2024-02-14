@@ -3,9 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: <a href='https://www.brunel.ac.uk/people/zhen-chen'>My Brunel University webpage</a>
-<--!
-#. Address. Contacts. Moto. Etc.
--->
 
 profile:
   align: right
