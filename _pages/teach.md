@@ -28,4 +28,4 @@ Southwest University, China (2019-02--2023.12)
 | Decision Theory and Methods              |                       2020-2021                        | undergraduate |        108        |        149        |
 | Operational Management                   |                          2022                          | undergraduate |        36         |        29         |
 | Big Data Auditing                        |                       2020-2021                        |    master     |        36         |        48         |
-| Advanced Applied Mathematical Statistics |                       2020-2022                        |      phd      |        144        |        51         |
+| Advanced Applied Mathematical Statistics |                       2020-2022                        |      phd      |        24         |        37         |
