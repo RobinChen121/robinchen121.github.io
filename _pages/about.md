@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Dr. Chen
 permalink: /
 subtitle: <a href='https://www.brunel.ac.uk/people/zhen-chen'>My Brunel University webpage</a>.
 
@@ -19,8 +19,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<font size="3">
-I am a lecturer in the buesiness school of Brunel University London. Prior to this role, I served as a lecturer at Southwest University, China. I earned my PhD degree in Management Science and Engineering from Beihang University, China. During my academic journey, I had the privilege of being a visiting PhD student and a visiting scholar at the University of Edinburgh for two separate years. My primary research in recent years focus lies in cash-flow inventory management, where I leverage mathematical modeling and computer programming to address complex challenges. I also did some works in traditional inventory management and routing problems.
+<font size="4">
+I am a lecturer in the buesiness school of Brunel University London. Prior to this role, I served as a lecturer at Southwest University, China. I earned my PhD degree in Management Science and Engineering from Beihang University, China. During my academic journey, I had the privilege of being a visiting PhD student and a visiting scholar at the University of Edinburgh for two separate years.
+
+My primary research in recent years focus lies in cash-flow inventory management, where I leverage mathematical modeling and computer programming to address complex challenges. I also did some works in traditional inventory management and routing problems.
+
+My research interest:
+
+- Inventory control
+- Supply chain financing
+- Stochastic programming
+
 </font>
 
 <!--
