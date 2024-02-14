@@ -1,18 +1,18 @@
 ---
 layout: page
 permalink: /teach/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teach
+description: 
 nav: true
 nav_order: 6
 ---
 
-My teaching modules are mainly related with date analysis and operational research.
+**My teaching modules are mainly related with date analysis and operational research.**
 
 
 Brunel University, United Kingdom (2024.01--)
 
-|Module Name | Year |Student Type | Total Class Hours |  Approx. Total Student No.|
+|Module Name | Year &nbsp;&nbsp;&nbsp;|Student Type | Total Class Hours |  Approx. Total Student No.|
 |:--|:--:|:--:|:--:|:--:|
 |Business Modeling  & Simulation in Supply Chains | 2024 | undergraduate  | 32 |86
 
