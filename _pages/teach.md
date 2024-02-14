@@ -12,7 +12,7 @@ nav_order: 6
 
 Brunel University, United Kingdom (2024.01--)
 
-|Module Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Year &nbsp;&nbsp;&nbsp;&nbsp;| Student Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Total Class Hours &nbsp;&nbsp;&nbsp;&nbsp;|  Approx. Total Student No.|
+|Module Name | Year |Student Type | Total Class Hours |  Approx. Total Student No.|
 |:--|:--:|:--:|:--:|:--:|
 |Business Modeling  & Simulation in Supply Chains | 2024 | undergraduate  | 32 |86
 
@@ -21,7 +21,7 @@ Brunel University, United Kingdom (2024.01--)
 
 Southwest University, China (2019-02-2023.12)
 
-|Module Name &nbsp;&nbsp;&nbsp;&nbsp;| Year &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Student Type &nbsp;&nbsp;&nbsp;&nbsp;| Total Class Hours &nbsp;&nbsp;&nbsp;&nbsp;|  Approx. Total Student No.|
+|Module Name | Year |Student Type | Total Class Hours |  Approx. Total Student No.|
 |:--|:--:|:--:|:--:|:--:|
 |Python Programming | 2021,2023 | undergraduate  | 144 |106
 |Principle of Statistics | 2019, 2020,2021,2022 | undergraduate  | 368 |470
