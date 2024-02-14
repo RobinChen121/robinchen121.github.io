@@ -3,9 +3,6 @@ github_users:
 
 github_repos:
   - RobinChen121/Stochastic-Inventory
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - RobinChen121/Python-Practices
+  - RobinChen121/Lot-Sizing-Matlab
+  - RobinChen121/book-Python-Data-Science
