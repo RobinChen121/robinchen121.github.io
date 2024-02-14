@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-**My teaching modules are mainly related with date analysis and operational research.**
+My teaching modules are mainly related with date analysis and operational research.
 
 
 Brunel University, United Kingdom (2024.01--)
