@@ -32,7 +32,6 @@ My primary research in recent years focus lies in cash-flow inventory management
 <font size="4">
 My research interests:
 </font>
-<br>
 
 - <font size="4"> Inventory control </font>
 - <font size="4"> Supply chain financing </font>
