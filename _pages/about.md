@@ -23,16 +23,16 @@ social: true # includes social icons at the bottom of the page
 I am a lecturer in the buesiness school of Brunel University London. Prior to this role, I served as a lecturer at Southwest University, China. I earned my PhD degree in Management Science and Engineering from Beihang University, China. During my academic journey, I had the privilege of being a visiting PhD student and a visiting scholar at the University of Edinburgh for two separate years. 
 </font>
 
-</br>
+<br>
 <font size="4">
 My primary research in recent years focus lies in cash-flow inventory management, where I leverage mathematical modeling and computer programming to address complex challenges. I also did some works in traditional inventory management and routing problems.
 </font>
 
-</br>
+<br>
 <font size="4">
 My research interests:
 </font>
-</br>
+<br>
 
 - <font size="4"> Inventory control </font>
 - <font size="4"> Supply chain financing </font>
