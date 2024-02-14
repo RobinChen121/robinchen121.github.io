@@ -8,9 +8,10 @@ nav_order: 6
 ---
 
 Brunel University, United Kingdom (2024.01--)
+
 |Module Name | Year | Student Type | Total Class Hours|  Approx. Total Student Number|
 |--|--|--|--|--|
-|Python Programming | 2024 | undergraduate  | 32 |86
+|Business Modeling  & Simulation in Supply Chains | 2024 | undergraduate  | 32 |86
 
 
 
