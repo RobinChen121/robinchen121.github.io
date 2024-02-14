@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 I am a lecturer in the buesiness school of Brunel University London. Prior to this role, I served as a lecturer at Southwest University, China. I earned my PhD degree in Management Science and Engineering from Beihang University, China. During my academic journey, I had the privilege of being a visiting PhD student and a visiting scholar at the University of Edinburgh for two separate years. My primary research in recent years focus lies in cash-flow inventory management, where I leverage mathematical modeling and computer programming to address complex challenges. I also did some works in traditional inventory management and routing problems.
 </font>
 
-<!-->
+<!--
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
