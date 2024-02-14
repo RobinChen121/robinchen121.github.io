@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.brunel.ac.uk/people/zhen-chen'>My Brunel University webpage</a>#. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.brunel.ac.uk/people/zhen-chen'>My Brunel University webpage</a>
+<--!
+#. Address. Contacts. Moto. Etc.
+-->
 
 profile:
   align: right
@@ -13,7 +16,7 @@ profile:
     <p>Kingston Ln, Uxbridge UB8 3PN</p>
     <p>London</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
