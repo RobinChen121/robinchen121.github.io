@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Dr. Chen
+title: about
 permalink: /
 subtitle: <a href='https://www.brunel.ac.uk/people/zhen-chen'>My Brunel University webpage</a>.
 
