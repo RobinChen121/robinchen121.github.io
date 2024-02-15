@@ -69,14 +69,25 @@ Southwest University, China (2019-02--2023.12)
     <td style="text-align: center;">149</td>
 <td>undergraduate</td>
   </tr>
+  <tr>
+    <td>Operational Management  </td>
+    <td>2022</td>
+    <td style="text-align: center;">36</td>
+    <td style="text-align: center;">29</td>
+<td>undergraduate</td>
+  </tr>
+  <tr>
+    <td>Big Data Auditing  </td>
+    <td>2020-2021</td>
+    <td style="text-align: center;">36</td>
+    <td style="text-align: center;">48</td>
+<td>master</td>
+  </tr>
+  <tr>
+    <td>Advanced Applied Mathematical Statistics  </td>
+    <td>2020-2022</td>
+    <td style="text-align: center;">24</td>
+    <td style="text-align: center;">37</td>
+<td>phd</td>
+  </tr>
 </table>
-
-| Module Name                              | &nbsp;&nbsp;&nbsp;&nbsp; Year &nbsp;&nbsp;&nbsp;&nbsp; | Student Type  | Total Class Hours | Total Student No. |
-| :--------------------------------------- | :----------------------------------------------------: | :-----------: | :---------------: | :---------------: |
-| Python Programming                       |                       2021,2023                        | undergraduate |        144        |        106        |
-| Principle of Statistics                  |                       2019-2022                        | undergraduate |        368        |        470        |
-| Multivariate Statistics                  |                       2020-2022                        | undergraduate |        144        |        51         |
-| Decision Theory and Methods              |                       2020-2021                        | undergraduate |        108        |        149        |
-| Operational Management                   |                          2022                          | undergraduate |        36         |        29         |
-| Big Data Auditing                        |                       2020-2021                        |    master     |        36         |        48         |
-| Advanced Applied Mathematical Statistics |                       2020-2022                        |      phd      |        24         |        37         |
