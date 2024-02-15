@@ -17,7 +17,7 @@ Brunel University, United Kingdom (2024.01--)
     <th style="text-align: center;">Year</th>
     <th style="text-align: center;">Total class hours</th>
      <th style="text-align: center;">Total students</th>
-<th style="text-align: center;">Type</th>
+     <th style="text-align: center;">Type</th>
   </tr>
   <tr>
     <td>Business Modeling & Simulation in Supply Chains</td>
@@ -32,6 +32,31 @@ Brunel University, United Kingdom (2024.01--)
 <br/>
 
 Southwest University, China (2019-02--2023.12)
+
+
+<table>
+  <tr>
+    <th style="text-align: center; width:33%">Module</th>
+    <th style="text-align: center;">Year</th>
+    <th style="text-align: center;">Total class hours</th>
+     <th style="text-align: center;">Total students</th>
+     <th style="text-align: center;">Type</th>
+  </tr>
+  <tr>
+    <td>Python programming</td>
+    <td>2021,2023</td>
+    <td style="text-align: center;">144</td>
+    <td style="text-align: center;">106</td>
+<td>undergraduate</td>
+  </tr>
+  <tr>
+    <td>Principle of Statistics</td>
+    <td>2019-2022</td>
+    <td style="text-align: center;">368</td>
+    <td style="text-align: center;">470</td>
+<td>undergraduate</td>
+  </tr>
+</table>
 
 | Module Name                              | &nbsp;&nbsp;&nbsp;&nbsp; Year &nbsp;&nbsp;&nbsp;&nbsp; | Student Type  | Total Class Hours | Total Student No. |
 | :--------------------------------------- | :----------------------------------------------------: | :-----------: | :---------------: | :---------------: |
