@@ -12,7 +12,7 @@ nav_order: 3
 Brunel University, United Kingdom (2024.01--)
 <table>
   <tr>
-    <th style="text-align: center;">Module</th>
+    <th style="text-align: center;padding: 15px;">Module</th>
     <th style="text-align: center;">Year</th>
     <th style="text-align: center;">Total class hours</th>
      <th style="text-align: center;">Total students</th>
