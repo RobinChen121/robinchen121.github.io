@@ -537,7 +537,7 @@ footer.sticky-bottom {
 
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 1 rem; //0.875
+      font-size: 0.875 rem; //0.875
       margin-bottom: 0;
     }
 
@@ -563,7 +563,7 @@ footer.sticky-bottom {
   }
 }
 
-.pagination {
+.paginatio
   .page-item {
     .page-link {
       color: var(--global-text-color);
@@ -771,7 +771,7 @@ footer.sticky-bottom {
       }
 
       .hidden {
-        font-size: 1 rem; // 0.875
+        font-size: 0.875 rem; // 0.875
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
@@ -854,7 +854,7 @@ html.transition *:after {
 .post {
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 1 rem; // 0.875 rem
+    font-size: 0.875 rem; // 0.875 rem
     margin-bottom: 0;
   }
 
@@ -1069,7 +1069,7 @@ nav[data-toggle="toc"] {
 
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 1rem; // 0.875
+    font-size: 0.875 rem; // 0.875
     margin-bottom: 0;
     padding-top: 0.5rem;
   }
