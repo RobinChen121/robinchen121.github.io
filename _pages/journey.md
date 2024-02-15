@@ -69,13 +69,11 @@ permalink: /news/
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
-          <span class="title">Title of Section 5</span>
-          <span>5th Jan 2021</span>
+          <span class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sep 2016</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p>Attend University of Edinburgh for one year as a visiting PhD student</p>
         <div class="bottom">
-          <a href="#">Read more</a>
-          <i>- Someone famous</i>
+          <i></i>
         </div>
       </section>
     </div>
@@ -83,13 +81,11 @@ permalink: /news/
       <section>
         <i class="icon fas fa-map-marker-alt"></i>
         <div class="details">
-          <span class="title">Title of Section 6</span>
-          <span>6th Jan 2021</span>
+          <span class="title">Sep 2014</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p>Start PhD studies in Beihang University</p>
         <div class="bottom">
-          <a href="#">Read more</a>
-          <i>- Someone famous</i>
+          <i></i>
         </div>
       </section>
     </div>
@@ -116,7 +112,7 @@ body{
   background: #3ea0e2;
 }
 .wrapper{
-  max-width: 1080px;
+  max-width: 800px;
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
