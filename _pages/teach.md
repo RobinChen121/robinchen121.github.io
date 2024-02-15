@@ -24,7 +24,7 @@ Brunel University, United Kingdom (2024.01--)
     <td>2024--</td>
     <td style="text-align: center;">32</td>
     <td style="text-align: center;">86</td>
-<td>undergraduate</td>
+<td>master</td>
   </tr>
 </table>
 
@@ -81,13 +81,13 @@ Southwest University, China (2019-02--2023.12)
     <td>2020-2021</td>
     <td style="text-align: center;">36</td>
     <td style="text-align: center;">48</td>
-<td>master</td>
+<td style="text-align: center;">master</td>
   </tr>
   <tr>
     <td>Advanced Applied Mathematical Statistics  </td>
     <td>2020-2022</td>
     <td style="text-align: center;">24</td>
     <td style="text-align: center;">37</td>
-<td>phd</td>
+<td style="text-align: center;">phd</td>
   </tr>
 </table>
