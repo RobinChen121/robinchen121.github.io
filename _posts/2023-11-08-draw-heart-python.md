@@ -11,6 +11,8 @@ featured: true
 
 Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB on a Chinese TikTok video, I got inspired to recreate it using Python. So I explored two different implementation approaches, and the result is as follows:
 
+![Alt](assets/img/heart.gif =61.8x)
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/heart.gif" class="img-fluid rounded z-depth-1" %}
