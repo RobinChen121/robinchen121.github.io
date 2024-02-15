@@ -13,7 +13,7 @@ Brunel University, United Kingdom (2024.01--)
 
 <table>
   <tr>
-    <th style="text-align: center; width:33%">Module</th>
+    <th style="text-align: center; width:40%">Module</th>
     <th style="text-align: center;">Year</th>
     <th style="text-align: center;">Total class hours</th>
      <th style="text-align: center;">Total students</th>
@@ -35,7 +35,7 @@ Southwest University, China (2019-02--2023.12)
 
 <table>
   <tr>
-    <th style="text-align: center; width:33%">Module</th>
+    <th style="text-align: center; width:40%">Module</th>
     <th style="text-align: center;">Year</th>
     <th style="text-align: center;">Total class hours</th>
      <th style="text-align: center;">Total students</th>
