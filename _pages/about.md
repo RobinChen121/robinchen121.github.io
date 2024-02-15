@@ -33,23 +33,6 @@ My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_ch
 - Supply chain financing
 - Stochastic programming
 
-### Reviewer activity
-
-I regularly review research articles for the academic journals listed below:
-
-- European Journal of Operational Research (ABS 4)
-- OMEGA: the International Journal of Management Science (ABS 3)
-- International Journal of Production Research (ABS 3)
-- Computers & Operations Research (ABS 3)
-- Computers & Industrial Engineering (ABS 2)
-- 系统工程理论与实践
-
-### Academic membership
-
-- Member of the Institute of Mathematics and its Applications (IMA, UK)
-- Member of the Systems Engineering Society of China
-- Member of the Operation Research Society of China
-
 ### Coding skills
 
 Here are several coding/typesetting languages that I use for research frequently.
