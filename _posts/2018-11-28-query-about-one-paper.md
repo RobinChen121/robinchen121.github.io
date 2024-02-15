@@ -3,6 +3,7 @@ layout: post
 title: A query about one paper
 date: 2018-11-28  20:30-0800
 categories: paper-reading
+giscus_comments: true
 description: I read the paper "Dynamic Inventory Management with Cash Flow Constraints" from Xiuli Chao, et. al (2008).  The proofs in this paper are very lengthy and complex. During the deductions of the proofs by myself, there is a query that I can not understand.
 tags: dynamic programming, cash-flow inventory, query about paper
 ---
@@ -44,6 +45,6 @@ I also do some numerical tests for the numerical examples in the paper. I note t
 
 Given the above query, I decide to quit perusing this paper. But the conclusion of the paper about the optimal ordering policy is right: a base-stock policy for the cash contrained problem. But its computation for the base-stock level may exit some bug.
 
-<Note: after asking some other academics two years later, the proofs in this paper are right but there are some small bugs in the numerical testing (no initial cash is given in the numerical cases and there are some possible errors in the pictures).>
+`Note: after asking some other academics two years later, the proofs in this paper are right but there are some small bugs in the numerical testing` (no initial cash is given in the numerical cases and there are some possible errors in the pictures).
 
 <!-- more -->
