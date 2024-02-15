@@ -29,15 +29,34 @@ My primary research in recent years focus lies in cash-flow inventory management
 </font>
 
 <br>
-<font size="4">
-My research interests:
-</font>
+### <font color= "#CD950C">My research interests:</font>
 
 - <font size="4"> Inventory control </font>
 - <font size="4"> Supply chain financing </font>
 - <font size="4"> Stochastic programming </font>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.9008097929113!2d-0.47123402364011163!3d51.533379108805555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766d9d145d6e77%3A0xd1b018acf445b6f0!2sBrunel%20Business%20School!5e0!3m2!1sen!2suk!4v1705469116131!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+### <font color= "#CD950C">Coding skills</font>
+
+Here are several coding/typesetting languages that I use for research frequently.
+
+- Java
+- Python
+- Matlab
+- Cplex/Gurobi/Lingo
+- Latex
+
+### <font color= "#CD950C">Mathematical skills</font>
+
+I have not been in the major of mathematics. However, I have been learning the following books for research.
+
+- _Fundamentals of supply chain theory_. &nbsp;&nbsp; Snyder, Lawrence V., and Zuo-Jun Max Shen. John Wiley & Sons, second edition, 2019.
+- _Introduction to linear optimization_. Bertsimas, Dimitris, and John N. Tsitsiklis. Vol. 6. Belmont, MA: Athena Scientific, 1997.
+- _Convex optimization_. &nbsp;&nbsp; Boyd, Stephen, and Lieven Vandenberghe. Cambridge University press, 2004.
+- _Stochastic Programming: Volume 10 (Handbooks in Operations Research and Management Science)_. &nbsp;&nbsp; Ruszczyński, Andrzej, and Alexander Shapiro. Elsevier, 2003.
+- _Introduction to stochastic programming_. &nbsp;&nbsp; Birge, John R., and Francois Louveaux. Springer Science & Business Media, 2011.
+- _Foundations of stochastic inventory theory_. &nbsp;&nbsp; Porteus, Evan L. Stanford University Press, 2002.
+- _Foundations of inventory management_. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
+- ...
 
 <!--
 
