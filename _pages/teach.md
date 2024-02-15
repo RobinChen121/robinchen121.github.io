@@ -10,6 +10,23 @@ nav_order: 3
 **My teaching modules are mainly related with date analysis and operational research.**
 
 Brunel University, United Kingdom (2024.01--)
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
 
 | Module Name                                     | &nbsp;&nbsp;&nbsp;&nbsp;Year &nbsp;&nbsp;&nbsp;&nbsp; | Student Type  | Total Class Hours | Total Student No. |
 | :---------------------------------------------- | :---------------------------------------------------: | :-----------: | :---------------: | :---------------: |
