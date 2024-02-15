@@ -55,6 +55,20 @@ Southwest University, China (2019-02--2023.12)
     <td style="text-align: center;">470</td>
 <td>undergraduate</td>
   </tr>
+  <tr>
+    <td>Multivariate Statistics  </td>
+    <td>2020-2022</td>
+    <td style="text-align: center;">144</td>
+    <td style="text-align: center;">51</td>
+<td>undergraduate</td>
+  </tr>
+  <tr>
+    <td>Decision Theory and Practise  </td>
+    <td>2020-2021</td>
+    <td style="text-align: center;">108</td>
+    <td style="text-align: center;">149</td>
+<td>undergraduate</td>
+  </tr>
 </table>
 
 | Module Name                              | &nbsp;&nbsp;&nbsp;&nbsp; Year &nbsp;&nbsp;&nbsp;&nbsp; | Student Type  | Total Class Hours | Total Student No. |
