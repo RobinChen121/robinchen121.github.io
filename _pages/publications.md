@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: Research
 description:
 nav: true
 nav_order: 1
 ---
 
-I like coding and math. I take an interest in solving business operational problems by computer programming and mathematical modeling.
+I have a passion for coding and mathematics, and I enjoy applying these skills to solve operational challenges in business through computer programming and mathematical modeling.
 
 ### Reviewer activity
 
