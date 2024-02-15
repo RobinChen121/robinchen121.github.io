@@ -784,6 +784,7 @@ footer.sticky-bottom {
         p {
           line-height: 1.4em;
           margin: 10px;
+          font-size: 1em;
         }
 
         pre {
@@ -1068,7 +1069,7 @@ nav[data-toggle="toc"] {
 
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 1rem; // 0.875
     margin-bottom: 0;
     padding-top: 0.5rem;
   }
