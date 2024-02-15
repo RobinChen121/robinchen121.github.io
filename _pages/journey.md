@@ -1,7 +1,7 @@
 ---
 layout: page
 title: research activities
-permalink: /news/
+permalink: /journey/
 ---
 
 <body>
