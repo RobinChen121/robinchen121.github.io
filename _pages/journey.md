@@ -13,13 +13,35 @@ permalink: /journey/
       <section>
         <i class="icon fas fa-home"></i>
         <div class="details">
-          <span class="title">Title of Section 1</span>
-          <span>1st Jan 2021</span>
+          <span class="title">Jan, 2024</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p>Start working at Brunel University London as a lecturer in Operations Research & Supply Chain Management</p>
         <div class="bottom">
-          <a href="#">Read more</a>
-          <i>- Someone famous</i>
+          <i></i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-2">
+      <section>
+        <i class="icon fas fa-home"></i>
+        <div class="details">
+          <span class="title">April, 2023</span>
+        </div>
+        <p>Attend IMA 2023 in Birmingham, UK</p>
+        <div class="bottom">
+          <i></i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-1">
+      <section>
+        <i class="icon fas fa-home"></i>
+        <div class="details">
+          <span class="title">July, 2022</span>
+        </div>
+        <p>Attend Euro 2022 in Espoo, Finland</p>
+        <div class="bottom">
+          <i></i>
         </div>
       </section>
     </div>
@@ -27,13 +49,11 @@ permalink: /journey/
       <section>
         <i class="icon fas fa-star"></i>
         <div class="details">
-          <span class="title">Title of Section 2</span>
-          <span>2nd Jan 2021</span>
+          <span class="title">August, 2019</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p>Attend MIM 2019 conference in Berlin, Germany</p>
         <div class="bottom">
-          <a href="#">Read more</a>
-          <i>- Someone famous</i>
+          <i></i>
         </div>
       </section>
     </div>
@@ -41,13 +61,11 @@ permalink: /journey/
       <section>
         <i class="icon fas fa-rocket"></i>
         <div class="details">
-          <span class="title">Title of Section 3</span>
-          <span>3rd Jan 2021</span>
+          <span class="title">Feb, 2019</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p>Start working at Southwest University, China as a lecturer.</p>
         <div class="bottom">
-          <a href="#">Read more</a>
-          <i>- Someone famous</i>
+          <i></i>
         </div>
       </section>
     </div>
@@ -55,13 +73,11 @@ permalink: /journey/
       <section>
         <i class="icon fas fa-globe"></i>
         <div class="details">
-          <span class="title">Title of Section 4</span>
-          <span>4th Jan 2021</span>
+          <span class="title">July, 2018</span>
         </div>
-        <p>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
+        <p>Finish PhD studies</p>
         <div class="bottom">
-          <a href="#">Read more</a>
-          <i>- Someone famous</i>
+          <i></i>
         </div>
       </section>
     </div>
@@ -69,7 +85,7 @@ permalink: /journey/
       <section>
         <i class="icon fas fa-paper-plane"></i>
         <div class="details">
-          <span class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sep 2016</span>
+          <span class="title">Sep 2016</span>
         </div>
         <p>Attend University of Edinburgh for one year as a visiting PhD student</p>
         <div class="bottom">
@@ -136,7 +152,7 @@ body{
   justify-content: flex-end;
 }
 .wrapper .row section{
-  background: #fff;
+  background: 
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -161,12 +177,12 @@ body{
 .row section .icon,
 .center-line .scroll-icon{
   position: absolute;
-  background: #f2f2f2;
+  background: #acd8e5;
   height: 40px;
   width: 40px;
   text-align: center;
   line-height: 40px;
-  border-radius: 50%;
+  border-radius: 80%;
   color: #3ea0e2;
   font-size: 17px;
   box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
@@ -194,6 +210,8 @@ body{
 .row section .details .title{
   font-size: 22px;
   font-weight: 600;
+  margin-left: 0;
+  margin-right: 0;
 }
 .row section p{
   margin: 10px 0 17px 0;
