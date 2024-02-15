@@ -11,6 +11,16 @@ featured: true
 
 Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB on a Chinese TikTok video, I got inspired to recreate it using Python. So I explored two different implementation approaches, and the result is as follows:
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/heart.gif" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+## Method one：
+
+- Apply looping and combine the parameter pause, clf in pyplot to achieve dynamic image refreshing
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -35,4 +45,32 @@ while alpha <= 21:
         plt.clf() # clear the current picture
     else:
         break
+```
+
+## Method Two:
+
+- make use of the animation function in matplotlib library, achieving animation by updating the coordinates of pictures
+- animation can generate `gif` format animated picture
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+
+
+def animate(alpha):
+    x = np.linspace(-1.8,1.8,1000)
+    y = abs(x)**(2/3) + 0.9*np.sqrt(3.3 - x**2)*np.sin(alpha*(np.pi)*x)
+    PLOT.set_data(x, y)
+    time_text.set_text(r'$\alpha$ = ' + str(round(alpha, 2)))
+    return PLOT, time_text
+
+fig = plt.figure()
+ax = fig.add_subplot(111, xlim=(-2.5, 2.5), ylim=(-2, 4)) # or plt.subplot
+PLOT, = ax.plot([], []) # return all the lines
+plt.text(-1.2, 3, r'$f(x)=x^{2/3}+0.9(3.3-x^2)^{1/2}\sin(\alpha\pi x)$')
+time_text = ax.text(-0.45, 2.5,'') # transform = ax.transAxes
+
+ani = FuncAnimation(fig, animate, frames = np.arange(1, 20.1, 0.1), interval = 20, repeat = False)
+ani.save("heart.gif") # save as one gif document
 ```
