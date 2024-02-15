@@ -45,6 +45,6 @@ I also do some numerical tests for the numerical examples in the paper. I note t
 
 Given the above query, I decide to quit perusing this paper. But the conclusion of the paper about the optimal ordering policy is right: a base-stock policy for the cash contrained problem. But its computation for the base-stock level may exit some bug.
 
-`Note: after asking some other academics two years later, the proofs in this paper are right but there are some small bugs in the numerical testing` (no initial cash is given in the numerical cases and there are some possible errors in the pictures).
+>Note: after asking some other academics two years later, the proofs in this paper are right but there are some small bugs in the numerical testing (no initial cash is given in the numerical cases and there are some possible errors in the pictures).
 
 <!-- more -->
