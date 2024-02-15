@@ -17,7 +17,7 @@ Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB o
   <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/heart.gif" />
 </p>
 
-## Method one：
+## Method One：
 
 - Apply looping and combine the parameter pause, clf in pyplot to achieve dynamic image refreshing
 
