@@ -38,14 +38,6 @@ description:
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
     </div>
   </div>
-
-    <div class="each-event">
-      <div class="event-description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, vitae, ex voluptates repudiandae molestias modi veniam cumque, iusto qui quia illum ipsa laborum adipisci porro nulla magnam error eligendi? Quos!
-      </div>
-    </div>
-    </div>
-
 </section>
 
 <section class="block">
@@ -53,7 +45,7 @@ description:
   <div class="title">2015</div>
     <div class="each-event">
       <div class="event-description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Start PhD studies 
       </div>
     </div>
   </div>
@@ -145,26 +137,3 @@ description:
   }
 }
 </style>
-
-<scripts>
-var $element=$('.each-event, .title');
-var $window = $(window);
-$window.on('scroll resize', check_for_fade);
-$window.trigger('scroll');
-function check_for_fade() { 
-    var window_height = $window.height();
-    
-    $.each($element, function (event) {
-        var $element = $(this);
-        var element_height = $element.outerHeight();
-        var element_offset = $element.offset().top;
-        space = window_height - (element_height + element_offset -$(window).scrollTop());
-        if (space < 60) {
-            $element.addClass("non-focus");
-        } else {
-            $element.removeClass("non-focus");
-        }
- 
-    });
-};
-</scripts>
