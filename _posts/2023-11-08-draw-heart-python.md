@@ -4,7 +4,7 @@ title: Draw animated hear by Python
 date: 2023-11-08  20:30-0800
 categories: python-practice
 giscus_comments: true
-tags: animated-heart, Python,
+tags: animated-heart, Python
 related_posts: true
 featured: true
 toc:
@@ -16,8 +16,6 @@ Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB o
 <p align="center">
   <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/heart.gif" />
 </p>
-
-![](https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/heart.gif)
 
 ## Method one：
 
