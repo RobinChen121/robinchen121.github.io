@@ -10,7 +10,6 @@ nav_order: 3
 **My teaching modules are mainly related with date analysis and operational research.**
 
 Brunel University, United Kingdom (2024.01--)
-
 <table>
   <tr>
     <th style="text-align: center;">Module</th>
@@ -22,8 +21,8 @@ Brunel University, United Kingdom (2024.01--)
   <tr>
     <td>Business Modeling & Simulation in Supply Chains</td>
     <td>2024--</td>
-    <td>32</td>
-    <td>86</td>
+    <td style="text-align: center;">32</td>
+    <td style="text-align: center;">86</td>
 <td>undergraduate</td>
   </tr>
 </table>
