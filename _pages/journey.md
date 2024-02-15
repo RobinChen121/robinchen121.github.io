@@ -11,9 +11,9 @@ permalink: /journey/
     </div>
     <div class="row row-1">
       <section>
-        <i class="icon fas fa-home"></i>
+        <i class="icon fa fa-heart"></i>
         <div class="details">
-          <span class="title">Jan, 2024</span>
+          <span class="title" style="margin-left: auto;">Jan, 2024</span>
         </div>
         <p>Start working at Brunel University London as a lecturer in Operations Research & Supply Chain Management</p>
         <div class="bottom">
@@ -23,7 +23,7 @@ permalink: /journey/
     </div>
     <div class="row row-2">
       <section>
-        <i class="icon fas fa-home"></i>
+        <i class="icon fa fa-home"></i>
         <div class="details">
           <span class="title">April, 2023</span>
         </div>
@@ -35,9 +35,9 @@ permalink: /journey/
     </div>
     <div class="row row-1">
       <section>
-        <i class="icon fas fa-home"></i>
+        <i class="icon fa fa-car"></i>
         <div class="details">
-          <span class="title">July, 2022</span>
+          <span class="title" style="margin-left: auto;">July, 2022</span>
         </div>
         <p>Attend Euro 2022 in Espoo, Finland</p>
         <div class="bottom">
@@ -47,7 +47,7 @@ permalink: /journey/
     </div>
     <div class="row row-2">
       <section>
-        <i class="icon fas fa-star"></i>
+        <i class="icon fa fa-star"></i>
         <div class="details">
           <span class="title">August, 2019</span>
         </div>
@@ -59,9 +59,9 @@ permalink: /journey/
     </div>
     <div class="row row-1">
       <section>
-        <i class="icon fas fa-rocket"></i>
+        <i class="icon fa fa-rocket"></i>
         <div class="details">
-          <span class="title">Feb, 2019</span>
+          <span class="title" style="margin-left: auto;">Feb, 2019</span>
         </div>
         <p>Start working at Southwest University, China as a lecturer.</p>
         <div class="bottom">
@@ -71,7 +71,7 @@ permalink: /journey/
     </div>
     <div class="row row-2">
       <section>
-        <i class="icon fas fa-globe"></i>
+        <i class="icon fa fa-globe"></i>
         <div class="details">
           <span class="title">July, 2018</span>
         </div>
@@ -83,7 +83,7 @@ permalink: /journey/
     </div>
     <div class="row row-1">
       <section>
-        <i class="icon fas fa-paper-plane"></i>
+        <i class="icon fa fa-paper-plane"></i>
         <div class="details">
           <span class="title">Sep 2016</span>
         </div>
@@ -95,7 +95,7 @@ permalink: /journey/
     </div>
     <div class="row row-2">
       <section>
-        <i class="icon fas fa-map-marker-alt"></i>
+        <i class="icon fa fa-map-marker-alt"></i>
         <div class="details">
           <span class="title">Sep 2014</span>
         </div>
