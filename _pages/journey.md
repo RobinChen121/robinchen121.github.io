@@ -3,8 +3,6 @@ layout: page
 title: Academic Journey
 permalink: /journey/
 description:
-nav: true
-nav_order: 6
 ---
 
 <head>   
