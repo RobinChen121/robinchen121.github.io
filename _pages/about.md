@@ -28,7 +28,7 @@ I am a lecturer in the buesiness school of Brunel University London. Prior to th
 My primary research in recent years focus lies in cash-flow inventory management, where I leverage mathematical modeling and computer programming to address complex challenges. I also did some works in traditional inventory management and routing problems.
 </font>
 
-My CV is: &nbsp; <a href="https://github.com/RobinChen121/resume/blob/main/CV_chenzhen.pdf">CV</a>
+My CV is: &nbsp; <a href="https://github.com/RobinChen121/resume/blob/main/CV_chenzhen_English.pdf">CV</a>
 
 <br>
 ### <font color= "#CD950C">My research interests:</font>
