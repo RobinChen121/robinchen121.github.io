@@ -537,7 +537,7 @@ footer.sticky-bottom {
 
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 1 rem; //0.875
       margin-bottom: 0;
     }
 
@@ -771,7 +771,7 @@ footer.sticky-bottom {
       }
 
       .hidden {
-        font-size: 0.875rem;
+        font-size: 1 rem; // 0.875
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
@@ -853,7 +853,7 @@ html.transition *:after {
 .post {
   .post-meta {
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 1 rem; // 0.875 rem
     margin-bottom: 0;
   }
 
