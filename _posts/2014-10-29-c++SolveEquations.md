@@ -4,7 +4,7 @@ title: Solve equations by Gaussian Elimination and Doolittle Decomposition in C+
 date: 2014-10-29  13:27-0800
 categories: c++-practice
 giscus_comments: true
-tags: c++, solving-equations, Gaussian Elimination, Doolittle Decomposition
+tags: c++, solving-equations, Gaussian-Elimination, Doolittle-Decomposition
 related_posts: true
 ---
 
