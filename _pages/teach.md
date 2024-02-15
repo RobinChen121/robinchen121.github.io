@@ -13,14 +13,16 @@ Brunel University, United Kingdom (2024.01--)
 
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Module</th>
+    <th>Year</th>
+    <th>Total class hours</th>
+     <th>Total students</th>
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
     <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>32</td>
+    <td>86</td>
   </tr>
   <tr>
     <td>Centro comercial Moctezuma</td>
