@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.brunel.ac.uk/people/zhen-chen'>My Brunel University webpage</a>.
+subtitle: <a href='https://www.brunel.ac.uk/people/zhen-chen'>My Brunel University webpage</a>
 
 profile:
   align: right
