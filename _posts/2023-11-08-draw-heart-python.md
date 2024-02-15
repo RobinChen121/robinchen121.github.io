@@ -13,7 +13,6 @@ Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB o
 
 ![](https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/heart.gif)
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/heart.gif" class="img-fluid rounded z-depth-1" %}
