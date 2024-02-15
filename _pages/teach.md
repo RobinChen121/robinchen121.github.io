@@ -10,7 +10,6 @@ nav_order: 3
 **My teaching modules are mainly related with date analysis and operational research.**
 
 Brunel University, United Kingdom (2024.01--)
-
 <table>
   <tr>
     <th>Module</th>
@@ -19,21 +18,12 @@ Brunel University, United Kingdom (2024.01--)
      <th>Total students</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
+    <td>Business Modeling & Simulation in Supply Chains</td>
+    <td>2024--</td>
     <td>32</td>
     <td>86</td>
   </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
 </table>
-
-| Module Name                                     | &nbsp;&nbsp;&nbsp;&nbsp;Year &nbsp;&nbsp;&nbsp;&nbsp; | Student Type  | Total Class Hours | Total Student No. |
-| :---------------------------------------------- | :---------------------------------------------------: | :-----------: | :---------------: | :---------------: |
-| Business Modeling & Simulation in Supply Chains |                         2024                          | undergraduate |        32         |        86         |
 
 <br/>
 <br/>
