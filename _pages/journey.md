@@ -52,18 +52,18 @@ description:
       <div class="steps-container">
         <div class="content">
           <h2>Lorem ipsum dolor</h2>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <p>Lorem ipsum dolor.</p>
         </div>
         <i class="step-line"></i>
         <div class="date">2004</div>
       </div>
       <div class="steps-container">
         <div class="content">
-          <h2>Lorem ipsum dolor</h2>
-          <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          <h2>Start PhD studies</h2>
+          <p>Lorem </p>
         </div>
         <i class="step-line"></i>
-        <div class="date">2005</div>
+        <div class="date">2014</div>
       </div>
     </div>
   </div>
