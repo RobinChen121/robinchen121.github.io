@@ -33,7 +33,6 @@ Brunel University, United Kingdom (2024.01--)
 
 Southwest University, China (2019-02--2023.12)
 
-
 <table>
   <tr>
     <th style="text-align: center; width:33%">Module</th>
