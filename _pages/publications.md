@@ -9,6 +9,7 @@ nav_order: 1
 
 I have a passion for coding and mathematics, and I enjoy applying these skills to solve operational challenges in business through computer programming and mathematical modeling.
 
+<br>
 ### Reviewer activity
 
 I regularly review research articles for the academic journals listed below:
@@ -20,12 +21,14 @@ I regularly review research articles for the academic journals listed below:
 - Computers & Industrial Engineering (ABS 2)
 - 系统工程理论与实践
 
+<br>
 ### Academic membership
 
 - Member of the Institute of Mathematics and its Applications (IMA, UK)
 - Member of the Systems Engineering Society of China
 - Member of the Operation Research Society of China
 
+<br>
 My publications including journal papers, books and some attended conferences are following.
 
 <!-- _pages/publications.md -->

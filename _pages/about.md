@@ -26,13 +26,14 @@ My primary research in recent years focus lies in cash-flow inventory management
 
 <br>
 My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_chenzhen_English.pdf'>CV</a>
-
+<br>
 ### Research interests:
 
 - Inventory control
 - Supply chain financing
 - Stochastic programming
 
+<br>
 ### Coding skills
 
 Here are several coding/typesetting languages that I use for research frequently.
@@ -43,6 +44,7 @@ Here are several coding/typesetting languages that I use for research frequently
 - Cplex/Gurobi/Lingo
 - Latex
 
+<br>
 ### Mathematical skills
 
 I have not been in the major of mathematics. However, I have been learning the following books for research.
@@ -56,6 +58,7 @@ I have not been in the major of mathematics. However, I have been learning the f
 - _Foundations of inventory management_. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
 - ...
 
+<br>
 ### Hobbies
 
 - Learning new knowledge
