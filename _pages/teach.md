@@ -13,10 +13,10 @@ Brunel University, United Kingdom (2024.01--)
 <table>
   <tr>
     <th style="text-align: center;">Module</th>
-    <th>Year</th>
-    <th>Total class hours</th>
-     <th>Total students</th>
-<th>Type</th>
+    <th style="text-align: center;">Year</th>
+    <th style="text-align: center;">Total class hours</th>
+     <th style="text-align: center;">Total students</th>
+<th style="text-align: center;">Type</th>
   </tr>
   <tr>
     <td>Business Modeling & Simulation in Supply Chains</td>
