@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-<font size=5>My publications including journal papers, books and attended conferences are following.</font>
+<font size=4>My publications including journal papers, books and attended conferences are following.</font>
 
 <!-- _pages/publications.md -->
 <div class="publications">
