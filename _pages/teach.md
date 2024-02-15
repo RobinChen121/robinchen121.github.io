@@ -12,16 +12,18 @@ nav_order: 3
 Brunel University, United Kingdom (2024.01--)
 <table>
   <tr>
-    <th>Module</th>
+    <th style="text-align: center;">Module</th>
     <th>Year</th>
     <th>Total class hours</th>
      <th>Total students</th>
+<th>Type</th>
   </tr>
   <tr>
     <td>Business Modeling & Simulation in Supply Chains</td>
     <td>2024--</td>
     <td>32</td>
     <td>86</td>
+<th>undergraduate</th>
   </tr>
 </table>
 
