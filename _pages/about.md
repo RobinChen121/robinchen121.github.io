@@ -67,8 +67,6 @@ I have not been in the major of mathematics. However, I have been learning the f
 - Ancient Chinese poems
 - ...
 
-<script type="text/javascript" src="//ra.revolvermaps.com/0/0/6.js?i=0yyjw5m5w24&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
-
 <!--
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
