@@ -1,48 +1,38 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;}
-{\colortbl;\red255\green255\blue255;\red12\green12\blue12;\red255\green255\blue255;}
-{\*\expandedcolortbl;;\cssrgb\c5098\c5098\c5098;\cssrgb\c100000\c100000\c100000;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+---
+layout: post
+title: Draw animated hear by Python
+date: 2023-11-08  20:30-0800
+categories: python-practice
+giscus_comments: true
+tags: animated-heart, Python, 
+related_posts: true
+featured: true
+---
 
-\f0\fs24 \cf0 ---\
-layout: post\
-title: Draw animated hear by Python\
-date: 2023-11-08  20:30-0800\
-categories: python-practice\
-giscus_comments: true\
-tags: animated-heart, Python, \
-related_posts: true\
-featured: true\
----\
-\
-\pard\pardeftab720\partightenfactor0
+Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB on a Chinese TikTok video, I got inspired to recreate it using Python. So I explored two different implementation approaches, and the result is as follows:
 
-\f1\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
-Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB on TikTok, I got inspired to recreate it using Python. So I explored two different implementation approaches, and the result is as follows:\
-\
-```python\
-import matplotlib.pyplot as plt\
-import numpy as np\
-\
-\
-# type %matplotlib qt to shown figure in a separate window\
-x = np.linspace(-1.8, 1.8, 1000)\
-alpha = 1\
-\
-while alpha <= 21:\
-    plt.xlim(-3, 3)\
-    plt.ylim(-2, 4)\
-    y = abs(x)**(2/3) + 0.9*np.sqrt(3.3 - x**2)*np.sin(alpha*(np.pi)*x)\
-    plt.plot(x, y)\
-    \
-    plt.text(-1.6, 3, r'$f(x)=x^\{2/3\}+0.9(3.3-x^2)^\{1/2\}\\sin(\\alpha\\pi x)$')   \
-    alpha_s = str(round(alpha, 2))\
-    tx = plt.text(-0.5, 2.5, r'$\\alpha=$' + alpha_s)\
-    plt.pause(0.02) # pause 0.02 s\
-    if alpha <= 20:\
-        alpha += 0.1\
-        plt.clf() # clear the current picture\
-    else:\
-        break\
-```}
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+# type %matplotlib qt to shown figure in a separate window
+x = np.linspace(-1.8, 1.8, 1000)
+alpha = 1
+
+while alpha <= 21:
+    plt.xlim(-3, 3)
+    plt.ylim(-2, 4)
+    y = abs(x)**(2/3) + 0.9*np.sqrt(3.3 - x**2)*np.sin(alpha*(np.pi)*x)
+    plt.plot(x, y)
+    
+    plt.text(-1.6, 3, r'$f(x)=x^{2/3}+0.9(3.3-x^2)^{1/2}\sin(\alpha\pi x)$')   
+    alpha_s = str(round(alpha, 2))
+    tx = plt.text(-0.5, 2.5, r'$\alpha=$' + alpha_s)
+    plt.pause(0.02) # pause 0.02 s
+    if alpha <= 20:
+        alpha += 0.1
+        plt.clf() # clear the current picture
+    else:
+        break
+```
