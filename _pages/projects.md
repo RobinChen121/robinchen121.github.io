@@ -1,65 +1,22 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories:
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+- Youth Project of National Natural Science Foundation of China, " Data-driven demand forecasting, inventory and financing management and their integration research", 2022-2024, Project No. 72101213, $42, 000 (PI)
 
-{% else %}
+国家自然科学基金青年项目，“数据驱动背景下的需求预测、库存融资决策及其集成研究"，2022-2024，项目编号：72101213，金额：30 万元，主持
 
-<!-- Display projects without categories -->
+- Chongqing Social Science Planning Fund, "Big data application research in the risk control of supply chain financing in Chongqing", 2021-2023, Project No. 2020BS49, $1,000 (PI)
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+重庆市社会科学规划项目，“大数据技术在重庆市供应链金融风险控制中的应用研究"，2021-2023，项目编号：2020BS49，金额：5000元，主持，结项
 
-  <!-- Generate cards for each project -->
+- Research Funds of the Research Institute of Intelligent Finance and Platform Economics, Southwest University, "Financial technology application research in supply chain financing", 2020-2021, Project No. 20YJ0105, $3,100 (PI)
 
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+西南大学智能金融与平台经济研究院年度科研项目，“金融科技在供应链金融中的应用实践研究"，2020-2021，项目编号：20YJ0105，金额：2万元，主持，结项

@@ -38,6 +38,7 @@ My primary research in recent years focus lies in cash-flow inventory management
 ### <font color= "#CD950C">Coding skills</font>
 
 Here are several coding/typesetting languages that I use for research frequently.
+
 - Java
 - Python
 - Matlab
@@ -47,13 +48,14 @@ Here are several coding/typesetting languages that I use for research frequently
 ### <font color= "#CD950C">Mathematical skills</font>
 
 I have not been in the major of mathematics. However, I have been learning the following books for research.
-- *Fundamentals of supply chain theory*. &nbsp;&nbsp; Snyder, Lawrence V., and Zuo-Jun Max Shen.  John Wiley & Sons, second edition, 2019.
-- *Introduction to linear optimization*.  Bertsimas, Dimitris, and John N. Tsitsiklis. Vol. 6. Belmont, MA: Athena Scientific, 1997.
-- *Convex optimization*. &nbsp;&nbsp; Boyd, Stephen, and Lieven Vandenberghe. Cambridge University press, 2004.
-- *Stochastic Programming: Volume 10 (Handbooks in Operations Research and Management Science)*. &nbsp;&nbsp; Ruszczyński, Andrzej, and Alexander Shapiro. Elsevier, 2003.
-- *Introduction to stochastic programming*. &nbsp;&nbsp; Birge, John R., and Francois Louveaux. Springer Science & Business Media, 2011.
-- *Foundations of stochastic inventory theory*. &nbsp;&nbsp; Porteus, Evan L.  Stanford University Press, 2002.
-- *Foundations of inventory management*. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
+
+- _Fundamentals of supply chain theory_. &nbsp;&nbsp; Snyder, Lawrence V., and Zuo-Jun Max Shen. John Wiley & Sons, second edition, 2019.
+- _Introduction to linear optimization_. Bertsimas, Dimitris, and John N. Tsitsiklis. Vol. 6. Belmont, MA: Athena Scientific, 1997.
+- _Convex optimization_. &nbsp;&nbsp; Boyd, Stephen, and Lieven Vandenberghe. Cambridge University press, 2004.
+- _Stochastic Programming: Volume 10 (Handbooks in Operations Research and Management Science)_. &nbsp;&nbsp; Ruszczyński, Andrzej, and Alexander Shapiro. Elsevier, 2003.
+- _Introduction to stochastic programming_. &nbsp;&nbsp; Birge, John R., and Francois Louveaux. Springer Science & Business Media, 2011.
+- _Foundations of stochastic inventory theory_. &nbsp;&nbsp; Porteus, Evan L. Stanford University Press, 2002.
+- _Foundations of inventory management_. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
 - ...
 
 <script type="text/javascript" src="//ra.revolvermaps.com/0/0/6.js?i=0yyjw5m5w24&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
