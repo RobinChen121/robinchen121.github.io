@@ -19,7 +19,7 @@ featured: true\
 \pard\pardeftab720\partightenfactor0
 
 \f1\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB on TikTok, I got inspired to recreate it using Python. So I explored two different implementation approaches, and the result is as follows:\
+Stumbled upon a dynamic heart-shaped graph implemented by someone using MATLAB on TikTok, I got inspired to recreate it using Python. So I explored two different implementation approaches, and the result is as follows:\
 \
 ```python\
 import matplotlib.pyplot as plt\
