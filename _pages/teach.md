@@ -11,7 +11,7 @@ nav_order: 3
 
 Brunel University, United Kingdom (2024.01--)
 
-<table>
+<table style="width:100%;">
   <tr>
     <th style="text-align: center; width:40%">Module</th>
     <th style="text-align: center;">Year</th>
@@ -24,7 +24,7 @@ Brunel University, United Kingdom (2024.01--)
     <td>2024--</td>
     <td style="text-align: center;">32</td>
     <td style="text-align: center;">86</td>
-<td>master</td>
+<td style="text-align:center;">master</td>
   </tr>
 </table>
 
@@ -33,7 +33,7 @@ Brunel University, United Kingdom (2024.01--)
 
 Southwest University, China (2019-02--2023.12)
 
-<table>
+<table, style="width:100%;">
   <tr>
     <th style="text-align: center; width:40%">Module</th>
     <th style="text-align: center;">Year</th>
