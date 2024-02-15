@@ -7,9 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-<font size=4>
-**My publications:**
-</font>
+My publications:
 
 <!-- _pages/publications.md -->
 <div class="publications">
