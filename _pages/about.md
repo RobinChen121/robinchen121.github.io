@@ -32,13 +32,30 @@ My primary research in recent years focus lies in cash-flow inventory management
 My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_chenzhen_English.pdf'>CV</a>
 
 <br>
-### <font color= "#CD950C">My research interests:</font>
+### My research interests:
 
 - <font size="4"> Inventory control </font>
 - <font size="4"> Supply chain financing </font>
 - <font size="4"> Stochastic programming </font>
 
-### <font color= "#CD950C">Coding skills</font>
+### Reviewer activity
+
+I regularly review research articles for the academic journals listed below:
+
+- European Journal of Operational Research (ABS 4)
+- OMEGA: the International Journal of Management Science (ABS 3)
+- International Journal of Production Research (ABS 3)
+- Computers & Operations Research (ABS 3)
+- Computers & Industrial Engineering (ABS 2)
+- 系统工程理论与实践
+
+### Academic membership
+
+- Member of the Institute of Mathematics and its Applications (IMA, UK)
+- Member of the Systems Engineering Society of China
+- Member of the Operation Research Society of China
+
+### Coding skills
 
 Here are several coding/typesetting languages that I use for research frequently.
 
@@ -48,7 +65,7 @@ Here are several coding/typesetting languages that I use for research frequently
 - Cplex/Gurobi/Lingo
 - Latex
 
-### <font color= "#CD950C">Mathematical skills</font>
+### Mathematical skills
 
 I have not been in the major of mathematics. However, I have been learning the following books for research.
 
@@ -61,7 +78,7 @@ I have not been in the major of mathematics. However, I have been learning the f
 - _Foundations of inventory management_. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
 - ...
 
-### <font color= "#CD950C">Hobbies</font>
+### Hobbies
 
 - Learning new knowledge
 - History
