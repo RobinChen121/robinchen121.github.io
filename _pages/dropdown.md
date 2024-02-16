@@ -5,7 +5,10 @@ nav: true
 nav_order: 6
 dropdown: true
 children:
-  - title: academic journey
+  - title: Academic journey
     permalink: /journey/
-  - title: divider
 ---
+
+<!--
+  - title: divider
+-->
