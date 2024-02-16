@@ -1,8 +1,10 @@
 ---
 layout: page
-title: research activities
+title: 
 permalink: /journey/
 ---
+
+<p style="font-size: 3rem; align: center;">My research activity</p>
 
 <body>
   <div class="wrapper">
