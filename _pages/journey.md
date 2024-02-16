@@ -1,15 +1,13 @@
 ---
 layout: page
-title:
+title: research activities
 permalink: /journey/
 ---
-
-<p style="text-align:center; font-size:3rem">My research activities</p>
 
 <body>
   <div class="wrapper">
     <div class="center-line">
-      <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      <a href="#" class="scroll-icon"><i class="fa fa-caret-up"></i></a>
     </div>
     <div class="row row-1">
       <section>
@@ -139,7 +137,7 @@ body{
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #3ea0e2;
+  background: #BF40BF;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -185,9 +183,9 @@ body{
   text-align: center;
   line-height: 40px;
   border-radius: 80%;
-  color: #3ea0e2;
-  font-size: 17px;
-  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  color: #BF40BF;
+  font-size: 20px;
+  box-shadow: 0 0 0 4px, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
 .center-line .scroll-icon{
   bottom: 0px;
