@@ -32,7 +32,7 @@ where $$N$$ is the length of the planning horizon. This algorithm is a polynomia
 
 using namespace std;
 
-const int T=12;  // the length of the planning horizon 
+const int T=12;  // the length of the planning horizon
 const double D[T]={10,62,12,130,154,129,88,52,124,160,238,41};
 const double s[T]={54,54,54,54,54,54,54,54,54,54,54,54};
 const double h[T]={0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4};
@@ -46,7 +46,7 @@ void main()
 {
 	double cost[T][T]; // the total cost in a production cycle from one period to another period
 	double Opt_cost[T];  //optimal total cost from one period to final period T
-	int Order[T];  // optimal production plan, bianry variables denoting whether to product in each period 
+	int Order[T];  // optimal production plan, bianry variables denoting whether to product in each period
 	double I[T];  // inventory on hand in each period
 
 	for (int i=0;i<T;i++)
@@ -54,10 +54,10 @@ void main()
 			cost[i][j]=INT_MAX;  // initializing costs
 
 
-	//compute costs for difference production cycles and optimal total cost 
+	//compute costs for difference production cycles and optimal total cost
 	for (int i=0;i<T;i++)
 	{
-		if(i>0)  
+		if(i>0)
 		{
 			double p[T];
 			for (int j=0;j<T;j++)
