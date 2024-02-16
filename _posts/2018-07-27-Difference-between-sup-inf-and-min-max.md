@@ -13,8 +13,7 @@ In the past, the decision goals for optimizing functions were always either mini
 
 "inf" is short for infimum, and "sup" is short for supremum.
 
-<font color=red size=4>Using "inf" or "sup" always ensures the existence of the infimum or supremum of a function, while the minimum or maximum of a function may sometimes not exist.
-</font>
+<font color=red size=4>Using "inf" or "sup" always ensures the existence of the infimum or supremum of a function, while the minimum or maximum of a function may sometimes not exist.</font>
 
 For example, consider the graph of the function $$f(x)=\sin(x)/x$$:
 
