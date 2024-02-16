@@ -3,12 +3,8 @@ layout: page
 title: research activities
 permalink: /journey/
 ---
+<p style="font-size: 3rem; text-align: center">My Research activities</p>
 
-<<<<<<< HEAD
-<p style="font-size: 3rem; text-align: center;">My research activity</p>
-
-=======
->>>>>>> parent of f6db6ec (update)
 <body>
   <div class="wrapper">
     <div class="center-line">
@@ -142,7 +138,7 @@ body{
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #B8BC86；
+  background: #b8a369;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -168,7 +164,7 @@ body{
   content: "";
   height: 15px;
   width: 15px;
-  background: #fff;
+  background: #b8a369;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -182,15 +178,15 @@ body{
 .row section .icon,
 .center-line .scroll-icon{
   position: absolute;
-  background: 
+  background: #acd8e5;
   height: 40px;
   width: 40px;
   text-align: center;
   line-height: 40px;
   border-radius: 80%;
-  color: #B8BC86；
-  font-size: 20px;
-  box-shadow: 0 0 0 4px, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  color: #b8a369;
+  font-size: 17px;
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
 .center-line .scroll-icon{
   bottom: 0px;
