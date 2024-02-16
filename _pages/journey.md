@@ -1,11 +1,14 @@
 ---
 layout: page
-title: 
+title: research activities
 permalink: /journey/
 ---
 
+<<<<<<< HEAD
 <p style="font-size: 3rem; text-align: center;">My research activity</p>
 
+=======
+>>>>>>> parent of f6db6ec (update)
 <body>
   <div class="wrapper">
     <div class="center-line">
