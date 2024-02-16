@@ -185,9 +185,9 @@ body{
   text-align: center;
   line-height: 40px;
   border-radius: 80%;
-  color: #b8a369;
+  color: #A3E4D7;
   font-size: 17px;
-  box-shadow: 0 0 0 4px ##F5B041, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  box-shadow: 0 0 0 4px #FEF5E7, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
 .center-line .scroll-icon{
   bottom: 0px;
