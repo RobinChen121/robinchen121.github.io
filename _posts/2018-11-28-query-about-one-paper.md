@@ -7,7 +7,7 @@ giscus_comments: true
 description: I read the paper "Dynamic Inventory Management with Cash Flow Constraints" from Xiuli Chao, et. al (2008).  The proofs in this paper are very lengthy and complex. During the deductions of the proofs by myself, there is a query that I can not understand.
 tags: ["dynamic programming", "cash-flow inventory", "paper reading", "stochastic inventory"]
 related_posts: true
-featured: true
+featured: false
 ---
 
 Recently, I am reading the paper "Dynamic Inventory Management with Cash Flow Constraints" from Xiuli Chao, et. al (2008). The proofs in this paper are very lengthy and complex. During the deductions of the proofs by myself, there is a query that I can not understand.
