@@ -139,7 +139,7 @@ body{
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #F9E79F;
+  background: #A3E4D7;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -154,7 +154,7 @@ body{
   justify-content: flex-end;
 }
 .wrapper .row section{
-  background: #F9E79F;
+  background: #A3E4D7;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -165,7 +165,7 @@ body{
   content: "";
   height: 15px;
   width: 15px;
-  background: #F9E79F;
+  background: #A3E4D7;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -179,13 +179,13 @@ body{
 .row section .icon,
 .center-line .scroll-icon{
   position: absolute;
-  background: #F9E79F;
+  background: #A3E4D7;
   height: 40px;
   width: 40px;
   text-align: center;
   line-height: 40px;
   border-radius: 80%;
-  color: #A3E4D7;
+  color: #b8a369;
   font-size: 17px;
   box-shadow: 0 0 0 4px #FEF5E7, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
