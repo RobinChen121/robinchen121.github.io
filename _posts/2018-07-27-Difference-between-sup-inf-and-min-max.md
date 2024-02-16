@@ -13,7 +13,8 @@ In the past, the decision goals for optimizing functions were always either mini
 
 "inf" is short for infimum, and "sup" is short for supremum.
 
-<font size=4, color=red>Using "inf" or "sup" always ensures the existence of the infimum or supremum of a function, while the minimum or maximum of a function may sometimes not exist.</font>
+<font color=red>Using "inf" or "sup" always ensures the existence of the infimum or supremum of a function, while the minimum or maximum of a function may sometimes not exist.</font>
+</font>
 
 For example, consider the graph of the function $$f(x)=\sin(x)/x$$:
 
@@ -38,6 +39,5 @@ plt.show()
 
 This function is undefined at $$x=0$$, so its maximum value, or "max," does not exist. However, we can observe that the smallest upper bound of $$f(x)$$ is 1 (any value not less than its maximum value is an upper bound), i.e., $$\sup f(x)=1$$.
 
-* The definition of "sup": The smallest upper bound of a set.
-
-* The definition of "inf": The largest lower bound of a set.
+> * The definition of "sup": The smallest upper bound of a set.
+> * The definition of "inf": The largest lower bound of a set.
