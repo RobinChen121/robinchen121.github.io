@@ -165,7 +165,7 @@ body{
   content: "";
   height: 15px;
   width: 15px;
-  background: #A3E4D7;
+  background: #b8a369;
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
@@ -179,13 +179,13 @@ body{
 .row section .icon,
 .center-line .scroll-icon{
   position: absolute;
-  background: #A3E4D7;
+  background: #b8a369;
   height: 40px;
   width: 40px;
   text-align: center;
   line-height: 40px;
   border-radius: 80%;
-  color: #b8a369;
+  color: #F9E79F
   font-size: 17px;
   box-shadow: 0 0 0 4px #FEF5E7, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
