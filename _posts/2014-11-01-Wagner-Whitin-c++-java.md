@@ -200,7 +200,7 @@ public class SingleItemLS {
 		// compute costs for difference production cycles and optimal total cost
 		for (int i = 0; i < T; i++)
 		{
-			if(i > 0)  
+			if(i > 0)
 			{
 				double[] p = new double[T];
 				for (int j=0;j<T;j++)
