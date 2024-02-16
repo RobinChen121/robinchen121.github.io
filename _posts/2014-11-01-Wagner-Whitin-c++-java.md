@@ -3,8 +3,8 @@ layout: post
 title: C++ and Java codes for Wagner-Whitin algorithm
 date: 2014-11-01  16:52:24-0800
 categories: ["c++", "java", "inventory"]
-giscus_comments: true
 tags: ["c++", "java", "lot sizing", "Wagner-Whitin"]
+giscus_comments: true
 related_posts: true
 toc:
   beginning: true
