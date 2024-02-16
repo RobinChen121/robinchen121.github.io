@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Lagrangian subgradient method
+title: Lagrangian sub-gradient method
 date: 2014-11-13  09:57:31-0800
 categories: ["optimization"]
 giscus_comments: true
-tags: ["Lagrangian", "subgradient"]
+tags: ["Lagrangian", "sub-gradient"]
 related_posts: true
 ---
 
