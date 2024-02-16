@@ -1,8 +1,7 @@
 ---
 layout: post
 title: About Chinese research environment
-categories: ["research life"]
-tags: ["research life"]
+categories: ["academic life"]
 giscus_comments: true
 related_posts: true
 ---
