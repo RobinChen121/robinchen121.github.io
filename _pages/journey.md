@@ -87,7 +87,7 @@ permalink: /journey/
       <section>
         <i class="icon fa fa-paper-plane"></i>
         <div class="details">
-          <span class="title">Sep 2016</span>
+          <span class="title" style="margin-left: auto;">Sep 2016</span>
         </div>
         <p>Attend University of Edinburgh for one year as a visiting PhD student</p>
         <div class="bottom">
@@ -154,7 +154,7 @@ body{
   justify-content: flex-end;
 }
 .wrapper .row section{
-  background: #A3E4D7;
+  background: 
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
