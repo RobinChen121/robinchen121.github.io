@@ -230,7 +230,7 @@ public class SingleItemLS {
 				p[j] = cost[j][T-1];
 		OptCost[T-1] = Arrays.stream(p).min().getAsDouble();
 
-		//求最优生产序列，从后向前推
+		// backward to get optimal production plan
 		int i=T-1;
 		while (i>=0)
 		{
