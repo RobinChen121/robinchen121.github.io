@@ -139,7 +139,7 @@ body{
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #A3E4D7;
+  background: #b8a369;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
