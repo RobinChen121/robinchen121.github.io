@@ -32,32 +32,32 @@ where $$N$$ is the length of the planning horizon. This algorithm is a polynomia
 
 using namespace std;
 
-const int T=12; //周期
+const int T=12;  // the length of the planning horizon 
 const double D[T]={10,62,12,130,154,129,88,52,124,160,238,41};
 const double s[T]={54,54,54,54,54,54,54,54,54,54,54,54};
 const double h[T]={0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4};
 
-double min(double *,int);//返回一个数组中的最小值
+double min(double *,int); // return to the minimum in an array
 
 template<typename T>
 void print(T *,int);
 
 void main()
 {
-	double cost[T][T];//任意两个周期间的成本，从一个周期启动生产，库存持续到另一个周期
-	double Opt_cost[T]; //记录从第一期到第T期的最优总成本
-	int Order[T];  //从第一期到第T期的最优生产序列，用0-1表示，0表示该期不生产，1表示该期启动生产
-	double I[T]; //记录每阶段的库存
+	double cost[T][T]; // the total cost in a production cycle from one period to another period
+	double Opt_cost[T];  //optimal total cost from one period to final period T
+	int Order[T];  // optimal production plan, bianry variables denoting whether to product in each period 
+	double I[T];  // inventory on hand in each period
 
 	for (int i=0;i<T;i++)
 		for (int j=0;j<T;j++)
-			cost[i][j]=INT_MAX;  //初试化成本
+			cost[i][j]=INT_MAX;  // initializing costs
 
 
-	//计算两个周期内的成本，以及最优总成本序列
+	//compute costs for difference production cycles and optimal total cost 
 	for (int i=0;i<T;i++)
 	{
-		if(i>0)  //记录从第1期到第i-1期的最优总成本
+		if(i>0)  
 		{
 			double p[T];
 			for (int j=0;j<T;j++)
@@ -77,7 +77,7 @@ void main()
 				sum=sum-D[k];
 			}
 			if (i>0)
-				cost[i][j]=Opt_cost[i-1]+h_sum+s[i];//得到第i期到第j期的最优总成本
+				cost[i][j]=Opt_cost[i-1]+h_sum+s[i];
 			else
 				cost[i][j]=h_sum+s[i];
 		}
@@ -87,9 +87,8 @@ void main()
 			p[j]=cost[j][T-1];
 	Opt_cost[T-1]=min(p,T);
 
-	//求最优生产序列，从后向前推
+	// backorder to get optimal production plan
 	int i=T-1;
-
 	while (i>=0)
 	{
 		if (Opt_cost[i]==cost[i][i])
@@ -117,7 +116,7 @@ void main()
 		}
 	}
 
-	//根据最优生产序列得到每个阶段的库存，从前向后推
+	// get inventory on hand by the optimal production plan
 	i=0;
 	int index=0;
 	while (index<T-1)
@@ -145,12 +144,12 @@ void main()
 		i=index;
 	}
 
-	cout<<"最优生产序列:"<<endl;
+	cout<<"optimal productoin plan:"<<endl;
 	print(Order,T);
 	//print(cost,T);
-	cout<<"从第1期到各期的最优总成本:"<<endl;
+	cout<<"opimtal total cost from each period"<<endl;
 	print(Opt_cost,T);
-	cout<<"最优生产时的各阶段库存水平位:"<<endl;
+	cout<<"inventory for each period in the optimal production plan"<<endl;
 	print(I,T);
 
 }
@@ -183,12 +182,12 @@ public class SingleItemLS {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int T=12; // length of the planning horizon
-		double[] D={10,62,12,130,154,129,88,52,124,160,238,41};
-		double[] s={54,54,54,54,54,54,54,54,54,54,54,54};
-		double[] h={0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4};
+		int T = 12; // length of the planning horizon
+		double[] D = {10,62,12,130,154,129,88,52,124,160,238,41};
+		double[] s = {54,54,54,54,54,54,54,54,54,54,54,54};
+		double[] h = {0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4};
 
-		double[][] cost = new double[T][T];//任意两个周期间的成本，从一个周期启动生产，库存持续到另一个周期
+		double[][] cost = new double[T][T]; //the total cost in a production cycle from one period to another period
 		double[] OptCost = new double[T]; //记录从第一期到第T期的最优总成本
 		int[] Order = new int[T];  //从第一期到第T期的最优生产序列，用0-1表示，0表示该期不生产，1表示该期启动生产
 		double[] I = new double[T]; //记录每阶段的库存
