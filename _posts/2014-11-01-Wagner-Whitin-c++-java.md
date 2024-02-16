@@ -46,7 +46,7 @@ void main()
 {
 	double cost[T][T]; // the total cost in a production cycle from one period to another period
 	double Opt_cost[T];  //optimal total cost from one period to final period T
-	int Order[T];  // optimal production plan, bianry variables denoting whether to product in each period
+	int Order[T];  // optimal production plan, binary variables denoting whether to product in each period
 	double I[T];  // inventory on hand in each period
 
 	for (int i=0;i<T;i++)
@@ -54,7 +54,7 @@ void main()
 			cost[i][j]=INT_MAX;  // initializing costs
 
 
-	//compute costs for difference production cycles and optimal total cost
+	// compute costs for difference production cycles and optimal total cost
 	for (int i=0;i<T;i++)
 	{
 		if(i>0)
@@ -188,19 +188,19 @@ public class SingleItemLS {
 		double[] h = {0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4};
 
 		double[][] cost = new double[T][T]; //the total cost in a production cycle from one period to another period
-		double[] OptCost = new double[T]; //记录从第一期到第T期的最优总成本
-		int[] Order = new int[T];  //从第一期到第T期的最优生产序列，用0-1表示，0表示该期不生产，1表示该期启动生产
-		double[] I = new double[T]; //记录每阶段的库存
+		double[] OptCost = new double[T]; //optimal total cost from one period to final period T
+		int[] Order = new int[T];  // optimal production plan, binary variables denoting whether to product in each period
+		double[] I = new double[T]; // inventory on hand at each period
 
 		for (int i = 0; i < T; i++)
 			for (int j = 0; j < T; j++)
-				cost[i][j] = Double.MAX_VALUE;  //初试化成本
+				cost[i][j] = Double.MAX_VALUE;  // initialize costs
 
 
-		//计算两个周期内的成本，以及最优总成本序列
+		// compute costs for difference production cycles and optimal total cost
 		for (int i = 0; i < T; i++)
 		{
-			if(i > 0)  //记录从第1期到第i-1期的最优总成本
+			if(i > 0)  
 			{
 				double[] p = new double[T];
 				for (int j=0;j<T;j++)
@@ -220,7 +220,7 @@ public class SingleItemLS {
 					sum = sum - D[k];
 				}
 				if (i>0)
-					cost[i][j] = OptCost[i-1] + hSum + s[i];//得到第i期到第j期的最优总成本
+					cost[i][j] = OptCost[i-1] + hSum + s[i];
 				else
 					cost[i][j] = hSum + s[i];
 			}
@@ -259,7 +259,7 @@ public class SingleItemLS {
 			}
 		}
 
-		//根据最优生产序列得到每个阶段的库存，从前向后推
+		// get optimal inventory at each period by optimal production plan
 		i=0;
 		int index = 0;
 		while (index < T-1)
@@ -287,11 +287,11 @@ public class SingleItemLS {
 			i = index;
 		}
 
-		System.out.println("最优生产序列:");
+		System.out.println("optimal production plan:");
 		System.out.println(Arrays.toString(Order));
-		System.out.println("从第1期到各期的最优总成本:");
+		System.out.println("optimal total cost from each period:");
 		System.out.println(Arrays.toString(OptCost));
-		System.out.println("最优生产时的各阶段库存水平位:");
+		System.out.println("optimal inventory at each period:");
 		System.out.println(Arrays.toString(I));
 	}
 }
