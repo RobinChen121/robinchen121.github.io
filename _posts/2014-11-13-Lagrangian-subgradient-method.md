@@ -11,8 +11,8 @@ related_posts: true
 To some optimization problems with nonlinear constraints:
 
 $$
-\begin{align}
+\begin{align*}
 min\quad &f(x)\\
 s.t. \quad &g(x)\leq 0
-\end{align}
+\end{align*}
 $$
