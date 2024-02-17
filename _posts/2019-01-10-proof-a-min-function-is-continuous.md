@@ -131,14 +131,15 @@ $$
 |f(x)-f(x_0)|<2\max\{2\epsilon_1, 2\epsilon_2\}
 $$
 
-Let $$\max\{\epsilon_1, \epsilon_2\}=\epsilon$$, 
+Let $$\max\{\epsilon_1, \epsilon_2\}=\epsilon$$,
 
-we can get 
+we can get
 
 $$
- | f(x) - f(x_0) | < \epsilon 
-$$.  
+ | f(x) - f(x_0) | < \epsilon
+$$.
 
 The continuity of $$f(x)$$ is proved.
 
 <p style="text-align:right; font-size: 30px">&#9633;</p>
+$$
