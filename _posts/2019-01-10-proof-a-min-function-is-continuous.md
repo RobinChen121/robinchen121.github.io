@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Proof for the continuity of a min function.
+title: Proof for the continuity of a min function
 categories: ["optimization"]
 tags: ["continuity proof"]
 giscus_comments: true
