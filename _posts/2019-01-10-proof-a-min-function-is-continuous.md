@@ -15,7 +15,7 @@ $$
 
 $$g(x)$$ is continuous. $$x\geq 0, h(x)=ax+b, a\geq 1, b\geq 0$$. Prove $$f(x)$$ is continuous.
 
-<i>Proof </i>
+_Proof _
 
 For any $$x_0$$ in the domain of $$f(x)$$, we must prove that for any $$\epsilon>0$$, there exists $$\delta>0$$, such that when $$\|x-x_0\|<\delta$$,
 
@@ -63,11 +63,10 @@ $$
 Assume
 
 $$
-g(y^\ast_{0})=\min\limits_{x_0\leq y\leq h(x_0)}g(y)
-$$
-
-$$
-g(y^\ast_{\Delta})=\min\limits_{x_0-\delta\leq y\leq h(x_0+\delta)}g(y)
+\begin{align*}
+g(y^\ast_{0})&=\min\limits_{x_0\leq y\leq h(x_0)}g(y)\\
+g(y^\ast_{\Delta})&=\min\limits_{x_0-\delta\leq y\leq h(x_0+\delta)}g(y)
+\end{align*}
 $$
 
 For any $$x\in [x_0-\delta, x_0+\delta]$$,
@@ -76,9 +75,9 @@ $$
 g(y^\ast_{x})=\min\limits_{x\leq y\leq h(x)}g(y)
 $$
 
-Apparently, $$g(y^\ast_{\Delta})\leq g(y^\ast_{x})$$, $$g(y^\ast_{\Delta})\leq g(y^\ast_0)$$.
+Apparently, $$g(y^\ast_{\Delta})\leq g(y^\ast_{x}), g(y^\ast_{\Delta})\leq g(y^\ast_0)$$.
 
-And $$f(x)=g(y^\ast_x)$$, $$f(x_0)=g(y^\ast_0)$$.
+And $$f(x)=g(y^\ast_x), f(x_0)=g(y^\ast_0)$$.
 
 So,
 
@@ -98,7 +97,7 @@ In this case, $$\| g(y^\ast_x)-g(y^\ast_\Delta) \|=0$$.
 
 (b). $$y^\ast_\Delta\in [x-\delta, x]\subset [x_0-\delta, x_0+\delta]$$.
 
-In this case, let $$\delta\leq \delta_1$$, $$\| g(y^\ast_x)-g(y^\ast_\Delta) \|\leq \| g(x)-g(y^\ast_\Delta) \|<2\epsilon_1$$. (because of Eq. (3))
+In this case, let $$\delta\leq \delta_1, \| g(y^\ast_x)-g(y^\ast_\Delta) \|\leq \| g(x)-g(y^\ast_\Delta) \|<2\epsilon_1$$. (because of Eq. (3))
 
 (c). $$y^\ast_\Delta\in [h(x), h(x_0+\delta)]\subset [h(x_0-\delta), h(x_0+\delta)]$$.
 
@@ -128,7 +127,8 @@ Let $$\max\{\epsilon_1, \epsilon_2\}=\epsilon$$, we can get
 
 $$
 | f(x) - f(x_0) | < \epsilon
-$$.
+$$
 
 The continuity of $$f(x)$$ is proved.
-<p style="text-align:right; font-size: 30px">&#9633;</p>
+
+<p style="text-align:right;font-size:30px">&#9633;</p>
