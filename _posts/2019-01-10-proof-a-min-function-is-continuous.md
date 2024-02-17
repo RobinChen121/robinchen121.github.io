@@ -126,11 +126,10 @@ $$
 $$
 
 Eq. (6) can be written to be:
-
 $$
 |f(x)-f(x_0)|<2\max\{2\epsilon_1, 2\epsilon_2\}
 $$
 
-Let $$\max\{\epsilon_1, \epsilon_2\}=\epsilon$$, we can get $$ |f(x)-f(x_0)| < \epsilon$$. The continuity of $$f(x)$$ is proved.
+Let $$\max\{\epsilon_1, \epsilon_2\}=\epsilon$$, we can get $$\|f(x)-f(x_0)\| < \epsilon$$. The continuity of $$f(x)$$ is proved.
 
 <p style="text-align:right; font-size: 30px">&#9633;</p>
