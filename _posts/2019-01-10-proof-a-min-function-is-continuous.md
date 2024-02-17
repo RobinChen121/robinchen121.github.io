@@ -113,7 +113,7 @@ In this case, let $$\delta\leq \delta_2$$,
 
 $$\| g(y^\ast_x)-g(y^\ast_\Delta) \|\leq \| g(h(x))-g(y^\ast_\Delta) \|<2\epsilon_2$$ (according to Eq. (4)).
 
-Therefore, from the three cases, when $$\delta\leq\min\\{\delta_1, \delta_2\\}$$, we can get
+Therefore, from the three cases, when $$\delta\leq\min\{\delta_1, \delta_2\}$$, we can get
 
 $$
 | g(y^\ast_x)-g(y^\ast_\Delta) |<\max\{2\epsilon_1, 2\epsilon_2\}
