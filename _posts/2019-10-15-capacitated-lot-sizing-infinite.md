@@ -9,7 +9,7 @@ related_posts: true
 
 The paper "The infinite horizon periodic review problem with setup costs and capacity constraints: a partial characterization of the optimal policy" published in OR, 2004 is not easy for me to follow.
 
-I am puzzled by the definition of "piecewise concavity". This definition is used for proving the optimal order quantity continues to be an integer if the starting inventory level $$x$$ is an integer. In the paper, it says $$g_1(y)=L(y)+cy$$ is piecewise concave. <font color="#FF4500"> However, $$L(y)$$ is a convex function by assumption. Why is this convex function piecewise concave? </font>
+I am puzzled by the definition of "piecewise concavity". This definition is used for proving the optimal order quantity continues to be an integer if the starting inventory level $$x$$ is an integer. In the paper, it says $$g_1(y)=L(y)+cy$$ is piecewise concave. <font color="#FF4500"> However, \(L(y)\) is a convex function by assumption. Why is this convex function piecewise concave? </font>
 
 Then, this paper proposes a definition of $$(C, K)$$-convex. By the way, $$(C, K)$$-convex here is different from the CK-convexity in Gallego (2000).
 
