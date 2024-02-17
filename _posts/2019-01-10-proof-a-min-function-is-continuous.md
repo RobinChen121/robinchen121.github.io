@@ -13,7 +13,7 @@ $$
 f(x)=\min\limits_{x\leq y\leq h(x)}g(y)
 $$
 
-$$g(x)$$ is continuous. $$x\geq 0$$, $$h(x)=ax+b$$, $$a\geq 1, b\geq 0$$. Prove $$f(x)$$ is continuous.
+$$g(x)$$ is continuous. $$x\geq 0, h(x)=ax+b, a\geq 1, b\geq 0$$. Prove $$f(x)$$ is continuous.
 
 <i>Proof </i>
 
@@ -33,7 +33,7 @@ $$g(x)$$ is also continous on $$x=h(x_0)$$. There exists $$\delta_2$$, when $$\|
 
 $$|g(h(x))-g(h(x_0))|<\epsilon_2\tag{2}$$
 
-For any two number $$x_1$$, $$x_2$$ in the domain $$[x_0-\delta, x_0+\delta]$$, let $$\delta\leq \delta_1$$, we can get
+For any two number $$x_1, x_2$$ in the domain $$[x_0-\delta, x_0+\delta]$$, let $$\delta\leq \delta_1$$, we can get
 
 $$
 \begin{aligned}
@@ -42,7 +42,7 @@ $$
 \end{aligned}\tag{3}
 $$
 
-For any two number $$x_1$$, $$x_2$$ in the domain $$[x_0-\delta, x_0+\delta]$$, because $$h(x)=ax+b$$,
+For any two number $$x_1, x_2$$ in the domain $$[x_0-\delta, x_0+\delta]$$, because $$h(x)=ax+b$$,
 
 $$
 \begin{aligned}
@@ -132,4 +132,3 @@ $$.
 
 The continuity of $$f(x)$$ is proved.
 <p style="text-align:right; font-size: 30px">&#9633;</p>
-$$
