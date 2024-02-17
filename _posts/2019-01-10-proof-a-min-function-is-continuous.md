@@ -17,19 +17,6 @@ $$g(x)$$ is continuous. $$x\geq 0$$, $$h(x)=ax+b$$, $$a\geq 1, b\geq 0$$. Prove 
 
 <i>Proof </i>
 
-<!-- For any $x_0$, there are two cases according to whether $f(x_0)=g(x_0)$.
-
-1. $f(x_0)=g(x_0)$
-
-Because $g(x)$ is continuous. For $x\in[x_0-\delta, x_0+\delta]$, $|g(x)-g(x_0)|<\epsilon$. And by the definition of $f(x)$, $f(x)\leq g(x)$.
-
-   $$|f(x)-f(x_0)|=|f(x)-g(x_0)|\leq |g(x)-g(x_0)|<\epsilon$$
-
-
-2. $f(x_0)\neq g(x_0)$
-
-There must exist $s$, $x_0\leq s\leq h(x_0)$, such that $f(s)=g(x_0)$. Let $\delta=s-x_0$ -->
-
 For any $$x_0$$ in the domain of $$f(x)$$, we must prove that for any $$\epsilon>0$$, there exists $$\delta>0$$, such that when $$\|x-x_0\|<\delta$$,
 
 $$
@@ -41,10 +28,6 @@ Because $$g(x)$$ is continous, for any $$\epsilon_1>0$$, there exits $$\delta_1$
 $$
 |g(x)-g(x_0)|<\epsilon_1\tag{1}
 $$
-
-<!-- Because $h(x)$ is linear, it is also continuous. For any $\epsilon_2>0$, there exists $\delta_2$, when $|x-x_0|<\delta_2$,
-
-$$|h(x)-h(x_0)|<\epsilon_2\tag{2}$$ -->
 
 $$g(x)$$ is also continous on $$x=h(x_0)$$. There exists $$\delta_2$$, when $$\|h(x)-h(x_0)\|<\delta_2$$,
 
@@ -58,15 +41,6 @@ $$
 &\leq |g(x_1)-g(x_0)|+|g(x_0)-g(x_2)|<2\epsilon_1
 \end{aligned}\tag{3}
 $$
-
-<!-- In a similar way, for any two number $x_1$, $x_2$ in the domain $[x_0-\delta, x_0+\delta]$, we can get
-
-$$
-\begin{aligned}
-|h(x_1)-h(x_2)|&=|h(x_1)-h(x_0)+h(x_0)-h(x_2)|\\
-&\leq |h(x_1)-h(x_0)|+|h(x_0)-h(x_2)|<2\epsilon_2
-\end{aligned}\tag{5}
-$$ -->
 
 For any two number $$x_1$$, $$x_2$$ in the domain $$[x_0-\delta, x_0+\delta]$$, because $$h(x)=ax+b$$,
 
@@ -135,19 +109,7 @@ In this case, let $$\delta\leq \delta_1$$, $$\| g(y^\ast_x)-g(y^\ast_\Delta) \|\
 
 (c). $$y^\ast_\Delta\in [h(x), h(x_0+\delta)]\subset [h(x_0-\delta), h(x_0+\delta)]$$.
 
-<!-- In this case, select a $\delta$ satisfying $[h(x_0-\delta), h(x_0+\delta)]\subset [h(x_0)-\delta_2, h(x_0)+\delta_2]$. That is, according $h(x)=ax+b$,
-
-$$
-\begin{aligned}
-ax_0+b-\delta_2\leq &a(x_0-\delta)+b \\
-ax_0+b+\delta_2\geq &a(x_0+\delta)+b
-\end{aligned}
-$$ -->
-
 In this case, let $$\delta\leq \delta_2$$,
-
-<!-- becase $|h(x+\delta)-h(x)|<2\epsilon$,
-$$y^\ast_\Delta\in [h(x), h(x+\delta)]\subset [h(x), h(x)+2\epsilon]$$. -->
 
 $$\| g(y^\ast_x)-g(y^\ast_\Delta) \|\leq \| g(h(x))-g(y^\ast_\Delta) \|<2\epsilon_2$$ (according to Eq. (4)).
 
