@@ -305,7 +305,7 @@ $$
 
 <font color = "#FF4500">Very lengthy and complex proofs afterwards...</font>
 
-<p style="text-align:right;font-size:30px">&#9633;
+<p style="text-align:right;font-size:30px">&#9633;</p>
 
 My major concern:
 
