@@ -299,7 +299,7 @@ public class SingleItemLS {
 
 ### matlab codes
 
-````matlab
+```matlab
 function MyWW
 % x are binary variabes denoting whether to produce in each period
 % y are the production quantities in each period
@@ -391,7 +391,5 @@ for i=1:n
     fprintf('  %d',x(i));
 end
 fprintf('\n');
-
 end
 ```
-````
