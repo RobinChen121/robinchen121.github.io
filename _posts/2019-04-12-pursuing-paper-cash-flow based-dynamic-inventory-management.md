@@ -57,9 +57,9 @@ $$
 
 **Lemma 1** $$G(x,q,y)$$ is continuous and satisfies the following:
 
-> - It is concave in $q\in [0, \infty]$.
-> - It is increasing and concave in $x$, for $s>0$.
-> - It is increasing and concave in $y$, for all $s<p$.
+- It is concave in $$q\in [0, \infty]$$.
+- It is increasing and concave in $$x$$, for $$s>0$$.
+- It is increasing and concave in $$y$$, for all $$s<p$$.
 
 <i>Proof</i>
 
