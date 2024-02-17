@@ -4,7 +4,7 @@ title: A query about one paper
 date: 2018-11-28  20:30-0800
 categories: ["paper-reading"]
 giscus_comments: true
-tags: ["dynamic programming", "cash-flow inventory", "paper reading", "stochastic inventory"]
+tags: ["dynamic programming", "cash-flow inventory", "paper reading", "inventory"]
 related_posts: true
 featured: false
 ---

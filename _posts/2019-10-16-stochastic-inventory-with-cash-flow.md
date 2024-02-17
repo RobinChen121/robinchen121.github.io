@@ -1,12 +1,9 @@
 ---
+layout: post
 title: Digging into the paper "Dynamic Inventory Management with Cash Flow Constraints".
-categories:
-  - Paper reading
-excerpt: |
-  I am trying to fully understand the paper "Dynamic Inventory Management with Cash Flow Constraints"
-
-feature_image: "https://picsum.photos/2560/600?/?random"
-image: "https://picsum.photos/2560/600?/?random"
+categories: ["paper reading"]
+giscus_comments: true
+related_posts: true
 ---
 
 The paper "Dynamic Inventory Management with Cash Flow Constraints" published in Naval Research Logistics, 2008 gave a pioneering work on multi-period stochastic inventory problem with cash flow constraints.
@@ -20,9 +17,9 @@ V_N(x,w)=w+rx
 \end{cases}
 $$
 
-Now we need to prove the joint concavity of $V_n(x,w)$. This is by induction.
+Now we need to prove the joint concavity of $$V_n(x,w)$$. This is by induction.
 
-$V_n(x, w)$ is apparently jointly concave for $n=N$.
+$$V_n(x, w)$$ is apparently jointly concave for $$n=N$$.
 
 Assume $V_{n+1}(x, w)$ is jointly concave. We now prove the property for $n$. This is by proving the joint concavity of $V_{n+1}(x, y, w)$ in $x$, $y$ and $w$.
 
