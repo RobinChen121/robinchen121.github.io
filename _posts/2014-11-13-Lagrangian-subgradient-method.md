@@ -46,9 +46,3 @@ $$\hat{f}$$ is a feasible solution for $$f$$, and $$\lambda^k\leq 2$$ ($$\lambda
 It can be proven that the sequence $$f(x^k)$$ converges to $$f$$ either or converges to a point that $$f(x^k)\geq \hat{f}$$ .
 
 > In practical applications of the subgradient method, it is observed that for some mixed-integer programming problems, especially those with many relaxed inequality constraints, the method may not perform well. The dual gap is too large, and it seems that the parameter settings in the subgradient method rely heavily on empirical knowledge (sometimes combined with branch-and-bound techniques may reach better results).
-
-
-
-
-
-
