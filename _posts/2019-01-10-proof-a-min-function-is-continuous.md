@@ -133,7 +133,9 @@ $$
 
 Let $$\max\{\epsilon_1, \epsilon_2\}=\epsilon$$, we can get
 
-$$| f(x) - f(x_0) | < \epsilon$$.
+$$
+| f(x) - f(x_0) | < \epsilon
+$$.
 
 The continuity of $$f(x)$$ is proved.
 
