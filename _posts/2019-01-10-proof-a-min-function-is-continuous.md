@@ -138,6 +138,5 @@ $$
 $$.
 
 The continuity of $$f(x)$$ is proved.
-
 <p style="text-align:right; font-size: 30px">&#9633;</p>
 $$
