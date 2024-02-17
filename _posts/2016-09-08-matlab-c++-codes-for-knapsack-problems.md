@@ -1,21 +1,17 @@
 ---
 layout: post
-title: Proof for the continuity of a min function
-categories: ["optimization"]
-tags: ["continuity proof"]
+title: Matlab and C++ codes for dynamic programming to solve the knapsack problem
+categories: ["optimization", "c++", "matlab"]
+tags: ["knapsack", "dynamic programming", "c++", "matlab"]
 giscus_comments: true
 related_posts: true
 ---
 
-Assume a min real function is defined below:
+Knapsack Problem Description:
 
-$$
-f(x)=\min\limits_{x\leq y\leq h(x)}g(y)
-$$
+There are five items labeled a, b, c, d, e. Their weights are 2, 2, 6, 5, 4, and their values are 6, 3, 5, 4, 6, respectively. Now, you are given a knapsack with a capacity of 10. How can you maximize the total value of the items in the knapsack? (Assume that multiple instances of each item can be included)
 
-$$g(x)$$ is continuous. $$x\geq 0$$, $$h(x)=ax+b$$, $$a\geq 1, b\geq 0$$. Prove $$f(x)$$ is continuous.
-
-<i>Proof </i>
+Following the steps to solve dynamic programming problems, let's proceed step by step. Let $$c_i$$ represent the weights of the items, and $$v_i$$ represent their values.
 
 For any $$x_0$$ in the domain of $$f(x)$$, we must prove that for any $$\epsilon>0$$, there exists $$\delta>0$$, such that when $$\|x-x_0\|<\delta$$,
 
