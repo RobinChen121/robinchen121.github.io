@@ -1,12 +1,9 @@
 ---
+layout:post
 title: Pursuing the paper " Capacitated inventory problems with fixed order costs-some optimal policy structure"
-categories:
-  - Paper reading
-excerpt: |
-  I am trying to fully understand the paper "Capacitated inventory problems with fixed order costs: some optimal policy structure"
-
-feature_image: "https://picsum.photos/2560/600?/?random"
-image: "https://picsum.photos/2560/600?/?random"
+categories: ["paper reading"]
+giscus_comments: true
+related_posts: true
 ---
 
 Recently, one of my paper was rejected. I forgot to cite one important paper "Capacitated inventory problems with fixed order costs: some optimal policy structure" in EJOR (2000) by Gallego & Scheller-Wolf. Now I am digging into this paper.
@@ -19,19 +16,19 @@ In my opinion, the proofs for CK convexity in this paper can also hold for non-s
 
 # 1. Problem description
 
-$L(y)$ is the expected one-period holding/backorder cost.
+$$L(y)$$ is the expected one-period holding/backorder cost.
 
 $$
 L(y)=E[h(y-D)^++p(y-D)^-]
 $$
 
-$p$ is the unit backorder cost.
+$$p$$ is the unit backorder cost.
 
 $$
 J(y) = cy+L(y)
 $$
 
-It can be easily shown that $J(y)$ is convex. Also assume $J(y)\rightarrow \infty$ as $\|y\|\rightarrow\infty$ (for proving the convexity or CK convexity of a induction expression).
+It can be easily shown that $$J(y)$$ is convex. Also assume $$J(y)\rightarrow \infty$$ as $$\|y\|\rightarrow\infty$$ (for proving the convexity or CK convexity of a induction expression).
 
 The DP(dynamic programming model) of the problem is:
 
@@ -48,17 +45,19 @@ H_n(y) &=\inf_{y\in[x, x+C]}\{KI\{y>x\}+G_n(y)\}
 \end{aligned}
 $$
 
-$\alpha$ is the dicount factor and $I\\{A\\}$ is a unit step function.
+$$\alpha$$ is the dicount factor and $$I\{A\}$$ is a unit step function.
 
 # 2. CK-convexity
 
-**CK convex**: Given a non-negative $C$ and $K$, we call the function $G:\mathbb{R}\rightarrow \mathbb{R}$ CK-convex if for all $y$, $b>0$, $z\in[0, C]$，
+**CK convex**: Given a non-negative $$C$$ and $$K$$, we call the function $$G:\mathbb{R}\rightarrow \mathbb{R}$$ CK-convex if for all $$y$$, $$b>0$$, $$z\in[0, C]$$，
 
 $$K+G(y+z)\geq G(y)+\frac{z}{b}\{G(y)-G(y-b)\}$$
 
-**strong CK convex** Given a non-negative $C$ and $K$, we call the function $G:\mathbb{R}\rightarrow \mathbb{R}$ strong CK-convex if for all $y$, $b>0$, $a\geq 0$, $z\in[0, C]$，
+**strong CK convex** Given a non-negative $C$ and $K$, we call the function $$G:\mathbb{R}\rightarrow \mathbb{R}$$ strong CK-convex if for all $y$, $b>0$, $a\geq 0$, $$z\in[0, C]$$，
 
-$$K+G(y+z)\geq G(y)+\frac{z}{b}\{G(y-a)-G(y-a-b)\}$$
+$$
+K+G(y+z)\geq G(y)+\frac{z}{b}\{G(y-a)-G(y-a-b)\}
+$$
 
 When $a=0$, strong CK-convex is CK-convex.
 
@@ -348,4 +347,4 @@ $$
 
 Based on the above scenarios of $H(x+z)$, $H(x-a-b)$ and different bounds of $H(x)$, $H(x-a)$, the CK-convexity of $H$ is justified.
 
-$\Box$
+<p style="text-align:right;font-size:30px">&#9633;

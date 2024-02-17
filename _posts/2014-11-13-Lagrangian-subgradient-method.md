@@ -41,7 +41,7 @@ $$
 s^{k}=\lambda^{k}\frac{\widehat{f}-f(x^{k})}{\sum g^{2}(x^{k})}
 $$
 
-$$\hat{f}$$ is a feasible solution for $$f$$, and $$\lambda^k\leq 2$$ ($$\lambda$$can be initialized to 2, then updated to its half in each step).
+$$\hat{f}$$ is a feasible solution for $$f$$, and $$\lambda^k\leq 2$$ ($$\lambda$$ can be initialized to 2, then updated to its half in each step).
 
 It can be proven that the sequence $$f(x^k)$$ converges to $$f$$ either or converges to a point that $$f(x^k)\geq \hat{f}$$ .
 
