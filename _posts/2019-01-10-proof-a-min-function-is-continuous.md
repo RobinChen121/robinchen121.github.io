@@ -15,7 +15,7 @@ $$
 
 $$g(x)$$ is continuous. $$x\geq 0$$, $$h(x)=ax+b$$, $$a\geq 1, b\geq 0$$. Prove $$f(x)$$ is continuous.
 
-<i>Proof <\i>
+<i>Proof </i>
 
 <!-- For any $x_0$, there are two cases according to whether $f(x_0)=g(x_0)$.
 
@@ -50,7 +50,7 @@ $$g(x)$$ is also continous on $$x=h(x_0)$$. There exists $$\delta_2$$, when $$\|
 
 $$|g(h(x))-g(h(x_0))|<\epsilon_2\tag{2}$$
 
-For any two number $x_1$, $x_2$ in the domain $[x_0-\delta, x_0+\delta]$, let $\delta\leq \delta_1$, we can get
+For any two number $$x_1$$, $$x_2$$ in the domain $$[x_0-\delta, x_0+\delta]$$, let $$\delta\leq \delta_1$$, we can get
 
 $$
 \begin{aligned}
@@ -68,7 +68,7 @@ $$
 \end{aligned}\tag{5}
 $$ -->
 
-For any two number $x_1$, $x_2$ in the domain $[x_0-\delta, x_0+\delta]$, because $h(x)=ax+b$,
+For any two number $$x_1$$, $$x_2$$ in the domain $$[x_0-\delta, x_0+\delta]$$, because $$h(x)=ax+b$$,
 
 $$
 \begin{aligned}
@@ -77,7 +77,7 @@ a(x_0-\delta) +b\leq h(x_2)\leq a(x_0+\delta)+b
 \end{aligned}
 $$
 
-When $\delta\leq \delta_2$, then $h(x_1), h(x_2)\in[h(x_0)-\delta_2, h(x_0)+\delta_2]$, by Eq. (2), we can get
+When $$\delta\leq \delta_2$$, then $$h(x_1), h(x_2)\in[h(x_0)-\delta_2, h(x_0)+\delta_2]$$, by Eq. (2), we can get
 
 $$
 \begin{aligned}
@@ -94,7 +94,7 @@ We can also get
 
 $$|h(x+\delta)-h(x)|<2\epsilon\tag{2}$$
 
-Because $h(x)$ is linear, without losss of generallity, we asssume $h(x)=ax+b$,
+Because $$h(x)$$ is linear, without losss of generallity, we asssume $$h(x)=ax+b$$,
 
 $$|g(h(x+\delta))-g(h(x))|=|g(ax+b+a\delta)-g(ax+b)|<2a\epsilon\tag{3}$$ -->
 
@@ -103,13 +103,15 @@ $$g(y^\ast_{0})=\min\limits_{x_0\leq y\leq h(x_0)}g(y)$$
 
 $$g(y^\ast_{\Delta})=\min\limits_{x_0-\delta\leq y\leq h(x_0+\delta)}g(y)$$
 
-For any $x\in [x_0-\delta, x_0+\delta]$,
+For any $$x\in [x_0-\delta, x_0+\delta]$$,
 
-$$g(y^\ast_{x})=\min\limits_{x\leq y\leq h(x)}g(y)$$
+$$
+g(y^\ast_{x})=\min\limits_{x\leq y\leq h(x)}g(y)
+$$
 
-Apparently, $g(y^\ast_{\Delta})\leq g(y^\ast_{x})$, $g(y^\ast_{\Delta})\leq g(y^\ast_0)$.
+Apparently, $$g(y^\ast_{\Delta})\leq g(y^\ast_{x})$$, $$g(y^\ast_{\Delta})\leq g(y^\ast_0)$$.
 
-And $f(x)=g(y^\ast_x)$, $f(x_0)=g(y^\ast_0)$.
+And $$f(x)=g(y^\ast_x)$$, $$f(x_0)=g(y^\ast_0)$$.
 
 So,
 
@@ -121,17 +123,17 @@ $$
 \end{aligned}\tag{5}
 $$
 
-According the location of $y^\ast_\Delta$, there are three cases possible for $\| g(y^\ast_x)-g(y^\ast_\Delta) \|$ :
+According the location of $$y^\ast_\Delta$$, there are three cases possible for $$\| g(y^\ast_x)-g(y^\ast_\Delta) \|$$ :
 
-(a). $y^\ast_\Delta= y^\ast_x$, if $y^\ast_\Delta\in [x, h(x)]$.
+(a). $$y^\ast_\Delta= y^\ast_x$$, if $$y^\ast_\Delta\in [x, h(x)]$$.
 
-In this case, $\| g(y^\ast_x)-g(y^\ast_\Delta) \|=0$.
+In this case, $$\| g(y^\ast_x)-g(y^\ast_\Delta) \|=0$$.
 
-(b). $y^\ast_\Delta\in [x-\delta, x]\subset [x_0-\delta, x_0+\delta]$.
+(b). $$y^\ast_\Delta\in [x-\delta, x]\subset [x_0-\delta, x_0+\delta]$$.
 
-In this case, let $\delta\leq \delta_1$, $\| g(y^\ast_x)-g(y^\ast_\Delta) \|\leq \| g(x)-g(y^\ast_\Delta) \|<2\epsilon_1$. (because of Eq. (3))
+In this case, let $$\delta\leq \delta_1$$, $$\| g(y^\ast_x)-g(y^\ast_\Delta) \|\leq \| g(x)-g(y^\ast_\Delta) \|<2\epsilon_1$$. (because of Eq. (3))
 
-(c). $y^\ast_\Delta\in [h(x), h(x_0+\delta)]\subset [h(x_0-\delta), h(x_0+\delta)]$.
+(c). $$y^\ast_\Delta\in [h(x), h(x_0+\delta)]\subset [h(x_0-\delta), h(x_0+\delta)]$$.
 
 <!-- In this case, select a $\delta$ satisfying $[h(x_0-\delta), h(x_0+\delta)]\subset [h(x_0)-\delta_2, h(x_0)+\delta_2]$. That is, according $h(x)=ax+b$,
 
@@ -142,24 +144,30 @@ ax_0+b+\delta_2\geq &a(x_0+\delta)+b
 \end{aligned}
 $$ -->
 
-In this case, let $\delta\leq \delta_2$,
+In this case, let $$\delta\leq \delta_2$$,
 
 <!-- becase $|h(x+\delta)-h(x)|<2\epsilon$,
 $$y^\ast_\Delta\in [h(x), h(x+\delta)]\subset [h(x), h(x)+2\epsilon]$$. -->
 
-$\| g(y^\ast_x)-g(y^\ast_\Delta) \|\leq \| g(h(x))-g(y^\ast_\Delta) \|<2\epsilon_2$ (according to Eq. (4)).
+$$\| g(y^\ast_x)-g(y^\ast_\Delta) \|\leq \| g(h(x))-g(y^\ast_\Delta) \|<2\epsilon_2$$ (according to Eq. (4)).
 
-Therefore, from the three cases, when $\delta\leq\min\\{\delta_1, \delta_2\\}$, we can get
+Therefore, from the three cases, when $$\delta\leq\min\\{\delta_1, \delta_2\\}$$, we can get
 
-$$| g(y^\ast_x)-g(y^\ast_\Delta) |<\max\{2\epsilon_1, 2\epsilon_2\}$$
+$$
+| g(y^\ast_x)-g(y^\ast_\Delta) |<\max\{2\epsilon_1, 2\epsilon_2\}
+$$
 
-Because $g(y^\ast_0)$ is a special situation of $g(y^\ast_x)$ when $x=x_0$, there is also
+Because $$g(y^\ast_0)$$ is a special situation of $$g(y^\ast_x)$$ when $$x=x_0$$, there is also
 
-$$|g(y^\ast_0)-g(y^\ast_\Delta)|<\max\{2\epsilon_1, 2\epsilon_2\}$$
+$$
+|g(y^\ast_0)-g(y^\ast_\Delta)|<\max\{2\epsilon_1, 2\epsilon_2\}
+$$
 
 Eq. (6) can be written to be:
 
-$$|f(x)-f(x_0)|<2\max\{2\epsilon_1, 2\epsilon_2\}$$
+$$
+|f(x)-f(x_0)|<2\max\{2\epsilon_1, 2\epsilon_2\}
+$$
 
-Let $\max\\{\epsilon_1, \epsilon_2\\}=\epsilon$, we can get $|f(x)-f(x_0)|<\epsilon$. The continuity of $f(x)$ is proved.
-$$\hspace{300pt}\Box$$
+Let $$\max\\{\epsilon_1, \epsilon_2\\}=\epsilon$$, we can get $$|f(x)-f(x_0)|<\epsilon$$. The continuity of $f(x)$$ is proved.
+<p style="text-align:right">&#9633;</p>

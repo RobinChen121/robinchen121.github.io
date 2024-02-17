@@ -1,19 +1,16 @@
 ---
+layout: post
 title: Pursuing the paper " cash-flow based dynamic inventory management"
-categories:
-  - Paper reading
-excerpt: |
-  I am trying to fully understand the paper "cash-flow based dynamic inventory management"
-
-feature_image: "https://picsum.photos/2560/600?/?random"
-image: "https://picsum.photos/2560/600?/?random"
+categories: ["paper reading"]
+giscus_comments: true
+related_posts: true
 ---
 
 This paper is written by Katehakis et al. (2016). Its main difference with Chao et al. (2008) and Gong et al. (2014) is its considering of non-stationary demand.
 
 ### 1. Problem description
 
-Inventory-cash state $(x_n, y_n)$, where $x_n$ the initial inventory in period $n$, and $y_n$ denotes the amount of product that can be purchased using all the available cash $\gamma_n$ ($\gamma_n=cy_n$).
+Inventory-cash state $$(x_n, y_n)$$, where $$x_n$$ the initial inventory in period $$n$, and $y_n$ denotes the amount of product that can be purchased using all the available cash $\gamma_n$ ($\gamma_n=cy_n$).
 
 The cash flow fron inventory operations ($D_n$ is the random demand):
 
@@ -123,9 +120,9 @@ end
 ```
 
 The picture:
-![](https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/_posts/pics/partialGq.png)
+![](https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/partialGq.png)
 
-Since $G(x,y,q)$ is continuous, we can conduct the optimal ordering policy below:
+Since $$G(x,y,q)$$ is continuous, we can conduct the optimal ordering policy below:
 
 $$
 q^\ast=\begin{cases}
