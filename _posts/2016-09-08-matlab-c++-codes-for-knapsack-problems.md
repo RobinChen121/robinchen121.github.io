@@ -5,6 +5,8 @@ categories: ["optimization", "c++", "matlab"]
 tags: ["knapsack", "dynamic programming", "c++", "matlab"]
 giscus_comments: true
 related_posts: true
+toc:
+  beginning: true
 ---
 
 Knapsack Problem Description:
@@ -43,7 +45,7 @@ $$
 S_{i+1}=S_{i}-c_{i}x_{i}
 $$
 
-Optimal Profit Function:
+**Optimal Profit Function:**
 
 $$
 \mathop{f}(S_{i})
@@ -51,7 +53,7 @@ $$
 
 Represents, when examining the $$i_{th}$$ item, the maximum value achievable by including items $$i, i+1,\dots,5$$ in the knapsack with remaining capacity $$S_i$$.
 
-Optimal Profit Function Transition Equation:
+**Optimal Profit Function Transition Equation:**
 
 $$
 \mathop{f}\limits_{c_{i}x_{i}\leq S_{i}}(S_{i})= \begin{cases} v_{i}x_{i}+f(S_{i+1})\quad &i=1,2,\dots 4\ v_{i}x_{i}\quad &i=5 \end{cases}
