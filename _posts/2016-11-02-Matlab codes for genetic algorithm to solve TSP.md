@@ -4,12 +4,17 @@ title: Genetic algorithm in matlab to solve travelling salesman problem
 categories: ["optimization", "matlab"]
 giscus_comments: true
 tags: ["genetic algorithm", "matlab", "TSP"]
+thumbnail: assets/img/tsp.png
 related_posts: true
 ---
 
 When learning heuristic algorithms, the Traveling Salesman Problem (TSP) serves as a classic example. Among them, genetic algorithms can be employed to solve this problem. Genetic algorithms, being an evolutionary algorithm, do not guarantee obtaining the optimal solution due to their heuristic nature. The effectiveness of the solution is influenced by factors such as the selection of the initial population, encoding method, selection method, and crossover-mutation rules.
 
 During learning, the teacher somehow found a very rudimentary program. I corrected numerous errors, added some comments for better understanding, and incorporated additional code to enhance the program's perfection. This code dynamically displays the route for each generation, providing a very intuitive visualization! (Note: For a general TSP problem, it has been observed that by formulating it as an integer programming problem and using the callback method in mathematical programming solver software like Gurobi, even for large-scale problems (75 cities), the optimal solution can be obtained within 1 second. In such cases, using heuristic algorithms may not be necessary. Refer to the website: <a href="https://www.gurobi.com/resource/traveling-salesman-problem/">https://www.gurobi.com/resource/traveling-salesman-problem/)</a>
+
+A result picture for one case:
+
+![](https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/tsp.png)
 
 ```matlab
 function GaTSPChen
