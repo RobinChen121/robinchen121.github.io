@@ -300,10 +300,10 @@ public class SingleItemLS {
 
 ````matlab
 function MyWW
-% x表示各阶段生产决策，为0-1变量
-% y表示各阶段生产的数量
-% I为各阶段库存水平
-% I0 initial inventory level
+% x are binary variabes denoting whether to produce in each period
+% y are the production quantities in each period
+% I are the inventory in each period
+% I0 is the initial inventory
 
 I0=50;
 n=8;
