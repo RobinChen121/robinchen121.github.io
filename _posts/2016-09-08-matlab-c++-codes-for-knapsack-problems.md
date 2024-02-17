@@ -19,7 +19,7 @@ $$
 i=1,2,\dots,5
 $$
 
-Stage i represents the checking of the $$i_{th}$$ item.
+representing the checking of the $$i_{th}$$ item.
 
 **State variables:**
 
@@ -28,9 +28,3 @@ S_{i}\qquad i=1,2,\dots,5
 $$
 
 representing the remaining carrying capacity in the knapsack when examining the $$i_{th}$$ item. To solve a problem using dynamic programming, it is essential to ensure that the state space is finite.
-
-
-
-
-
-
