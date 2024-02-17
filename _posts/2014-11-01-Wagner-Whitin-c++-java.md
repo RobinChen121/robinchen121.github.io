@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C++ and Java codes for Wagner-Whitin algorithm
+title: C++, Java and Matlab codes for Wagner-Whitin algorithm
 date: 2014-11-01  16:52:24-0800
 categories: ["c++", "java", "inventory", "matlab"]
 tags: ["c++", "java", "lot sizing", "Wagner-Whitin", "matlab"]
@@ -296,6 +296,7 @@ public class SingleItemLS {
 	}
 }
 ```
+
 ### matlab codes
 
 ````matlab
@@ -308,12 +309,12 @@ function MyWW
 I0=50;
 n=8;
 
-% d=randi([5 25],1,n); 
-% S=randi([20 100],1,n); 
-% h=randi([5 20],1,n); 
-% c=randi([10 25],1,n); 
+% d=randi([5 25],1,n);
+% S=randi([20 100],1,n);
+% h=randi([5 20],1,n);
+% c=randi([10 25],1,n);
 
-d=[9,12,9,25,9,20,20,25]; 
+d=[9,12,9,25,9,20,20,25];
 S=[100,100,100,100,100,100,100,100];
 h=[5,5,5,5,5,5,5,5];
 c=10*ones(1,n);
@@ -364,7 +365,7 @@ while j>=1
     if I0<sum(d(1:index))
         x(index)=1;
         if i>1
-            y(index)=sum(d(index:j))-initial_I(index);            
+            y(index)=sum(d(index:j))-initial_I(index);
         else
             y(index)=sum(d(index:j))-initial_I(index);
         end
@@ -393,3 +394,4 @@ fprintf('\n');
 
 end
 ```
+````

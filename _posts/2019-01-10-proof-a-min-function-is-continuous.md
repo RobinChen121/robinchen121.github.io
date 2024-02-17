@@ -60,22 +60,15 @@ $$
 \end{aligned}\tag{4}
 $$
 
-<!-- Specially, for any two number $x_1$, $x_2$ in the domain $[x_0-\delta, x_0+\delta]$,
-
-$$|g(x_1)-g(x_2)|<2\epsilon\tag{1}$$
-
-We can also get
-
-$$|h(x+\delta)-h(x)|<2\epsilon\tag{2}$$
-
-Because $$h(x)$$ is linear, without losss of generallity, we asssume $$h(x)=ax+b$$,
-
-$$|g(h(x+\delta))-g(h(x))|=|g(ax+b+a\delta)-g(ax+b)|<2a\epsilon\tag{3}$$ -->
-
 Assume
-$$g(y^\ast_{0})=\min\limits_{x_0\leq y\leq h(x_0)}g(y)$$
 
-$$g(y^\ast_{\Delta})=\min\limits_{x_0-\delta\leq y\leq h(x_0+\delta)}g(y)$$
+$$
+g(y^\ast_{0})=\min\limits_{x_0\leq y\leq h(x_0)}g(y)
+$$
+
+$$
+g(y^\ast_{\Delta})=\min\limits_{x_0-\delta\leq y\leq h(x_0+\delta)}g(y)
+$$
 
 For any $$x\in [x_0-\delta, x_0+\delta]$$,
 
