@@ -13,7 +13,7 @@ There are five items labeled a, b, c, d, e. Their weights are 2, 2, 6, 5, 4, and
 
 Following the steps to solve dynamic programming problems, let's proceed step by step. Let $$c_i$$ represent the weights of the items, and $$v_i$$ represent their values.
 
-*Stages:*
+_Stages:_
 
 $$
 i=1,2,\dots,5
@@ -21,16 +21,10 @@ $$
 
 Stage i represents the checking of the $$i_{th}$$ item.
 
-*State variables:*
+_State variables:_
 
 $$
 S_{i}\qquad i=1,2,\dots,5
 $$
 
 representing the remaining carrying capacity in the knapsack when examining the $$i_{th}$$ item. To solve a problem using dynamic programming, it is essential to ensure that the state space is finite.
-
-
-
-
-
-
