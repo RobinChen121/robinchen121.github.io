@@ -14,7 +14,9 @@ During learning, the teacher somehow found a very rudimentary program. I correct
 
 A result picture for one case:
 
-![](https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/tsp.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/tsp.png" />
+</p>
 
 ```matlab
 function GaTSPChen
