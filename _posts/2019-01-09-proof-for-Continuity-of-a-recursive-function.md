@@ -34,4 +34,4 @@ The proof is by induction. Apparently $$f_{N+1}(x)$$ is continuous. Assume $$f_{
 
 Therefore, $$f_n(x)$$ is continuous on $$x$$.
 
-<p style="text-align: right">&#9633;</p>
+<p style="text-align: right, font-size: 30px">&#9633;</p>
