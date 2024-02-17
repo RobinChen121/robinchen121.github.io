@@ -126,7 +126,6 @@ $$
 $$
 
 Eq. (6) can be written to be:
-
 $$
 |f(x)-f(x_0)|<2\max\{2\epsilon_1, 2\epsilon_2\}
 $$
