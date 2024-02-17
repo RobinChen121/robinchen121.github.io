@@ -21,9 +21,9 @@ Now we need to prove the joint concavity of $$V_n(x,w)$$. This is by induction.
 
 $$V_n(x, w)$$ is apparently jointly concave for $$n=N$$.
 
-Assume $V_{n+1}(x, w)$ is jointly concave. We now prove the property for $n$. This is by proving the joint concavity of $V_{n+1}(x, y, w)$ in $x$, $y$ and $w$.
+Assume $$V_{n+1}(x, w)$$ is jointly concave. We now prove the property for $$n$$. This is by proving the joint concavity of $$V_{n+1}(x, y, w)$$ in $$x$$, $$y$$ and $$w$$.
 
-For any $(x_1, y_1, w_1)$, $(x_2, y_2, w_2)$, and $0\leq \lambda\leq 1$, $0\leq \overline{\lambda}\leq 1$, $\lambda+\overline{\lambda}=1$, we need to prove:
+For any $$(x_1, y_1, w_1)$$, $$(x_2, y_2, w_2)$, and $$0\leq \lambda\leq 1$$, $$0\leq \overline{\lambda}\leq 1$$, $$\lambda+\overline{\lambda}=1$$, we need to prove:
 
 $$
 \begin{align}
@@ -33,13 +33,13 @@ $$
 \end{align}
 $$
 
-Because of the convexity of $(y-d)^+$,
+Because of the convexity of $$(y-d)^+$$,
 
 $$
 (\lambda y_1+\overline{\lambda}y_2-d)^+\leq \lambda(y_1-d)^++\overline{\lambda}(y_2-d)^+
 $$
 
-Because of the concavity of $\min\{y, d\}$,
+Because of the concavity of $$\min\{y, d\}$$,
 
 $$
 p\min\{\lambda y_1+\overline{\lambda}y_2,d\}\geq \lambda p\min\{y_1, d\}+\overline{\lambda}p\min\{y_2, d\}
@@ -55,7 +55,7 @@ $$
 \end{align}
 $$
 
-Since $V_n(z, A-pz)$ is decreasing in $z$ (this is proved by that the domain of $y$ narrows as the increasing of $z$), we can obtain:
+Since $$V_n(z, A-pz)$$ is decreasing in $$z$$ (this is proved by that the domain of $$y$$ narrows as the increasing of $$z$$), we can obtain:
 
 $$
 \begin{align}
@@ -69,6 +69,6 @@ $$
 \end{align}
 $$
 
-The second inequality is justified by the concavity of $V_{n+1}(x, w)$ from assumption. (<font color = "#FF4500"> I am a little puzzled by this point. It may be a little too quick to reach this, but the conclusion is right. </font>)
+The second inequality is justified by the concavity of $$V_{n+1}(x, w)$$ from assumption. (<font color = "#FF4500"> I am a little puzzled by this point. It may be a little too quick to reach this, but the conclusion is right. </font>)
 
 Another method of proving concavity is through deducting the Heissian maxtrix. This is more complex.
