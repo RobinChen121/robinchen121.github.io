@@ -37,7 +37,7 @@ The following pictures graphically representing the saddle points of the two fun
   <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/saddle2.png" />
 </p>
 
-```python
+```matlab
 function SaddlePoint
 
 % f(x)=x^3
