@@ -3,7 +3,7 @@ layout: post
 title: Saddle point in optimization theory
 categories: ["optimization"]
 giscus_comments: true
-tags: ["sup", "inf", "max", "min"]
+tags: ["saddle point", "Hessian matrix", "indefinite matir"]
 related_posts: true
 thumbnail: assets/img/saddle2.png
 ---
