@@ -111,7 +111,6 @@ pagination:
 
     {% for post in postlist %}
 
-<!--
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% else %}
@@ -120,7 +119,6 @@ pagination:
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
-->
     <li>
 
 {% if post.thumbnail %}
