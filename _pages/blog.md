@@ -110,7 +110,7 @@ pagination:
     {% endif %}
 
     {% for post in postlist %}
-
+	continue
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% else %}
