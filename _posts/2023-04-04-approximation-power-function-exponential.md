@@ -6,19 +6,21 @@ giscus_comments: true
 tags: ["python", "power function", "exponential function", "exponential smoothing"]
 related_posts: true
 thumbnail: assets/img/powerfunction1.png
+toc:
+  beginning: true
 ---
 
 The power function $$(1+x)^\alpha$$ can be approximated by the exponential function $$e^{\alpha x}$$, and even further approximated as $$1+\alpha x$$. This approximation is encountered in the introduction of exponential smoothing methods in a book (Fundamentals of Supply Chain Theory).
 
 ### 1. $$(1+x)^{\alpha}\approx 1+\alpha x$$
 
-Expanding $(1+x)^\alpha$ around $x=0$ using Taylor series, we get
+Expanding $$(1+x)^\alpha$$ around $$x=0$$ using Taylor series, we get
 
 $$
 (1+x)^\alpha=1+\alpha x+\frac{\alpha(\alpha-1)}{2}x^2+\frac{\alpha(\alpha-1)(\alpha-2)}{6}x^3+\dots
 $$
 
-When $$|x|<1$$, the terms $$x^2, x^3,\dots$$ become smaller. If further $$|\alpha x| \ll 1$$ (indicating that $$|\alpha x|$$ is sufficiently smaller than 1), the terms on the right side of the equation become increasingly smaller, and we can omit the later terms. Therefore, $$(1+x)^{\alpha}\approx 1+\alpha x$$.
+When $$\lvert x\rvert <1$$, the terms $$x^2, x^3,\dots$$ become smaller. If further $$\lvert\alpha x\rvert \ll 1$$ (indicating that $$\lvert\alpha x\rvert$$ is sufficiently smaller than 1), the terms on the right side of the equation become increasingly smaller, and we can omit the later terms. Therefore, $$(1+x)^{\alpha}\approx 1+\alpha x$$.
 
 Although a rigorous proof for these two conditions is not found, it seems reasonable.
 
@@ -30,7 +32,7 @@ $$
 e{^\alpha x}=1+\alpha x+\frac{\alpha^2}{2}x^2+\frac{\alpha^3}{6}x^3+\dots
 $$
 
-When $$|x|$$ is small, $$(1+x)^\alpha$$ is close to $$e^{\alpha x}$$.
+When $$\lvert x\rvert$$ is small, $$(1+x)^\alpha$$ is close to $$e^{\alpha x}$$.
 
 In `exponential smoothing methods`, the weighted historical demand value at time $$i$$ is $$\alpha(1-\alpha)^i$$ can be approximated as $$\alpha e^{-\alpha I}$$. The following graphs illustrate the degree of approximation for these two functions.
 
@@ -48,7 +50,7 @@ In `exponential smoothing methods`, the weighted historical demand value at time
 
 From the graphs, it is evident that the approximation is quite close, especially when $$\alpha$$ is small.
 
-Code:
+Python codes:
 
 ```python
 import numpy as np
