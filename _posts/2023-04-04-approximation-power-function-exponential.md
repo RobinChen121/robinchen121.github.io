@@ -34,7 +34,7 @@ $$
 
 When $$\lvert x\rvert$$ is small, $$(1+x)^\alpha$$ is close to $$e^{\alpha x}$$.
 
-In `exponential smoothing methods`, the weighted historical demand value at time $$i$$ is $$\alpha(1-\alpha)^i$$ can be approximated as $$\alpha e^{-\alpha I}$$. The following graphs illustrate the degree of approximation for these two functions.
+In `exponential smoothing methods`, the weighted historical demand value at time $$i$$ is $$\alpha(1-\alpha)^i$$ can be approximated as $$\alpha e^{-\alpha i}$$. The following graphs illustrate the degree of approximation for these two functions.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/powerfunction1.png" />
