@@ -35,15 +35,15 @@ When $$|x|$$ is small, $$(1+x)^\alpha$$ is close to $$e^{\alpha x}$$.
 In `exponential smoothing methods`, the weighted historical demand value at time $$i$$ is $$\alpha(1-\alpha)^i$$ can be approximated as $$\alpha e^{-\alpha I}$$. The following graphs illustrate the degree of approximation for these two functions.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/powerfunction1" />
+  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/powerfunction1.png" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/powerfunction2" />
+  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/powerfunction2.png" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/powerfunction3" />
+  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/powerfunction3.png" />
 </p>
 
 From the graphs, it is evident that the approximation is quite close, especially when $$\alpha$$ is small.
