@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Genetic algorithm in matlab to solve travelling salesman problem
+date: 2016-11-02  19:27-0800
 categories: ["optimization", "matlab"]
 giscus_comments: true
 tags: ["genetic algorithm", "matlab", "TSP"]

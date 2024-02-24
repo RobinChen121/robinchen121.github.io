@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Digging into the paper "the infinite horizon periodic review problem with setup costs".
+title: Digging into the paper "the infinite horizon periodic review problem with setup costs"
+date: 2019-10-15  20:30-0800
 categories: ["paper reading"]
 tags: ["inventory"]
 giscus_comments: true

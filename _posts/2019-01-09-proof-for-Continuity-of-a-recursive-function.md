@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Proof for the continuity of an recursive function
+date: 2019-01-09  20:27-0800
 categories: ["paper reading"]
 tags: ["paper reading"]
 giscus_comments: true

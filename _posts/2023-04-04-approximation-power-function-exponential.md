@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Approximation of power function by exponential function
+date: 2023-04-04  20:30-0800
 categories: ["optimization"]
 giscus_comments: true
 tags: ["python", "power function", "exponential function", "exponential smoothing"]
