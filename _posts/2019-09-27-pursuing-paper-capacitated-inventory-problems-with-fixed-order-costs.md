@@ -46,7 +46,7 @@ H_n(y) &=\inf_{y\in[x, x+C]}\{KI\{y>x\}+G_n(y)\}
 \end{aligned}
 $$
 
-$$\alpha$$ is the dicount factor and $$I\{A\}$$ is a unit step function.
+$$\alpha$$ is the discount factor and $$I\{A\}$$ is a unit step function.
 
 # 2. CK-convexity
 
@@ -60,14 +60,14 @@ $$
 K+G(y+z)\geq G(y)+\frac{z}{b}\{G(y-a)-G(y-a-b)\}
 $$
 
-When $a=0$, strong CK-convex is CK-convex.
+When $$a=0$$, strong CK-convex is CK-convex.
 
 Properties of CK-convex:
 
-1.If $G$ is strong CK-convex, it is also DL-convex for any $0\leq D\leq C$ and $L\geq K$.
-2.If $G$ is convex, it is also strong CK-convex.
-3.If $G_1$ is strong CK-convex, and $G_2$ is strong CL-convex, then for $\alpha, \beta\geq 0$, $\alpha G_1+\beta G_2$ is strong $C(\alpha K+\beta L)$ convex.
-4.If $G$ is strong CK-convex and $X$ is a random variable such that $E[\|G(y-x)\|]<\infty$, then $E[\|G(y-x)\|]$ is strong CK convex.
+1.If $$G$$ is strong CK-convex, it is also DL-convex for any $$0\leq D\leq C$$ and $$L\geq K$$.
+2.If $$G$$ is convex, it is also strong CK-convex.
+3.If $$G_1$$ is strong CK-convex, and $$G_2$$ is strong CL-convex, then for $$\alpha, \beta\geq 0$$, $$\alpha G_1+\beta G_2$$ is strong $$C(\alpha K+\beta L)$$ convex.
+4.If $$G$$ is strong CK-convex and $$X$$ is a random variable such that $$E[\|G(y-x)\|]<\infty$$, then $$E[\|G(y-x)\|]$$ is strong CK convex.
 
 # 3.Optimal policy structure
 
@@ -93,7 +93,7 @@ s'&=\max\{x\leq S|A(x)\leq 0\}
 \end{aligned}
 $$
 
-Clearly $-\infty\leq s\leq s'\leq S$ (<font color="#FF4500"> so $s$ might not exist when it's $-\infty$, when $x<s$, it is always better to order $C$, when $x>s'$, it is always better to not order </font>) It is easy to understand $s$, $s'$ and the following lemma by drawing a picture.
+Clearly $$-\infty\leq s\leq s'\leq S$$ (<font color="#FF4500"> so $$s$$ might not exist when it's $$-\infty$$, when $$x<s$$, it is always better to order $$C$$, when $$x>s'$$, it is always better to not order </font>) It is easy to understand $$s$$, $$s'$$ and the following lemma by drawing a picture.
 
 Also define:
 
@@ -108,9 +108,9 @@ $$
 
 An important lemma below.
 
-**Lemma** Under the assumption $\|S\|$ is finite (guarantee the optimal point exist).
+**Lemma** Under the assumption $$\|S\|$$ is finite (guarantee the optimal point exist).
 
-1.$G$ is non-increasing on $(-\infty, s')$ and stricty decreasing on $(\infty, s)$. 2.$A(x)\geq 0, \forall x>s'$. (means it's always not to order when $x>s'$).
+1.$$G$$ is non-increasing on $$(-\infty, s')$$ and strictly decreasing on $$(\infty, s)$$. 2.$$A(x)\geq 0, \forall x>s'$$. (means it's always not to order when $$x>s'$$).
 3.Let
 
 $$H(x)=\inf_{x\leq y\leq x+C}\{K I\{y>x\}+G(y)\}=\min\{G(x), \tilde{G}(x)\}$$
@@ -126,12 +126,12 @@ G(x), & s'<x
 \end{cases}
 $$
 
-4.$H(x)$ is strong CK-convex.
+4.$$H(x)$$ is strong CK-convex.
 
 _Proof._
-1.for any two values $x_1$, $x_2$ and $s'>x_1>x_2$, by strong CK convexity,
+1.for any two values $$x_1$$, $$x_2$$ and $$s'>x_1>x_2$$, by strong CK convexity,
 
-Since $A(x)\leq 0$ when $x\leq s'$, let $z^\ast$ be the point where $G(s'+z^\ast)=\inf_{0\leq z\leq C} G(s'+z )$, so
+Since $$A(x)\leq 0$$ when $$x\leq s'$$, let $$z^\ast$$ be the point where $$G(s'+z^\ast)=\inf_{0\leq z\leq C} G(s'+z )$$, so
 
 $$K+ G(s'+z^\ast )\leq G(s')$$
 
@@ -147,9 +147,9 @@ $$
 G(x_1)\leq G(x_2)
 $$
 
-That is, $G$ is non-increasing on $(-\infty, s')$.
+That is, $$G$$ is non-increasing on $$(-\infty, s')$$.
 
-For $s>x_1>x_2$，since $A(x)\leq 0$ when $x< s$, let $z^\ast$ be the point where $G(x_1+z^\ast)=\inf_{0\leq z\leq C} G(s'+z )$, so
+For $$s>x_1>x_2$$，since $$A(x)\leq 0$$ when $$x< s$$, let $$z^\ast$$ be the point where $$G(x_1+z^\ast)=\inf_{0\leq z\leq C} G(s'+z )$$, so
 
 $$K+ G(x_1+z^\ast )< G(x_1)$$
 
@@ -165,53 +165,53 @@ $$
 G(x_1)< G(x_2)
 $$
 
-That is, $G$ is strictly decreasing on $(-\infty, s)$.
+That is, $$G$$ is strictly decreasing on $$(-\infty, s)$$.
 
-2.By definition, this property is true when $x\in(s', S]$, when $x>S$, for any $z\in[0, C]$, from CK convexity,
+2.By definition, this property is true when $$x\in(s', S]$$, when $$x>S$$, for any $$z\in[0, C]$$, from CK convexity,
 
 $$
 K+G(x+z)\geq G(x)+\frac{z}{x_1-x_2}(G(x)-G(S))
 $$
 
-Since $G(x)\geq G(S)$,
+Since $$G(x)\geq G(S)$$,
 
 $$
 K+G(x+z)\geq G(x)
 $$
 
-This leads to $A(x)\geq 0$.
+This leads to $$A(x)\geq 0$$.
 
-3.(1) Since $x<\min\{s'-C, s\}$, $x+C\leq s'$, because G is non-increasing in $(-\infty, s')$, $H(x)=G_C(x)$.
+3.(1) Since $$x<\min\{s'-C, s\}$$, $$x+C\leq s'$$, because G is non-increasing in $$(-\infty, s')$$, $$H(x)=G_C(x)$$.
 
-(2) When $x>s'$, since $A(x)\geq 0$, $H(x)=G(x)$.
+(2) When $$x>s'$$, since $$A(x)\geq 0$$, $$H(x)=G(x)$$.
 
-(3) When $\max\{s'-C, s\}\leq x\leq s'$, $s'\leq x+C$. $H(x)$ is the minimum value of $G(x)$ in the range $[x, x+C]$, so
+(3) When $$\max\{s'-C, s\}\leq x\leq s'$, $s'\leq x+C$$. $$H(x)$$ is the minimum value of $$G(x)$$ in the range $$[x, x+C]$$, so
 $$H(x)=\min\{G(x), \overline{G}(x)\}$$
 
-(4) When $\min\{s'-C, s\}\leq x<\max\{s'-C, s\}$, $x+C<s'$,
+(4) When $$\min\{s'-C, s\}\leq x<\max\{s'-C, s\}, x+C<s'$$,
 
-if $s'-C\geq s$, $s\leq x\leq s'-C$, $s+C\leq x+C\leq s'$, may order $C$ or not order, $H(x)=\min\{G(x), G_C(x)\}I^+$;
+if $$s'-C\geq s$$, $$s\leq x\leq s'-C$$, $$s+C\leq x+C\leq s'$$, may order $$C$$ or not order, $$H(x)=\min\{G(x), G_C(x)\}I^+$$;
 
-if $s'-C< s$, $x<s$, always order to the point in $[s', x+C]$, $H(x)=\overline{G}(x)I^-$.
+if $$s'-C< s, x<s$$, always order to the point in $$[s', x+C]$$, $$H(x)=\overline{G}(x)I^-$$.
 
-4.For three values $x+z$, $x$, $x-a$, $x-a-b$ in the domin.
+4.For three values $$x+z, x, x-a, x-a-b$$ in the domain.
 
-There are several scenarios according to the values of $H(x+z)$ and $H(x-a-b)$. Let $\Delta$:
+There are several scenarios according to the values of $$H(x+z)$$ and $$H(x-a-b)$$. Let $$\Delta$$:
 
 $$
 \Delta=K+H(x+z)-H(x)-\frac{z}{b}(H(x-a)-H(x-a-b))
 $$
 
-We need to prove that $\Delta\geq0$.
+We need to prove that $$\Delta\geq0$$.
 
-(1) $H(x+z)=G(x+z)$, $H(x-a-b)=G(x-a-b)$.
+(1) $$H(x+z)=G(x+z)$$, $$H(x-a-b)=G(x-a-b)$$.
 
 Since $H(x)=\min\{G(x), \tilde{G}(x)\}$, $H(x)\leq G(x)$; Similarly, $H(x-a)\leq G(x-a)$,
 $$\Delta\geq K+G(x+z)-G(x)-\frac{z}{b}(G(x-a)-G(x-a-b))\geq 0$$
 
-The above equation holds from the CK-convexity of $G$.
+The above equation holds from the CK-convexity of $$G$$.
 
-(2) There exists $u_1\in[0,C]$ and $u_2\in[0,C]$, where $H(x+z)=\tilde{G}(x+z)=K+G(x+z+u_1)$, $H(x-a-b)=\tilde{G}(x-a-b)=K+G(x-a-b+u_2)$.
+(2) There exists $$u_1\in[0,C]$ and $u_2\in[0,C]$$, where $$H(x+z)=\tilde{G}(x+z)=K+G(x+z+u_1)$$, $$H(x-a-b)=\tilde{G}(x-a-b)=K+G(x-a-b+u_2)$$.
 
 $$
 \begin{align}
@@ -219,13 +219,13 @@ $$
 \end{align}
 $$
 
-(a). $z+u_1\leq C$.
+(a). $$z+u_1\leq C$$.
 
-In this situation, $H(x)\leq \tilde{G}(x+z)$.
+In this situation, $$H(x)\leq \tilde{G}(x+z)$$.
 
-&nbsp;&nbsp;&nbsp;&nbsp; (I) $-b+u_2> 0$.
+&nbsp;&nbsp;&nbsp;&nbsp; (I) $$-b+u_2> 0$$.
 
-&nbsp;&nbsp;&nbsp;&nbsp; In this situation, $\tilde{G}(x-a-b)=K+G(x-a-b+u_2)\geq H(x-a)$, so
+&nbsp;&nbsp;&nbsp;&nbsp; In this situation, $$\tilde{G}(x-a-b)=K+G(x-a-b+u_2)\geq H(x-a)$$, so
 
 $$
 \begin{align}
@@ -234,9 +234,9 @@ $$
 \end{align}
 $$
 
-&nbsp;&nbsp;&nbsp;&nbsp; (II) $-b+u_2\leq 0$.
+&nbsp;&nbsp;&nbsp;&nbsp; (II) $$-b+u_2\leq 0$$.
 
-&nbsp;&nbsp;&nbsp;&nbsp; In this situation, since $H(x)\leq K+G(x+u_1)$, $H(x-a)\leq K+G(x-a)$,
+&nbsp;&nbsp;&nbsp;&nbsp; In this situation, since $$H(x)\leq K+G(x+u_1)$$, $$H(x-a)\leq K+G(x-a)$$,
 
 $$
 \begin{align}
@@ -247,9 +247,9 @@ $$
 \end{align}
 $$
 
-where $x' = x+u_1\geq z$ and $a'=a+u_1$, $b'=b-u_2$.
+where $$x' = x+u_1\geq z$$ and $$a'=a+u_1$$, $$b'=b-u_2$$.
 
-(b). $z+u_1> C$.
+(b). $$z+u_1> C$$.
 
 In this situation,
 
@@ -260,13 +260,13 @@ $$
 \end{align}
 $$
 
-&nbsp;&nbsp;&nbsp;&nbsp; (I) $-b+u_2\leq 0$.
+&nbsp;&nbsp;&nbsp;&nbsp; (I) $$-b+u_2\leq 0$$.
 
 $\Delta\geq 0$ is justified by the similar proof with the above.
 
-&nbsp;&nbsp;&nbsp;&nbsp; (II) $-b+u_2> 0$.
+&nbsp;&nbsp;&nbsp;&nbsp; (II) $$-b+u_2> 0$$.
 
-In this situation, $H(x-a)\leq K+G(x-a+u_2)$, $H(x)\leq H(x+C)$.
+In this situation, $$H(x-a)\leq K+G(x-a+u_2)$$, $$H(x)\leq H(x+C)$$.
 
 $$
 \begin{align}
@@ -276,9 +276,9 @@ $$
 \end{align}
 $$
 
-where $z'=z+u_1-C<z$, $a'=a+C-u_2$.
+where $$z'=z+u_1-C<z$$, $$a'=a+C-u_2$$.
 
-(3) $H(x+z)=K+G(x+z+u_1)$, $H(x-a-b)=G(x-a-b)$.
+(3) $$H(x+z)=K+G(x+z+u_1)$$, $$H(x-a-b)=G(x-a-b)$$.
 
 $$
 \begin{align}
@@ -286,7 +286,7 @@ $$
 \end{align}
 $$
 
-Since $H(x)\leq G(x+u_1)$, $H(x-a)\leq G(x-a)$.
+Since $$H(x)\leq G(x+u_1)$$, $$H(x-a)\leq G(x-a)$$.
 
 $$
 \begin{align}
@@ -296,9 +296,9 @@ $$
 \end{align}
 $$
 
-where $x'=x+u_1$, $a'=a+u_1$.
+where $$x'=x+u_1$, $a'=a+u_1$$.
 
-(4) $H(x+z)=G(x+z)$, $H(x-a-b)=K+G(x-a-b+u_2)$.
+(4) $$H(x+z)=G(x+z)$$, $$H(x-a-b)=K+G(x-a-b+u_2)$$.
 
 $$
 \begin{align}
@@ -306,9 +306,9 @@ $$
 \end{align}
 $$
 
-(a). If $H(x-a)-K-G(x-a-b+u_2)\leq 0$, since $K+G(x+z)-H(x)\geq 0(\because  z\in [0,C])$, $\Delta\geq 0$.
+(a). If $$H(x-a)-K-G(x-a-b+u_2)\leq 0$$, since $$K+G(x+z)-H(x)\geq 0(\because  z\in [0,C])$$, $$\Delta\geq 0$$.
 
-(b). If $H(x-a)-K-G(x-a-b+u_2)>0$,
+(b). If $$H(x-a)-K-G(x-a-b+u_2)>0$$,
 
 $$
 \begin{align}
@@ -318,7 +318,7 @@ $$
 
 There are two scenarios:
 
-&nbsp;&nbsp;&nbsp;&nbsp; (I) $b-u_2\geq 0$.
+&nbsp;&nbsp;&nbsp;&nbsp; (I) $$b-u_2\geq 0$$.
 
 $$
 \begin{align}
@@ -328,9 +328,9 @@ $$
 \end{align}
 $$
 
-where $b'=b-u_2\leq b$, $\Delta\geq 0$ according to the CK-convexity of $G$.
+where $$b'=b-u_2\leq b$$, $$\Delta\geq 0$$ according to the CK-convexity of $$G$$.
 
-&nbsp;&nbsp;&nbsp;&nbsp; (I) $b-u_2< 0$.
+&nbsp;&nbsp;&nbsp;&nbsp; (I) $$b-u_2< 0$$.
 
 $$
 \begin{align}
@@ -338,7 +338,7 @@ $$
 \end{align}
 $$
 
-Since $H(x-a)\leq K+G(x-a-b+u_2)$, from the assumption $H(x-a)-K-G(x-a-b+u_2)>0$, we know that $H(x-a)= K+G(x-a-b+u_2)$. (<font color="#FF4500"> this condition is very clear, I think it is not very necessary to give a corrigendum in 2016</font>)
+Since $$H(x-a)\leq K+G(x-a-b+u_2)$$, from the assumption $$H(x-a)-K-G(x-a-b+u_2)>0$$, we know that $H(x-a)= K+G(x-a-b+u_2)$. (<font color="#FF4500"> this condition is very clear, I think it is not very necessary to give a corrigendum in 2016</font>)
 
 $$
 \begin{align}
@@ -346,6 +346,6 @@ $$
 \end{align}
 $$
 
-Based on the above scenarios of $H(x+z)$, $H(x-a-b)$ and different bounds of $H(x)$, $H(x-a)$, the CK-convexity of $H$ is justified.
+Based on the above scenarios of $H(x+z)$, $H(x-a-b)$ and different bounds of $$H(x)$$, $$H(x-a)$$, the CK-convexity of $$H$$ is justified.
 
 <p style="text-align:right;font-size:30px">&#9633;
