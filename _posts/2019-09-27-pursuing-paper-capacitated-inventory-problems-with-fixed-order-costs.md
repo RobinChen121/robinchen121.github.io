@@ -1,6 +1,7 @@
 ---
 layout:post
 title: Pursuing the paper " Capacitated inventory problems with fixed order costs-some optimal policy structure"
+date: 2019-09-27  13:27-0800
 categories: ["paper reading"]
 giscus_comments: true
 related_posts: true

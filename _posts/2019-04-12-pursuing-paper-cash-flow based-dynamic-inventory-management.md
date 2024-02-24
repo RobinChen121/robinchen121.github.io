@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pursuing the paper " cash-flow based dynamic inventory management"
+date: 2019-04-12  10:27-0800
 categories: ["paper reading"]
 giscus_comments: true
 related_posts: true

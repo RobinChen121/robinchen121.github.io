@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Matlab and C++ codes for dynamic programming to solve the knapsack problem
+date: 2016-09-08  13:20-0800
 categories: ["optimization", "c++", "matlab"]
 tags: ["knapsack", "dynamic programming", "c++", "matlab"]
 giscus_comments: true

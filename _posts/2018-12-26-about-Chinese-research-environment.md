@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About Chinese research environment
+date: 2018-12-26  20:27-0800
 categories: ["academic life"]
 giscus_comments: true
 related_posts: true

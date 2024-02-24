@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Proof for the continuity of a min function
+date: 2019-01-10  21:27-0800
 categories: ["optimization"]
 tags: ["continuity proof"]
 giscus_comments: true

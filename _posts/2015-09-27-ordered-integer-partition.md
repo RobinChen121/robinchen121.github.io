@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Matlab codes for ordered integer partition
+date: 2015-09-27  18:27-0800
 categories: ["optimization", "matlab"]
 tags: ["matlab", "integer partition", "ordered"]
 giscus_comments: true

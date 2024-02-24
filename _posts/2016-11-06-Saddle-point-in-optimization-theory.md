@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Saddle point in optimization theory
+date: 2016-11-06  23:27-0800
 categories: ["optimization"]
 giscus_comments: true
-tags: ["saddle point", "Hessian matrix", "indefinite matir"]
+tags: ["saddle point", "Hessian matrix", "indefinite matirx"]
 related_posts: true
 thumbnail: assets/img/saddle2.png
 ---
