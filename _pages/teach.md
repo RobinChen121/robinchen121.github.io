@@ -43,7 +43,7 @@ Southwest University, China (2019-02--2023.12)
      <th style="text-align: center;">Type</th>
   </tr>
   <tr>
-    <td>Python programming</td>
+    <td>Python Programming</td>
     <td>2021,2023</td>
     <td style="text-align: center;">144</td>
     <td style="text-align: center;">106</td>
