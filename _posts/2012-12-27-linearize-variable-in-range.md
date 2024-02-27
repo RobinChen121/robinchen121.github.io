@@ -12,7 +12,7 @@ Occasionally, I encountered a linearization problem: a variable takes one value 
 
 If $$m_1 \leq x \leq m_2$$, then $$y = x$$; otherwise, $$y = 0$$.
 
-The linearization of this problem is as follows: introduce a binary variable $z$ and a sufficiently large constant $$M$$,
+The linearization of this problem is as follows: introduce a binary variable $$z$$ and a sufficiently large constant $$M$$,
 
 $$
 \begin{aligned}
