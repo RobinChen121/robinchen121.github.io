@@ -50,11 +50,11 @@ $$\alpha$$ is the discount factor and $$I\{A\}$$ is a unit step function.
 
 # 2. CK-convexity
 
-**CK convex**: Given a non-negative $$C$$ and $$K$$, we call the function $$G:\mathbb{R}\rightarrow \mathbb{R}$$ CK-convex if for all $$y$$, $$b>0$$, $$z\in[0, C]$$，
+**CK convex**: given a non-negative $$C$$ and $$K$$, we call the function $$G:\mathbb{R}\rightarrow \mathbb{R}$$ CK-convex if for all $$y$$, $$b>0$$, $$z\in[0, C]$$，
 
 $$K+G(y+z)\geq G(y)+\frac{z}{b}\{G(y)-G(y-b)\}$$
 
-**strong CK convex** Given a non-negative $C$ and $K$, we call the function $$G:\mathbb{R}\rightarrow \mathbb{R}$$ strong CK-convex if for all $y$, $b>0$, $a\geq 0$, $$z\in[0, C]$$，
+**Strong CK convex**: given a non-negative $$C$$ and $$K$$, we call the function $$G:\mathbb{R}\rightarrow \mathbb{R}$$ strong CK-convex if for all $$y, b>0, a\geq 0$$, $$z\in[0, C]$$，
 
 $$
 K+G(y+z)\geq G(y)+\frac{z}{b}\{G(y-a)-G(y-a-b)\}
@@ -93,7 +93,7 @@ s'&=\max\{x\leq S|A(x)\leq 0\}
 \end{aligned}
 $$
 
-Clearly $$-\infty\leq s\leq s'\leq S$$ (<font color="#FF4500"> so $$s$$ might not exist when it's $$-\infty$$, when $$x<s$$, it is always better to order $$C$$, when $$x>s'$$, it is always better to not order </font>) It is easy to understand $$s$$, $$s'$$ and the following lemma by drawing a picture.
+Clearly $$-\infty\leq s\leq s'\leq S$$ (so $$s$$ might not exist when it's $$-\infty$$, when $$x<s$$, it is always better to order $$C$$, when $$x>s'$$, it is always better to not order) It is easy to understand $$s$$, $$s'$$ and the following lemma by drawing a picture.
 
 Also define:
 
