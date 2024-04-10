@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-I have a passion for coding and mathematics, and I enjoy applying these skills to solve operational challenges in business through computer programming and mathematical modeling.
+I have a passion for coding and mathematics, and I enjoy learning and applying different methods/skills to solve business operational challenges through computer programming and mathematical modeling.
 
 <br>
 ### Reviewer activity
