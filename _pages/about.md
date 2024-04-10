@@ -31,7 +31,7 @@ My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_ch
 ### Research interests:
 
 - Inventory control
-- Supply chain financing
+- Supply chain management
 - Stochastic programming
 
 <br>
