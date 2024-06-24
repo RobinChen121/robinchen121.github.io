@@ -137,7 +137,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: robinchen121/robinchen121.github.io# <your-github-user-name>/<your-github-repo-name>
+  repo: robinchen121/robinchen121.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOLSWA9g # leave empty or specify your repo_id (see https://giscus.app/)
   category: Announcements # name of the category under which discussions will be created
   category_id: DIC_kwDOLSWA9s4CgWHu # leave empty or specify your category_id (see https://giscus.app/)
@@ -147,7 +147,7 @@ giscus:
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-  lang: en
+  lang: zh
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: Dr. Chen # put your disqus shortname
