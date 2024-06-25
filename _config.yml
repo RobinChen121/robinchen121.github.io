@@ -118,16 +118,6 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
-# -----------------------------------------------------------------------------
-# Jekyll Polyglot
-# -----------------------------------------------------------------------------
-
-languages: ["en", "zh"]
-default_lang: "en"
-exclude_from_localization: ["assets"]
-lang_from_path: true
-country_flag: false # set true for allowing flag symbol in language toggle
-parallel_localization: false
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -158,7 +148,7 @@ giscus:
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-  lang: zh
+  lang: en
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: Dr. Chen # put your disqus shortname
