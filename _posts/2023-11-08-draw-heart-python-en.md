@@ -8,6 +8,7 @@ tags: animated-heart, Python
 related_posts: true
 featured: true
 lang: zh-CN
+permalink: /about
 thumbnail: assets/img/heart.gif
 toc:
   beginning: true
