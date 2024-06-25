@@ -142,7 +142,6 @@ permalink: /blog/:year/:title/
 # Pagination
 pagination:
   enabled: true
-  title: ":title - pagination.page :num"
 
 related_blog_posts:
   enabled: true
