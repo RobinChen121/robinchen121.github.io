@@ -7,8 +7,6 @@ giscus_comments: true
 tags: animated-heart, Python
 related_posts: true
 featured: true
-lang: en
-permalink: /about
 thumbnail: assets/img/heart.gif
 toc:
   beginning: true
