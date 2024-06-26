@@ -185,7 +185,7 @@ body{
   text-align: center;
   line-height: 40px;
   border-radius: 80%;
-  color: #61b8b3;
+  color: #7ef7cb;
   font-size: 17px;
   box-shadow: 0 0 0 4px #69b8a6, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
