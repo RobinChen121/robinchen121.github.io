@@ -14,7 +14,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #  Hosted by <a href="https://pages.github.com/ƒ" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: python, stochastic inventory, optimization, statistics # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+# lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: me.jpg # ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://robinchen121.github.io # the base hostname & protocol for your site
