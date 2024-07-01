@@ -313,9 +313,9 @@ scholar:
 
   query: "@*"
   group_by: type # year
-  group_order: decending
+  group_order: depending
   type_order: [article, book, inproceedings]
-  type_aliases: { book: incollection }
+  type_aliases: { incollection: book }
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
