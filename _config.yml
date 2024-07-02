@@ -315,7 +315,7 @@ scholar:
   group_by: type # year
   order: descending
   type_order: [article, inproceedings, book]
-  type_aliases: {incollection: book}
+  type_aliases: { incollection: book }
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
