@@ -19,6 +19,24 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
+<div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+
+    <script type="text/javascript"
+            src=
+
+"https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+</script>
+
 I am a lecturer in the buesiness school of Brunel University London. Prior to this role, I served as a lecturer at Southwest University, China. I earned my PhD degree in Management Science and Engineering from Beihang University, China. During my academic journey, I had the privilege of being a visiting PhD student and a visiting scholar at the University of Edinburgh for two separate years.
 
 <br>
