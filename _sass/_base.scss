@@ -25,7 +25,6 @@ hr {
 
 body {
   font-size: 1.15rem;
-  top: 0;
 }
 
 table {
@@ -1107,4 +1106,10 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}
+
+.skiptranslate > iframe { 
+  height: 0 !important;
+  border-style: none;
+  box-shadow: none;
 }
