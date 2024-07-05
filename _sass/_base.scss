@@ -232,6 +232,7 @@ blockquote {
 // Navbar customization
 
 .navbar {
+  position: relative;
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
@@ -1106,8 +1107,4 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
-}
-
-#header {
-  position: relative !important;
 }
