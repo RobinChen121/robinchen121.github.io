@@ -25,6 +25,7 @@ hr {
 
 body {
   font-size: 1.15rem;
+  top: 0;
 }
 
 table {
@@ -1106,11 +1107,4 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
-}
-
-.goog-te-banner-frame.skiptranslate {
-  display: none !important;
-}
-body {
-  top: 0px !important;
 }
