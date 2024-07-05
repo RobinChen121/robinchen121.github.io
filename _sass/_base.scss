@@ -1107,9 +1107,3 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
-
-.skiptranslate > iframe {
-  height: 0 !important;
-  border-style: none;
-  box-shadow: none;
-}
