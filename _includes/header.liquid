@@ -50,15 +50,12 @@
           <div id="google_translate_element" style="margin: auto;"></div>
 
           <script type="text/javascript">
-                        function googleTranslateElementInit() {
-                          new google.translate.TranslateElement(
-                            { pageLanguage: 'en', autoDisplay: false, layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
-                            'google_translate_element'
-                          );
-            <!-- This will find the pop up and remove it from the page -->
-                var removePopup = document.getElementById('goog-gt-tt');
-                removePopup.parentNode.removeChild(removePopup);
-                        }
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement(
+                { pageLanguage: 'en', autoDisplay: false, layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
+                'google_translate_element'
+              );
+            }
           </script>
           <script
             type="text/javascript"
