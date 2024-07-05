@@ -38,6 +38,14 @@ body.sticky-bottom-footer {
   }
 }
 
+// Google translate popup remove
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
