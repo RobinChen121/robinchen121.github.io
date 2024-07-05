@@ -50,14 +50,17 @@
           <div id="google_translate_element" style="margin: auto;"></div>
 
           <script type="text/javascript">
-                                    function googleTranslateElementInit() {
-                                      new google.translate.TranslateElement(
-                                        { pageLanguage: 'en',
-            includedLanguages: "zh-CN,zh-TW,en,ja,ko,de,ru,fr,es,it,pt",
-            autoDisplay: false, layout: google.translate.TranslateElement.InlineLayout.SIMPLE },
-                                        'google_translate_element'
-                                      );
-                                    }
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement(
+                {
+                  pageLanguage: 'en',
+                  includedLanguages: 'zh-CN,zh-TW,en,ja,ko,de,ru,fr,es,it,pt',
+                  autoDisplay: false,
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                },
+                'google_translate_element'
+              );
+            }
           </script>
           <script
             type="text/javascript"
