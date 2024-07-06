@@ -27,11 +27,9 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 
-.goog-te-banner-frame.skiptranslate {
-  display: none !important;
-}
-body {
-  top: 0px !important;
+body.sticky-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
 }
 
 .container {
