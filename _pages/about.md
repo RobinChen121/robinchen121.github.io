@@ -50,13 +50,19 @@ Here are several coding/typesetting languages that I use for research frequently
 
 I have not been in the major of mathematics. However, I have been learning the following books for research.
 
-- _Fundamentals of supply chain theory. &nbsp;&nbsp; Snyder, Lawrence V., and Zuo-Jun Max Shen. John Wiley & Sons, second edition, 2019.
-- _Introduction to linear optimization. Bertsimas, Dimitris, and John N. Tsitsiklis. Vol. 6. Belmont, MA: Athena Scientific, 1997. &nbsp; <a href='https://robinchen121.github.io/manual-introduction-to-linear-optimization'>my notebook</a>
-- _Convex optimization. &nbsp;&nbsp; Boyd, Stephen, and Lieven Vandenberghe. Cambridge University press, 2004. &nbsp; <a href='https://robinchen121.github.io/manual-convex-optimization'>my notebook</a>
-- Stochastic Programming: Volume 10 (Handbooks in Operations Research and Management Science). &nbsp;&nbsp; Ruszczyński  Andrzej, and Alexander Shapiro. Elsevier, 2003.
-- _Introduction to stochastic programming. &nbsp;&nbsp; Birge, John R., and Francois Louveaux. Springer Science & Business Media, 2011.
-- _Foundations of stochastic inventory theory. &nbsp;&nbsp; Porteus, Evan L. Stanford University Press, 2002.
-- _Foundations of inventory management_. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
+- Fundamentals of supply chain theory. &nbsp;&nbsp; Snyder, Lawrence V., and Zuo-Jun Max Shen. John Wiley & Sons, second edition, 2019.
+
+- Introduction to linear optimization. Bertsimas, Dimitris, and John N. Tsitsiklis. Vol. 6. Belmont, MA: Athena Scientific, 1997. &nbsp; <a href='https://robinchen121.github.io/manual-introduction-to-linear-optimization'>my notebook</a>
+
+- Convex optimization. &nbsp;&nbsp; Boyd, Stephen, and Lieven Vandenberghe. Cambridge University press, 2004. &nbsp; <a href='https://robinchen121.github.io/manual-convex-optimization'>my notebook</a>
+
+- Stochastic Programming: Volume 10 (Handbooks in Operations Research and Management Science). &nbsp;&nbsp; Ruszczyński Andrzej, and Alexander Shapiro. Elsevier, 2003.
+
+- Introduction to stochastic programming. &nbsp;&nbsp; Birge, John R., and Francois Louveaux. Springer Science & Business Media, 2011.
+
+- Foundations of stochastic inventory theory. &nbsp;&nbsp; Porteus, Evan L. Stanford University Press, 2002.
+
+- Foundations of inventory management\_. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
 - ...
 
 <br>
