@@ -62,7 +62,7 @@ I have not been in the major of mathematics. However, I have been learning the f
 
 - Foundations of stochastic inventory theory. &nbsp;&nbsp; Porteus, Evan L. Stanford University Press, 2002.
 
-- Foundations of inventory management\_. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
+- Foundations of inventory management. &nbsp;&nbsp; Zipkin, Paul Herbert. McGraw-Hill press, 2000.
 - ...
 
 <br>
