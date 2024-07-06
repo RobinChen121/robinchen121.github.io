@@ -22,18 +22,12 @@ body.fixed-top-nav {
   padding-top: 56px;
 }
 
-body.sticky-top-nav {
-  // Add some padding for the nav-bar.
-  padding-top: 56px;
-}
-
 body.sticky-bottom-footer {
   // Remove padding below footer.
   padding-bottom: 0;
 }
 
-html.translated-ltr .navbar-inner,
-html.translated-ltr .navbar-inner {
+html.translated-ltr.body.nav.navbar.navbar-default.navbar-fixed-top {
   padding-top: 39px;
 }
 
