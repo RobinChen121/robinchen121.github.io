@@ -8,7 +8,7 @@ tags: ["Lipschitz continuous", "absolute continuous", "optimization"]
 related_posts: true
 featured: true
 katex: true
-thumbnail: assets/img/none-absolute-continous.png
+thumbnail: assets/img/none-absolute-continuous.png
 toc:
   beginning: true
 ---
@@ -40,7 +40,7 @@ For any real number $\epsilon > 0$ and any sequence of disjoint subintervals $(x
 An example of a function that is uniformly continuous but not absolutely continuous is $x / \sin(1/x)$. Its graph is:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/none-absolute-continous.png" />
+  <img src="https://raw.githubusercontent.com/RobinChen121/robinchen121.github.io/master/assets/img/none-absolute-continuous.png" />
 </p>
 
 For this function, one can find disjoint subintervals in the domain whose total length is less than a constant, but the total absolute deviation in all these subintervals can reach infinity (let $x_n = \frac{1}{2n\pi + \pi/2}$, $y_n = \frac{1}{2n\pi}$, $n \geq 1$).
