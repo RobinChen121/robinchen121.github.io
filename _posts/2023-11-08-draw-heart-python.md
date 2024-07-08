@@ -4,7 +4,7 @@ title: Draw animated hear by Python
 date: 2023-11-08  20:30-0800
 categories: python-practice
 giscus_comments: true
-tags: animated-heart, Python
+tags: ["animated heart", "python"]
 related_posts: true
 featured: true
 thumbnail: assets/img/heart.gif
