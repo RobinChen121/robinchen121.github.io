@@ -21,6 +21,7 @@ Another definition using neighborhoods:
 - For any real number $ \epsilon > 0 $, there exists a real number $ \delta > 0 $ such that whenever $ \|x - y\| < \delta $, we have $ \|f(x) - f(y)\| < \epsilon $.
 
 The Heine-Cantor theorem states:
+
 - <font color=red>If a function is continuous on a closed interval, then it is also uniformly continuous.</font>
 
 <br>
@@ -33,7 +34,6 @@ The intuitive meaning of ordinary continuity is:
 The definition of ordinary continuity by neighborhood:
 
 - For any real number $\epsilon > 0$ and any point $x$ in the domain, there exists a real number $\delta > 0$ such that whenever $\|x - y\| < \delta$, we have $\|f(x) - f(y)\| < \epsilon$, where $$y$$ is any point in the neighborhood of $x$.
-
 
 <br>
 ## Difference
