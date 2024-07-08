@@ -240,6 +240,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - Jekyll-katex
 
 # Sitemap settings
 defaults:
