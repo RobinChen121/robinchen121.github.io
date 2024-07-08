@@ -14,6 +14,7 @@ toc:
 ---
 
 ## Lipschitz Continuity
+
 The term "Lipschitz continuity" is frequently encountered. Lipschitz continuity is stronger than ordinary continuity; it not only requires the function to be continuous but also demands that the function's gradient is less than a positive real number.
 
 The definition for single-variable real functions can be:
@@ -27,12 +28,12 @@ $$
 For multivariable functions, it requires that the gradient with respect to any variable is less than or equal to $K$.
 
 ## Absolute Continuity
+
 Besides Lipschitz continuity, there is also absolute continuity, which not only requires uniform continuity but also that the function is Lebesgue integrable. The inclusion relationship among these different types of continuity on a set is:
 
 $$
 \text{Lipschitz continuous}\subset\text{absolute continuous}\subset\text{uniform continuous}\subset\text{ordinary continuous}
 $$
-
 
 The definition of absolute continuity is:
 
