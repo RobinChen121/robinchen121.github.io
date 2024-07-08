@@ -27,9 +27,10 @@ $$
 
 For multivariable functions, it requires that the gradient with respect to any variable is less than or equal to $K$.
 
+<br>
 ## Absolute Continuity
 
-Besides Lipschitz continuity, there is also absolute continuity, which not only requires uniform continuity but also that the function is Lebesgue integrable. The inclusion relationship among these different types of continuity on a set is:
+Besides Lipschitz continuity, there is also absolute continuity, which not only requires [uniform continuity](https://robinchen121.github.io/blog/2019/uniform-continuous/) but also that the function is Lebesgue integrable. The inclusion relationship among these different types of continuity on a set is:
 
 $$
 \text{Lipschitz continuous}\subset\text{absolute continuous}\subset\text{uniform continuous}\subset\text{ordinary continuous}

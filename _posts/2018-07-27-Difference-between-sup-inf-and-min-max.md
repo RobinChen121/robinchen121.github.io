@@ -6,6 +6,7 @@ categories: ["optimization"]
 giscus_comments: true
 tags: ["sup", "inf", "max", "min"]
 related_posts: true
+featured: true
 thumbnail: assets/img/sup.png
 ---
 
