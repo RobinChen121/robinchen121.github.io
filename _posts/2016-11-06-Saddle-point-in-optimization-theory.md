@@ -6,7 +6,6 @@ categories: ["optimization"]
 giscus_comments: true
 tags: ["saddle point", "Hessian matrix", "indefinite matirx"]
 related_posts: true
-featured: true
 thumbnail: assets/img/saddle2.png
 ---
 
