@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Branch and bound, branch and cut, branch and price
-date: 2024-04-11 
+date: 2024-04-11
 categories: optimization
 giscus_comments: true
 tags: ["branch and bound", "branch and bound", "branch and price"]
@@ -11,8 +11,6 @@ thumbnail: assets/img/branch-and-bound.jpg
 toc:
   beginning: true
 ---
-
-
 
 In combination optimization problems and mixed integer programming models, we frequently encounter these three terms: branch-and-bound, branch-and-cut, and branch-and-price. These terms can sometimes be confusing. This blog post aims to summarize them:
 
