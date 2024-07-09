@@ -6,14 +6,13 @@ categories: optimization
 giscus_comments: true
 tags: ["Lipschitz continuous", "absolute continuous", "optimization"]
 related_posts: true
-featured: true
 katex: true
 thumbnail: assets/img/none-absolute-continuous.png
 toc:
   beginning: true
 ---
 
-## Lipschitz Continuity
+## 1. Lipschitz Continuity
 
 The term "Lipschitz continuity" is frequently encountered. Lipschitz continuity is stronger than ordinary continuity; it not only requires the function to be continuous but also demands that the function's gradient is less than a positive real number.
 
@@ -28,7 +27,7 @@ $$
 For multivariable functions, it requires that the gradient with respect to any variable is less than or equal to $K$.
 
 <br>
-## Absolute Continuity
+## 2. Absolute Continuity
 
 Besides Lipschitz continuity, there is also absolute continuity, which not only requires [uniform continuity](https://robinchen121.github.io/blog/2019/uniform-continuous/) but also that the function is Lebesgue integrable. The inclusion relationship among these different types of continuity on a set is:
 
