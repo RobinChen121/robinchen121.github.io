@@ -35,7 +35,7 @@ $$
 \end{aligned}
 $$
 
-<font color="red">where $\text{conv}(S)$ denotes the convex hull of the set $S$.</font>The geometric meaning of this property seems relatively easy to understand: the optimal solution of a mixed-integer programming problem is always achieved at some vertex of the convex hull (a polyhedron) of its feasible region. 
+<font color="red">where $\text{conv}(S)$ denotes the convex hull of the set $S$.</font>The geometric meaning of this property seems relatively easy to understand: the optimal solution of a mixed-integer programming problem is always achieved at some vertex of the convex hull (a polyhedron) of its feasible region.
 
 Strict proofs can be found in the reference of Section 2.
 
@@ -84,7 +84,6 @@ This property is quite magical. The Lagrangian dual originally requires solving 
 ## 3. An Example
 Let $x_0$ be a known constant. The original problem is:
 
-
 $$
 \begin{align*}
 \min\limits_{y,z}\quad &y\\
@@ -97,7 +96,6 @@ $$
 
 Introducing a penalty parameter $\pi$, relaxing constraint (1), and utilizing the above property, we get the dual model:
 
-
 $$
 \begin{aligned}
 \max\limits_{\pi}\min\limits_{y,z}\quad &y-\pi(z-x_0)\\
@@ -105,7 +103,6 @@ $$
 &(y,z)\in\text{conv}(Q)\\
 \end{aligned}
 $$
-
 
 where $Q$ is the set $\\{(y,z)\mid 0\leq z\leq 2, y\in\\{0,1,2\\}\\}$, which actually consists of two line segments and one point. The convex hull $\text{conv}(Q)$ is a right triangle containing these two line segments and the point.
 
@@ -115,6 +112,7 @@ When $x_0=1$, the optimal solution of the original problem is 1, and the optimal
 &nbsp;
 
 ---
+
 References:
 
 [^1]: Conforti, Michele, et al. Integer programming. Springer International Publishing, 2014, pp: 322-323.
