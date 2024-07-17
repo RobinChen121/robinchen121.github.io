@@ -15,7 +15,7 @@ permalink: /journey/
       <section>
         <i class="icon fa fa-car"></i>
         <div class="details">
-          <span class="title" style="margin-left: auto;">1-3 July, 2024</span>
+          <span class="title">July, 2024</span>
         </div>
         <p>Attend Euro 2024 conference in Copenhagen, Denmark</p>
         <div class="bottom">
