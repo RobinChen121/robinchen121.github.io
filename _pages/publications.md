@@ -14,12 +14,12 @@ I have a passion for coding and mathematics, and I enjoy learning and applying d
 
 I regularly review research articles for the academic journals listed below:
 
-- European Journal of Operational Research (ABS 4)
-- OMEGA: the International Journal of Management Science (ABS 3)
-- International Journal of Production Research (ABS 3)
-- Computers & Operations Research (ABS 3)
-- Computers & Industrial Engineering (ABS 2)
-- 系统工程理论与实践
+- European Journal of Operational Research (ABS 4) &nbsp;&nbsp;&nbsp;&nbsp; 4
+- OMEGA: the International Journal of Management Science (ABS 3)&nbsp;&nbsp;&nbsp;&nbsp; 1
+- International Journal of Production Research (ABS 3)&nbsp;&nbsp;&nbsp;&nbsp; 4
+- Computers & Operations Research (ABS 3)&nbsp;&nbsp;&nbsp;&nbsp; 2
+- Computers & Industrial Engineering (ABS 2)&nbsp;&nbsp;&nbsp;&nbsp; 2
+- 系统工程理论与实践&nbsp;&nbsp;&nbsp;&nbsp; 1
 
 <br>
 ### Academic membership
