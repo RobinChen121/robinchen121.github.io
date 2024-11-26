@@ -29,7 +29,7 @@ pagination:
   </div>
   {% endif %}
 
-My Chinese blog website about math optimization/python/java/matlab/statistics/academic career reflections is [here](https://chenzhen.blog.csdn.net/), which has been viewed by 5.88 million times (data till Nov. 2024).
+My Chinese blog website about math optimization/python/java/matlab/statistics/academic career reflections is <a href="https://chenzhen.blog.csdn.net/">here</a>, which has been viewed by 5.88 million times (data till Nov. 2024).
 
 {% if site.display_tags or site.display_categories %}
 
