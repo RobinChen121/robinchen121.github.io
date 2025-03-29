@@ -104,15 +104,6 @@
             type="text/javascript"
             src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
           ></script>
-          <!-- 更改谷歌翻译的文本框语言 -->
-          <script>
-              setTimeout(() => {
-                  let langSpan = document.querySelector('.VIpgJd-ZVi9od-xl07Ob-lTBxed span');
-                  if (langSpan) {
-                      langSpan.innerText = 'En';
-                  }
-              }, 1000); <!-- 1秒后执行，确保元素已加载 -->
-          </script>
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
