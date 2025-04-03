@@ -336,7 +336,7 @@ enable_publication_thumbnails: true
 external_links:
   enabled: true
   rel: external nofollow noopener
-  target: https://robinchen121.github.io/onlinesolver/ # _blank
+  target: _blank
   exclude:
 
 # -----------------------------------------------------------------------------
