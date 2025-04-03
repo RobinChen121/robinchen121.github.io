@@ -116,6 +116,8 @@
           </li>
 
           <!-- Other pages -->
+          <!-- Substack -->
+          <li class="nav-item"><a class="nav-link" href="https://robinchen121.github.io/onlinesolver/">Solver</a></li>
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
@@ -167,8 +169,7 @@
             {% endif %}
           {% endfor %}
 
-            <!-- Substack -->
-            <li class="nav-item"><a class="nav-link" href="https://blog.aerospacenerd.com/">Solver</a></li>
+
 
             {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
