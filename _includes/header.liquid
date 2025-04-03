@@ -117,7 +117,8 @@
 
           <!-- Other pages -->
           <!-- Substack -->
-          <li class="nav-item"><a class="nav-link" href="https://robinchen121.github.io/onlinesolver/">Solver</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://robinchen121.github.io/onlinesolver/" target="_blank">Solver</a></li>
+
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
