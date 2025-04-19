@@ -276,8 +276,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["python", "matlab", "java", "inventory"] # these tags will be displayed on the front page of your blog
-display_categories: ["optimization", "statistics", "python"] # these categories will be displayed on the front page of your blog
+display_tags: ["optimization", "python", "java", "c/c++", "matlab"] # these tags will be displayed on the front page of your blog
+display_categories: ["operational research", "statistics", "coding", "paper/book reading"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
