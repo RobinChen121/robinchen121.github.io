@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linearize a variable in a range
-date: 2012-12-27  20:30-0800
+date: 2012-12-27  22:27:03-0800
 categories: ["optimization"]
 giscus_comments: true
 tags: [“linerization”, “range”]
