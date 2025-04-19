@@ -2,8 +2,9 @@
 layout: post
 title: Digging into the paper "Dynamic Inventory Management with Cash Flow Constraints"
 date: 2019-10-16  20:30-0800
-categories: ["paper reading"]
+categories: ["paper/book reading"]
 giscus_comments: true
+tags: ["cash flow", "inventory"]
 related_posts: true
 ---
 
