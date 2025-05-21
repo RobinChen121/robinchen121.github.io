@@ -2,7 +2,7 @@
 layout: post
 title: C++ may be slower than Java in recursion
 date: 2025-03-26 05:24:54-0800
-categories: ["c++", "java"]
+categories: ["coding", "operational research"]
 giscus_comments: true
 tags: ["c++", "java", "recursion"]
 related_posts: true
