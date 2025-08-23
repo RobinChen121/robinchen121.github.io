@@ -29,8 +29,8 @@ pagination:
   </div>
   {% endif %}
 
-My Chinese blog website about math optimization/c++/python/java/matlab/statistics/academic career 
-reflections is <a href="https://chenzhen.blog.csdn.net/">here</a>, which has been viewed by 
+My Chinese blog website about math optimization/c++/python/java/matlab/statistics/academic career
+reflections is <a href="https://chenzhen.blog.csdn.net/">here</a>, which has been viewed by
 <mark>6.13 million</mark> times (data till June 2025).
 
 {% if site.display_tags or site.display_categories %}
