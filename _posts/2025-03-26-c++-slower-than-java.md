@@ -8,13 +8,11 @@ tags: ["c++", "java", "recursion"]
 related_posts: true
 ---
 
-
 While implementing a dynamic programming solution in C++, I used a recursive function combined with an `unordered_map` to store intermediate results. Surprisingly, I found that in some cases, the C++ implementation ran slower than the Java version using `ConcurrentSkipListMap`—especially when the hash keys were composed of multiple floating-point numbers.
 
 After consulting a few AI tools, `Grok` provided the most insightful explanation, pointing out several potential causes:
 
 - **Hashing overhead**: When keys are combinations of floating-point numbers, computing their hashes can be computationally expensive. In recursive functions, this overhead accumulates quickly, especially when the key distribution is uneven.
-  
 - **Hash collision and performance degradation**: Tiny differences in floating-point values or clustered key distributions may lead to frequent hash collisions. This can degrade the average time complexity of operations (insert, lookup, delete) from $O(1)$ to $O(n)$.
 
 - **Memory management**: In C++, `unordered_map` may trigger costly memory reallocations due to rehashing during recursive calls—more so than the dynamic adjustment overhead of a skip list like `ConcurrentSkipListMap`.

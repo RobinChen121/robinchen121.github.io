@@ -10,14 +10,13 @@ toc:
   beginning: true
 ---
 
+Occasionally, I encountered a linearization problem where a variable takes one value in a certain region and another value elsewhere, i.e.,
 
+- If $ m_1 \leq x \leq m_2 $, then $ y = x $; otherwise, $ y = 0 $.
 
-Occasionally, I encountered a linearization problem where a variable takes one value in a certain region and another value elsewhere, i.e.,  
+The linearization of this problem is as follows:
 
-- If $ m_1 \leq x \leq m_2 $, then $ y = x $; otherwise, $ y = 0 $.  
-
-The linearization of this problem is as follows:  
-- Introduce a binary variable \( z \) and a sufficiently large constant \( M \).  
+- Introduce a binary variable \( z \) and a sufficiently large constant \( M \).
 
 \[
 \begin{aligned}
