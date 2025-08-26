@@ -37,13 +37,14 @@ My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_ch
 <br>
 ### Coding skills
 
-Here are several coding/typesetting languages that I use for research frequently.
+Here are several coding/typesetting languages that I use for research/teaching frequently.
 
 - Python
+- C++/C
 - Java
-- C++
-- Matlab
 - Cplex/Gurobi/Lingo
+- Javasript/Html/Css
+- Matlab
 - Latex
 
 <br>
