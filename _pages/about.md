@@ -43,7 +43,7 @@ Here are several coding/typesetting languages that I use for research/teaching f
 - C++/C
 - Java
 - Cplex/Gurobi/Lingo
-- Javasript/Html/Css
+- Javascript/Html/Css
 - Matlab
 - Latex
 
