@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 I am a lecturer in the buesiness school of Brunel University London. Prior to this role, I served as a lecturer at Southwest University, China. I earned my PhD degree in Management Science and Engineering from Beihang University, China. During my academic journey, I had the privilege of being a visiting PhD student and a visiting scholar at the University of Edinburgh for two separate years.
 
 <br>
-My primary research in recent years lies in cash-flow inventory management, where I leverage mathematical modeling and computer programming to address complex challenges. I also did some works in traditional inventory management and routing problems.
+I am passionate about coding and mathematics. In recent years, my primary research has focused on cash-flow inventory management, where I apply mathematical modeling and stochastic programming to tackle complex challenges. At present and in the coming years, my research will center on the inventory routing problem, with particular emphasis on data-driven methodologies (such as artificial intelligence) and stochastic programming.
 
 <br>
 My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_chenzhen_English.pdf'>CV</a>
