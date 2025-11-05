@@ -48,9 +48,9 @@ My publications including journal papers, books and some attended conferences ar
 
 - Zhang, R., Wang, J. and **Chen, Z.**, 2015. Tongfang Energy Engineering Technology Co., Ltd.—Energy Management Contract Service. In Manufacturing Servitization in the Asia-Pacific (pp. 251-286). Singapore: Springer Singapore.
 
-- Zhen Chen. [Data Science in Python](https://robinchen121.github.io/book-Python-Data-Science-en){:target="\_blank"}. (handouts for the course "Introduction to programming")
+- **Zhen Chen**. [Data Science in Python](https://robinchen121.github.io/book-Python-Data-Science-en){:target="\_blank"}. (handouts for the course "Introduction to programming")
 
-- Zhen Chen. [Solution manual](https://robinchen121.github.io/manual-introduction-to-linear-optimization){:target="\_blank"} of the book _Introduction to Linear Optimization_ (Dimitris Bertsimas and John N. Tsitsiklis, Athena Scientific, 1997). (Most of the solutions are collected from the internet and some are given by me)
+- **Zhen Chen**. [Solution manual](https://robinchen121.github.io/manual-introduction-to-linear-optimization){:target="\_blank"} of the book _Introduction to Linear Optimization_ (Dimitris Bertsimas and John N. Tsitsiklis, Athena Scientific, 1997). (Most of the solutions are collected from the internet and some are given by me)
 
 ### Conferences
 
