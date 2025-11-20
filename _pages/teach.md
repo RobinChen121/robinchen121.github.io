@@ -24,7 +24,7 @@ Brunel University, United Kingdom (2024.01--)
     <td>Business Modeling & Simulation in Supply Chains</td>
     <td>2024--</td>
     <td style="text-align: center;">32</td>
-    <td style="text-align: center;">86</td>
+    <td style="text-align: center;">121</td>
 <td style="text-align:center;">master</td>
   </tr>
 </table>
