@@ -9,17 +9,14 @@ nav_order: 1
 
 I have a passion for coding and mathematics, and I enjoy learning and applying different computer programming and mathematical modeling methods to solve business operational challenges.
 
-<br>
 My publications including journal papers, books and some attended conferences are following.
 
 <!-- _pages/publications.md -->
-{% comment %}
+<!-- {% comment %}
 <div class="publications">
 {% bibliography %}
 </div>
-{% endcomment %}
-
-
+{% endcomment %} -->
 
 ### Journal publications
 
@@ -68,20 +65,22 @@ My publications including journal papers, books and some attended conferences ar
   implementation of diﬀerent carbon policies. In International asia conference on industrial
   engineering & management innovation (pp. 1359–1367), Beijing, China. (EI) &nbsp;&nbsp; (ISBN-13: 9783642384448; DOI: 10.1007/978-3-642-38445-5-141)
 
-<br>
+
 ### Reviewer activity
 
 I regularly review research articles for the academic journals listed below:
 
-- European Journal of Operational Research (ABS 4) &nbsp;&nbsp;&nbsp;&nbsp; 4
-- OMEGA: the International Journal of Management Science (ABS 3)&nbsp;&nbsp;&nbsp;&nbsp; 1
-- International Journal of Production Research (ABS 3)&nbsp;&nbsp;&nbsp;&nbsp; 6
-- Computers & Operations Research (ABS 3)&nbsp;&nbsp;&nbsp;&nbsp; 2
-- Computers & Industrial Engineering (ABS 2)&nbsp;&nbsp;&nbsp;&nbsp; 2
-- IMA Journal of Management Mathematics (ABS 2)&nbsp;&nbsp;&nbsp;&nbsp; 1
-- 系统工程理论与实践&nbsp;&nbsp;&nbsp;&nbsp; 1
+|Journal Name|Review times|
+|--|:-:|
+|European Journal of Operational Research (ABS 4)|4|
+|OMEGA: the International Journal of Management Science|1|
+|International Journal of Production Research (ABS 3)|7|
+|Computers & Operations Research (ABS 3)|2|
+|Computers & Industrial Engineering (ABS 2)|1|
+|IMA Journal of Management Mathematics (ABS 2)|1|
+|系统工程理论与实践|1|
 
-<br>
+
 ### Academic membership
 
 - Member of the Institute of Mathematics and its Applications (IMA, UK)
