@@ -18,6 +18,7 @@ My publications including journal papers, books and some attended conferences ar
 </div>
 {% endcomment %} -->
 
+<br>
 ### Journal publications
 
 - **Chen, Z.*** and Archibald, T.W., 2024. Maximizing the survival probability in a cash flow inventory problem with a joint service level constraint. International Journal of Production Economics, 270, p.109191. (ABS3, SCI) &nbsp;&nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S0925527324000483" target="_blank">link</a> 
