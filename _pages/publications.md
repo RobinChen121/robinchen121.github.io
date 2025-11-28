@@ -17,7 +17,7 @@ My publications including journal papers, books and some attended conferences ar
 {% bibliography %}
 </div>
 {% endcomment %} -->
-
+<br>
 ### Journal publications
 
 - **Chen, Z.*** and Archibald, T.W., 2024. Maximizing the survival probability in a cash flow inventory problem with a joint service level constraint. International Journal of Production Economics, 270, p.109191. (ABS3, SCI) &nbsp;&nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S0925527324000483" target="_blank">link</a> 
@@ -41,6 +41,7 @@ My publications including journal papers, books and some attended conferences ar
 
 (\* is the corresponding author)
 
+<br>
 ### Books or chapters
 
 - Zhang, R., Wang, J. and **Chen, Z.**, 2015. Tongfang Energy Engineering Technology Co., Ltd.—Energy Management Contract Service. In Manufacturing Servitization in the Asia-Pacific (pp. 251-286). Singapore: Springer Singapore.
@@ -62,10 +63,10 @@ My publications including journal papers, books and some attended conferences ar
   business overdraft. In 8th international workshop on lot sizing (pp. 59–62). Glasgow, UK.
 
 - Chen, Z, & Zhao, Q\*. (2013). An analysis for multi plant location problem under concurrent
-  implementation of diﬀerent carbon policies. In International asia conference on industrial
+  implementation of different carbon policies. In International asia conference on industrial
   engineering & management innovation (pp. 1359–1367), Beijing, China. (EI) &nbsp;&nbsp; (ISBN-13: 9783642384448; DOI: 10.1007/978-3-642-38445-5-141)
 
-
+<br>
 ### Reviewer activity
 
 I regularly review research articles for the academic journals listed below:
@@ -80,7 +81,7 @@ I regularly review research articles for the academic journals listed below:
 |IMA Journal of Management Mathematics (ABS 2)|1|
 |系统工程理论与实践|1|
 
-
+<br>
 ### Academic membership
 
 - Member of the Institute of Mathematics and its Applications (IMA, UK)
