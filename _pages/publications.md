@@ -17,7 +17,7 @@ My publications including journal papers, books and some attended conferences ar
 {% bibliography %}
 </div>
 {% endcomment %} -->
-<br>
+
 ### Journal publications
 
 - **Chen, Z.*** and Archibald, T.W., 2024. Maximizing the survival probability in a cash flow inventory problem with a joint service level constraint. International Journal of Production Economics, 270, p.109191. (ABS3, SCI) &nbsp;&nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S0925527324000483" target="_blank">link</a> 
@@ -50,6 +50,7 @@ My publications including journal papers, books and some attended conferences ar
 
 - **Zhen Chen**. [Solution manual](https://robinchen121.github.io/manual-introduction-to-linear-optimization){:target="\_blank"} of the book _Introduction to Linear Optimization_ (Dimitris Bertsimas and John N. Tsitsiklis, Athena Scientific, 1997). (Most of the solutions are collected from the internet and some are given by me)
 
+<br>
 ### Conferences
 
 - Chen, Z.\*. (2024). Stochastic dual dynamic programming approach for a cash-flow inventory problem. n 33nd European Conference on Operational Research (EURO 2024). 30 Jun-3 Jul. Copenhagen, Denmark.
