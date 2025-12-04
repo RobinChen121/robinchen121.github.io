@@ -9,6 +9,8 @@ display_categories:
 horizontal: false
 ---
 
+- Brunel University, Mid and Early Career Award, 2026, Project No. 12334134, £1,100 (PI)
+
 - Youth Project of National Natural Science Foundation of China, " Data-driven demand forecasting, inventory and financing management and their integration research", 2022-2024, Project No. 72101213, $42, 000 (PI)
 
 国家自然科学基金青年项目，“数据驱动背景下的需求预测、库存融资决策及其集成研究"，2022-2024，项目编号：72101213，金额：30 万元，主持
