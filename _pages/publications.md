@@ -32,7 +32,7 @@ My publications including journal papers, books and some attended conferences ar
 - **Chen, Z.\*** and Zhang, R.Q., 2021. A cash‐constrained dynamic lot‐sizing problem with loss of goodwill and credit‐based loan. International Transactions in Operational Research, 28(5), pp.2841-2866. (ABS 1, SCI & SSCI)
   &nbsp;&nbsp;<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/itor.12675" target="_blank">link</a>
 
-- **Chen, Z.** and Zhang, R.Q.\*, 2018. A capital Flow-constrained lot-sizing problem with trade credit. Scientia Iranica, 25(5), pp.2775-2787. (SCI) &nbsp;&nbsp;<a href="http://scientiairanica.sharif.edu/article_4444.html" target="_blank">link</a>
+- **Chen, Z.** and Zhang, R.Q.\*, 2018. A capital Flow-constrained lot-sizing problem with trade credit. Scientia Iranica, 25(5), pp.2775-2787. (SCI)
 
 - **陈震\***, 张人千. (2025). 分别考虑订单贷款与信用贷款的库存融资决策问题研究. 运筹与管理, 34(11), 109-115.
 
