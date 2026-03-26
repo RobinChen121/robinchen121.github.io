@@ -34,7 +34,7 @@ My publications including journal papers, books and some attended conferences ar
 
 - **Chen, Z.** and Zhang, R.Q.*, 2018. A capital Flow-constrained lot-sizing problem with trade credit. Scientia Iranica, 25(5), pp.2775-2787. (SCI) &nbsp;&nbsp;<a href="http://scientiairanica.sharif.edu/article_4444.html" target="_blank">link</a>
 
-- **陈震**, 张人千*. (2025). 分别考虑订单贷款与信用贷款的库存融资决策问题研究. 运筹与管理, 34(11), 109-115.
+- **陈震***, 张人千*. (2025). 分别考虑订单贷款与信用贷款的库存融资决策问题研究. 运筹与管理, 34(11), 109-115.
 
 - **陈震**, 张人千*. (2019). 考虑资金借贷与资金约束的单产品批量问题. 系统工程学报, 34(02), 266-276+288. 
 
