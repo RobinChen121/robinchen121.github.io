@@ -25,11 +25,11 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.1}}px, (min-width: 276px)
-      10vw, 35vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.1 }}px, (min-width: 276px)
+                        10vw, 35vw"{% endcapture %}
           {%
-            include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
-            cache_bust = true
+            include figure.liquid path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
           %}
         {% endif %}
         {% if page.profile.more_info %}
@@ -66,11 +66,15 @@ layout: default
     {% endif %}
 
     <!-- Visitor map -->
-    <script
-      type="text/javascript"
-      src="//cdn.livetrafficfeed.com/static/3d-maps/live.v2.js?o=000080&amp;l=339966&amp;b=008000&amp;c=ff0000&amp;n=e61c1c&amp;root=0&amp;s=200"
-    ></script>
-    <noscript><a href="https://livetrafficfeed.com/3d-visitor-maps">Free 3D Visitor Maps</a></noscript>
+    <div style="display:flex; justify-content:center; align-items:center;">
+      <script
+        type="text/javascript"
+        src="//cdn.livetrafficfeed.com/static/3d-maps/live.v2.js?o=000080&l=339966&b=008000&c=ff0000&n=e61c1c&root=0&s=200"
+      ></script>
+      <noscript>
+        <a href="https://livetrafficfeed.com/3d-visitor-maps">Free 3D Visitor Maps</a>
+      </noscript>
+    </div>
 
     <!--
       <script
