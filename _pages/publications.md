@@ -21,18 +21,20 @@ My publications including journal papers, books and some attended conferences ar
 <br>
 ### Journal publications
 
-- **Chen, Z.\*** and Archibald, T.W., 2024. Maximizing the survival probability in a cash flow inventory problem with a joint service level constraint. International Journal of Production Economics, 270, p.109191. (ABS3, SCI) &nbsp;&nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S0925527324000483" target="_blank">link</a>
+- **Chen, Z.\*** and Archibald, T.W., 2026.Stochastic dual dynamic programming approach for cash-flow inventory problems with overdraft. *European Journal of Operational Research*. (ABS4, SCI) &nbsp;&nbsp;<a href="https://doi.org/10.1016/j.ejor.2026.04.003" target="_blank">link</a>
 
-- Rossi, R\*., **Chen, Z.** and Tarim, S.A., 2024. On the stochastic inventory problem under order capacity constraints. European Journal of Operational Research, 312(2), pp.541-555. (ABS4, SCI) &nbsp;&nbsp; <a href="https://doi.org/10.1016/j.ejor.2023.06.045" target="_blank">link</a>
+- **Chen, Z.\*** and Archibald, T.W., 2024. Maximizing the survival probability in a cash flow inventory problem with a joint service level constraint. *International Journal of Production Economics*, 270, p.109191. (ABS3, SCI) &nbsp;&nbsp;<a href="https://www.sciencedirect.com/science/article/pii/S0925527324000483" target="_blank">link</a>
 
-- **Chen, Z.\*** and Zhang, R.Q., 2024. A multi-period multi-product stochastic inventory problem with order-based loan. International Journal of Production Research, 62(22), pp.8129-8142. (ABS 3, SCI) &nbsp;&nbsp; <a href="https://doi.org/10.1080/00207543.2021.2006818" target="_blank">link</a>
+- Rossi, R\*., **Chen, Z.** and Tarim, S.A., 2024. On the stochastic inventory problem under order capacity constraints. *European Journal of Operational Research*, 312(2), pp.541-555. (ABS4, SCI) &nbsp;&nbsp; <a href="https://doi.org/10.1016/j.ejor.2023.06.045" target="_blank">link</a>
 
-- **Chen, Z.\*** and Rossi, R., 2021. A dynamic ordering policy for a stochastic inventory problem with cash constraints. Omega, 102, p.102378. (ABS 3, SCI & SSCI) &nbsp;&nbsp;<a href="https://doi.org/10.1016/j.omega.2020.102378" target="_blank">link</a>
+- **Chen, Z.\*** and Zhang, R.Q., 2024. A multi-period multi-product stochastic inventory problem with order-based loan. *International Journal of Production Research*, 62(22), pp.8129-8142. (ABS 3, SCI) &nbsp;&nbsp; <a href="https://doi.org/10.1080/00207543.2021.2006818" target="_blank">link</a>
 
-- **Chen, Z.\*** and Zhang, R.Q., 2021. A cash‐constrained dynamic lot‐sizing problem with loss of goodwill and credit‐based loan. International Transactions in Operational Research, 28(5), pp.2841-2866. (ABS 1, SCI & SSCI)
+- **Chen, Z.\*** and Rossi, R., 2021. A dynamic ordering policy for a stochastic inventory problem with cash constraints. *Omega*, 102, p.102378. (ABS 3, SCI & SSCI) &nbsp;&nbsp;<a href="https://doi.org/10.1016/j.omega.2020.102378" target="_blank">link</a>
+
+- **Chen, Z.\*** and Zhang, R.Q., 2021. A cash‐constrained dynamic lot‐sizing problem with loss of goodwill and credit‐based loan. *International Transactions in Operational Research*, 28(5), pp.2841-2866. (ABS 1, SCI & SSCI)
   &nbsp;&nbsp;<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/itor.12675" target="_blank">link</a>
 
-- **Chen, Z.** and Zhang, R.Q.\*, 2018. A capital Flow-constrained lot-sizing problem with trade credit. Scientia Iranica, 25(5), pp.2775-2787. (SCI)
+- **Chen, Z.** and Zhang, R.Q.\*, 2018. A capital Flow-constrained lot-sizing problem with trade credit. *Scientia Iranica*, 25(5), pp.2775-2787. (SCI)
 
 - **陈震\***, 张人千. (2025). 分别考虑订单贷款与信用贷款的库存融资决策问题研究. 运筹与管理, 34(11), 109-115.
 
