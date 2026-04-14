@@ -9,7 +9,7 @@ display_categories:
 horizontal: false
 ---
 
-- Brunel University, Mid and Early Career Award, 2026, Project No. 12334134, £1,100 (PI)
+- Brunel University, Mid and Early Career Academic Staff Research Support Scheme, 2026, Project No. 12334134, £1,100 (PI)
 
 - Youth Project of National Natural Science Foundation of China, " Data-driven demand forecasting, inventory and financing management and their integration research", 2022-2024, Project No. 72101213, $42, 000 (PI)
 
