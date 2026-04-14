@@ -24,8 +24,8 @@ I am a lecturer in the buesiness school of Brunel University London. Prior to th
 <br>
 I am passionate about coding and mathematics. In recent years, my primary research has focused on cash-flow inventory management, where I apply mathematical modeling and stochastic programming to tackle complex challenges. At present and in the coming years, my research will center on the inventory routing problem, with particular emphasis on data-driven methodologies (such as artificial intelligence) and stochastic programming.
 
-<br>
-My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_chenzhen_English.pdf'>CV</a>
+<!-- <br>
+My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_chenzhen_English.pdf'>CV</a> -->
 
 <br>
 ### Research interests:

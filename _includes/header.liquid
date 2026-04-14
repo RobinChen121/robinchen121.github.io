@@ -1,6 +1,10 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav
+    id="navbar"
+    class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    role="navigation"
+  >
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
@@ -51,40 +55,43 @@
 
           <style>
             .goog-te-gadget {
-              font-family: Roboto, "Open Sans", sans-serif !important;
-              text-transform: uppercase;
+                font-family: Roboto, "Open Sans", sans-serif !important;
+                text-transform: uppercase;
             }
+
             .goog-te-gadget-simple {
-              background-color: rgba(255, 255, 255, 0.2) !important;
-              border: 1px solid rgba(237, 230, 230, 0.5) !important;
-              padding: 8px !important;
-              border-radius: 4px !important;
-              font-size: 1rem !important;
-              line-height: 1rem !important;
-              display: inline-block;
-              cursor: pointer;
-              zoom: 1;
+                background-color: rgba(255, 255, 255, 0.2) !important;
+                border: 1px solid rgba(237, 230, 230, 0.5) !important;
+                padding: 8px !important;
+                border-radius: 4px !important;
+                font-size: 0.9rem !important;
+                line-height: 1rem !important;
+                display: inline-block;
+                cursor: pointer;
+                zoom: 1;
             }
 
             .goog-te-gadget-icon {
-              background-image: url(https://placehold.it/32) !important;
-              background-position: 0px 0px;
-              height: 0px !important;
-              width: 0px !important;
-              margin-right: 8px !important;
-              display: none;
+                background-image: url(https://placehold.it/32) !important;
+                background-position: 0px 0px;
+                height: 0px !important;
+                width: 0px !important;
+                margin-right: 8px !important;
+                display: none;
             }
 
             .VIpgJd-ZVi9od-ORHb-OEVmcd {
-                display: none; // add !important if required
-              }
+                display: none;
+            / / add !important if required
+            }
 
             .goog-te-banner-frame.skiptranslate {
                 display: none !important;
-                }
+            }
+
             body {
                 top: 0px !important;
-                }
+            }
           </style>
 
           <script type="text/javascript">
@@ -92,7 +99,7 @@
               new google.translate.TranslateElement(
                 {
                   pageLanguage: 'en',
-                  includedLanguages: 'zh-CN,zh-TW,en,ja,ko,de,ru,fr,es,it,pt,hi,ar',
+                  includedLanguages: 'zh-CN,zh-TW,en,ja,ko,de,ru,fr,es,it,pt,hi,ar,fa',
                   autoDisplay: false,
                   layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
                 },
@@ -104,6 +111,38 @@
             type="text/javascript"
             src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
           ></script>
+
+          <script>
+            // 更改谷歌翻译框显示的语言
+            setTimeout(() => {
+              //.VIpgJd-ZVi9od-xl07Ob-lTBxed：这是一个由谷歌自动生成的特定类名。它通常指向翻译小组件中那个可点击的链接元素 (<a>)
+              let langLink = document.querySelector('.VIpgJd-ZVi9od-xl07Ob-lTBxed'); // <a> 元素
+              // 在 <a> 标签内部查找第一个 <span>。谷歌通常把当前的语言名称（如 "English" 或 "中文"）放在这个 <span> 里
+              let langSpan = langLink ? langLink.querySelector('span') : null; // 获取第一个 <span>
+
+              if (!langSpan) return;
+
+              // 1️⃣ 读取 localStorage，恢复用户上次选择的语言
+              let savedLang = localStorage.getItem('selectedLanguage') || 'EN'; // 默认 "En"
+              langSpan.innerText = savedLang;
+
+              // 2️⃣ 监听 <span> 的变化
+              let observer = new MutationObserver(() => {
+                // 不再循环 mutations，直接获取最终态
+                let newLang = langSpan.innerText.trim();
+                if (newLang && newLang !== 'En') {
+                  localStorage.setItem('selectedLanguage', newLang);
+                }
+              });
+
+              // 监听 <span> 内部的文本变化
+              observer.observe(langSpan, {
+                childList: true, // 观察子节点变动
+                subtree: true, // 观察所有后代节点（非常重要，因为文字可能嵌套在深层）
+                characterData: true, // 观察节点内容变动
+              });
+            }, 1000); // 延迟 0.5 秒，确保 Google 翻译插件加载完成
+          </script>
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
@@ -128,7 +167,14 @@
                 {% endfor %}
 
                 <!-- Substack -->
-                <li class="nav-item"><a class="nav-link" href="https://robinchen121.github.io/online-solver/" target="_blank">Solver</a></li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://robinchen121.github.io/solver/"
+                    target="_blank"
+                    >Solver</a
+                  >
+                </li>
 
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
                   <a
@@ -146,14 +192,20 @@
                     {% endif %}
                   </a>
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="nav-link" href="https://robinchen121.github.io/book-Python-Data-Science-en/" target="_blank"
+                    <a
+                      class="nav-link"
+                      href="https://robinchen121.github.io/book-Python-Data-Science-en/"
+                      target="_blank"
                       >Book: Python Data Science</a
                     >
                     {% for child in p.children %}
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
+                        <a
+                          class="dropdown-item {% if page.title == child.title %}active{% endif %}"
+                          href="{{ child.permalink | relative_url }}"
+                        >
                           {{- child.title -}}
                         </a>
                       {% endif %}
