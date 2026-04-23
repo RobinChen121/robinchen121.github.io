@@ -12,11 +12,11 @@
                 Last updated: {{ 'now' | date: '%B %d, %Y' }}.
             {% endif %}
         </div>
-        <div class="mt-2">
-            <a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;">
-                渝ICP备2026007025号
-            </a>
-        </div>
+        {% comment %}<div class="mt-2">{% endcomment %}
+            {% comment %}<a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;">{% endcomment %}
+                {% comment %}渝ICP备2026007025号{% endcomment %}
+            {% comment %}</a>{% endcomment %}
+        {% comment %}</div>{% endcomment %}
     </footer>
 {% else %}
     <footer class="sticky-bottom mt-5" role="contentinfo">
