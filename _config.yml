@@ -10,7 +10,7 @@ email: chen.zhen5526@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-     备案号: <a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;">渝ICP备2026007025号.</a>
+     备案号: <a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;">渝ICP备2026007025号</a>.
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/ƒ" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
@@ -69,7 +69,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: robinchen121# your GitHub user name
+github_username: robinchen121 # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -259,7 +259,7 @@ sass:
 
 jekyll-minifier:
   exclude: ["robots.txt"]
-  uglifier_args:
+  uglifier_args: {}
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives

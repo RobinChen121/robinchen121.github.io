@@ -53,6 +53,8 @@ on:
 
 permissions:
   contents: write
+  pages: write      # 部署 Pages 所需
+  id-token: write   # 现代 GitHub 部署建议开启
 
 jobs:
   deploy:
@@ -87,3 +89,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          # 关键：添加下面这一行
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # 建议显式指定目标分支，通常是 gh-page
