@@ -425,6 +425,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  line-height: 1;
 
   .container {
     color: var(--global-footer-text-color);

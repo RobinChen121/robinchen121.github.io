@@ -29,6 +29,6 @@
 
 @each $name, $icon in $fa-brand-icons {
   .#{$fa-css-prefix}-#{$name}:before {
-    content: $icon;
+    content: unquote('"#{ $icon }"');
   }
 }
