@@ -7,6 +7,8 @@ dropdown: true
 children:
   - title: Academic journey
     permalink: /journey/
+  - title: Blog
+    permalink: /blog/
 ---
 
 <!--
