@@ -80,7 +80,7 @@ I regularly review research articles for the academic journals listed below:
 | Journal Name                                           | Review times |
 | ------------------------------------------------------ | :----------: |
 | European Journal of Operational Research (ABS 4)       |      4       |
-| OMEGA: the International Journal of Management Science |      1       |
+| OMEGA: the International Journal of Management Science (ABS 3) |      1       |
 | International Journal of Production Research (ABS 3)   |      8       |
 | Computers & Operations Research (ABS 3)                |      2       |
 | Computers & Industrial Engineering (ABS 2)             |      1       |
