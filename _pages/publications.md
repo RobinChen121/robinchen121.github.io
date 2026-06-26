@@ -58,10 +58,12 @@ My publications including journal papers, books and some attended conferences ar
 <br>
 ### Conferences
 
-- Chen, Z.\*. (2024). Stochastic dual dynamic programming approach for a cash-flow inventory problem. 33rd European Conference on Operational Research (EURO 2024). 30 Jun-3 Jul. Copenhagen, Denmark.
+- Chen, Z.\*. (2026). Workforce planning and Binomial K convexity. The 24th Conference of the International Federation of Operational Research Societies (IFORS 2026). 12 July-17 July. Vienna, Austria.
+
+- Chen, Z.\*. (2024). Stochastic dual dynamic programming approach for a cash-flow inventory problem. The 33rd European Conference on Operational Research (EURO 2024). 30 Jun-3 Jul. Copenhagen, Denmark.
 
 - Chen, Z.\*, Rossi, R., Martin-Barragan, B., & Tarim, A. (2023). Workforce planning with stochastic
-  turnover. In 4th IMA and OR Society Conference on Mathematics of Operational Research. 27–28 April. Birmingham, UK.
+  turnover. The 4th IMA and OR Society Conference on Mathematics of Operational Research. 27–28 April. Birmingham, UK.
 
 - Chen, Z.\* (2023). The 15th International Annual Conference of the Chinese Scholars Association for Management Science and Engineering (CSAMSE). 29-30 July. Shenzhen, China.
 
