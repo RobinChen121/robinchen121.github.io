@@ -3,12 +3,18 @@
 
 <!-- Mathjax inline style -->
 <script>
-  MathJax = {
+  window.MathJax = {
     tex: {
       inlineMath: [
         ['$', '$'],
         ['\\(', '\\)'],
       ],
+      displayMath: [
+        ['$$', '$$'],
+        ['\\[', '\\]'],
+      ],
+      processEscapes: true,
+      tags: 'ams' // 关键修改：开启 AMS 标准的公式自动编号与对齐支持
     },
     svg: {
       fontCache: 'global',
@@ -16,10 +22,10 @@
   };
 </script>
 <script
-  type="text/javascript"
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
+        type="text/javascript"
+        id="MathJax-script"
+        async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
 ></script>
 
 <!-- KaTeX -->

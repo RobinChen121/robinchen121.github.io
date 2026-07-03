@@ -195,6 +195,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  mathengine: mathjax
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
@@ -338,6 +339,7 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
+  - .idea/
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
