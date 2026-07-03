@@ -294,7 +294,7 @@ This holds since $b-j-1 \leq b$ and $p\in[0,1]$ and completes the proof.
 ■
 
 
-## Preservation of convexity
+## 2. Preservation of convexity
 
 
 ---
