@@ -18,11 +18,11 @@ $$
 O(N^2),
 $$
 
-where $$N$$ is the length of the planning horizon. This algorithm is a polynomial time algorithm. The paper proves two properties satisfied by the optimal solution:
+where $N$ is the length of the planning horizon. This algorithm is a polynomial time algorithm. The paper proves two properties satisfied by the optimal solution:
 
 (1) Replenishment is optimal only when initial inventory is zero, i.e., zero inventory ordering policy (Known as the ZIO property), which leads to the development of the dynamic algorithm.
 
-(2) For any period, assuming ordering is done $$m$$ periods in advance, there exists an upper bound on $$m$$. In other words, in the optimal strategy, replenishment should not occur excessively early.
+(2) For any period, assuming ordering is done $m$ periods in advance, there exists an upper bound on $m$. In other words, in the optimal strategy, replenishment should not occur excessively early.
 
 ### C++ codes
 

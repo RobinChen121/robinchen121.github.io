@@ -18,7 +18,7 @@ The linearization of this problem is as follows:
 
 - Introduce a binary variable \( z \) and a sufficiently large constant \( M \).
 
-\[
+$$
 \begin{aligned}
 x&\geq m_1-zM\\
 x&\leq m_2+zM\\
@@ -27,4 +27,4 @@ y-x&\leq zM\\
 y&\leq (1-z)M\\
 y&\geq -(1-z)M
 \end{aligned}
-\]
+$$
