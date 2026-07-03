@@ -44,7 +44,7 @@ $$
 \mathbb{E}[B \mid B > j] \leq j + 1 + (b - j - 1)p.
 $$
 
-- (e) Upper bound on cumulative tail probability For any $j \in \{0,1,\dots, b\}$, the expectation–probability product satisfies:
+- (e) (*Upper bound on cumulative tail probability*) For any $j \in \{0,1,\dots, b\}$, the expectation–probability product satisfies:
 
 $$
 \sum_{k = j + 1}^b \mathbb{P}(B > k)\le \mathbb{E}[B] \cdot \mathbb{P}(B > j).
