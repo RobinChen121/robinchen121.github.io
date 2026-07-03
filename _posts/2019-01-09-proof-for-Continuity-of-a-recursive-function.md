@@ -25,7 +25,7 @@ $$
 
 An assumption: $$L(y)$$ is a continuous function on $$x$$.
 
-<i>Proof</i>
+*Proof*
 
 The proof is by induction. Apparently $$f_{N+1}(x)$$ is continuous. Assume $$f_{n+1}(x)$$ is continuous, now we prove the continuity of $$f_n(x)$$.
 
