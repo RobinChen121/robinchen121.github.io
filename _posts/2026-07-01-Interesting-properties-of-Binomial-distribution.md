@@ -4,7 +4,7 @@ title: Some interesting properties of Binomial distribution
 date: 2026-07-02 22:29:00-0000
 categories: ["statistics", "operational research"]
 giscus_comments: true
-tags: ["Binomial distribution", "properties"]
+tags: ["Binomial distribution", "log concave", "convexity"]
 related_posts: true
 toc:
   beginning: true
