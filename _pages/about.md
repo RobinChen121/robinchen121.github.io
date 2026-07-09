@@ -19,10 +19,21 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a lecturer in the buesiness school of Brunel University London. Prior to this role, I served as a lecturer at Southwest University, China. I earned my PhD degree in Management Science and Engineering from Beihang University, China. During my academic journey, I had the privilege of being a visiting PhD student and a visiting scholar at the University of Edinburgh for two separate years.
+I am a lecturer in the business school of Brunel University London. I earned my PhD degree in Management Science and Engineering from Beihang University, China. During my academic journey, I had the privilege of being a visiting PhD student and a visiting scholar at the University of Edinburgh for two separate years. I am passionate about coding and mathematics. In recent years, my primary research has focused on cash-flow inventory management, demand prediction and inventory routing, where I apply mathematical modeling, stochastic programming and machine learning to solve the problems. 
+
 
 <br>
-I am passionate about coding and mathematics. In recent years, my primary research has focused on cash-flow inventory management, where I apply mathematical modeling and stochastic programming to tackle complex challenges. At present and in the coming years, my research will center on the inventory routing problem, with particular emphasis on data-driven methodologies (such as artificial intelligence) and stochastic programming.
+
+My research publications appear in leading operational research journals such as European Journal of Operational Research, Omega, International Journal of Production Economics, International Journal of Production Research and so on.
+
+
+<br>
+
+At present and in the coming years, my research will center on the inventory routing problem, with particular emphasis on data-driven methodologies (such as deep learning) and stochastic programming to address the following supply chain problems:
+
+- demand prediction
+- inventory routing
+- joint prediction and optimisation in the supply chain
 
 <!-- <br>
 My CV is: &nbsp; <a href='https://github.com/RobinChen121/resume/blob/main/CV_chenzhen_English.pdf'>CV</a> -->
