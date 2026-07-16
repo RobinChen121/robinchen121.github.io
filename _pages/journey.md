@@ -11,6 +11,18 @@ permalink: /journey/
     <div class="center-line">
       <a href="#" class="scroll-icon"><i class="fa fa-caret-up"></i></a>
     </div>
+    <div class="row row-1">
+      <section>
+        <i class="icon fa fa-car"></i>
+        <div class="details">
+          <span class="title">July, 2026</span>
+        </div>
+        <p>Attend IFORS 2026 conference in Vienna, Austria</p>
+        <div class="bottom">
+          <i></i>
+        </div>
+      </section>
+    </div>
     <div class="row row-2">
       <section>
         <i class="icon fa fa-car"></i>

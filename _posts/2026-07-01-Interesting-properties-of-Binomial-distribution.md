@@ -15,7 +15,7 @@ Recenly during research, I get to know and find some interesting properties abou
 
 ## 1. Log-concavity, tail property and conditional expectation
 
-Lemma 1: Let \\(B \sim \mathrm{Binomial}(b, p)\\) be a binomial random variable with parameters $b \in \mathbb{N}_0$ and $p \in [0,1]$. Then the following properties hold:
+Lemma 1: Let $B \sim \mathrm{Binomial}(b, p)$ be a binomial random variable with parameters $b \in \mathbb{N}_0$ and $p \in [0,1]$. Then the following properties hold:
 
 - (a) (*Log-concavity of the survival function*) The survival function (tail probability) of a binomial distribution is log-concave, i.e., for any $k\in \mathbb{N}_0$, the following inequality holds:
 
