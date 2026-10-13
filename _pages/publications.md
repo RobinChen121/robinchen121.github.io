@@ -91,8 +91,9 @@ I regularly review research articles for the academic journals listed below:
 | European Journal of Operational Research (ABS 4)       |      5       |
 | OMEGA: the International Journal of Management Science (ABS 3) |      1       |
 | International Journal of Production Research (ABS 3)   |      8       |
+|International Journal of Production Economics (ABS 3)| 1|
 | Computers & Operations Research (ABS 3)                |      2       |
-| Computers & Industrial Engineering (ABS 2)             |      1       |
+| Computers & Industrial Engineering (ABS 2)             |      2       |
 | IMA Journal of Management Mathematics (ABS 2)          |      1       |
 | 系统工程理论与实践                                     |      1       |
 
